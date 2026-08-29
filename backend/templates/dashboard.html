@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        AI Procurement Decision Support System
+    </title>
+
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f4f7fb;
+            color: #172033;
+        }
+
+
+        /* =====================================================
+           MAIN CONTAINER
+        ====================================================== */
+
+        .container {
+            max-width: 1550px;
+            margin: auto;
+            padding: 30px;
+        }
+
+
+        /* =====================================================
+           NAVIGATION
+        ====================================================== */
+
+        .navbar {
+
+            background: #142443;
+            color: white;
+
+            padding: 18px 30px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            gap: 25px;
+
+            border-radius: 0 0 15px 15px;
+        }
+
+
+        .brand {
+
+            color: white;
+            text-decoration: none;
+
+            font-size: 20px;
+            font-weight: bold;
+
+            white-space: nowrap;
+        }
+
+
+        .nav-links {
+
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .nav-links a {
+
+            color: #dce6f5;
+            text-decoration: none;
+
+            font-size: 14px;
+            font-weight: 600;
+
+            transition: 0.2s;
+        }
+
+
+        .nav-links a:hover {
+
+            color: #66a3ff;
+        }
+
+
+        .nav-ai {
+
+            background: #1769e0;
+
+            padding: 9px 14px;
+
+            border-radius: 7px;
+
+            color: white !important;
+        }
+
+
+        /* =====================================================
+           HEADER
+        ====================================================== */
+
+        .header {
+
+            display: flex;
+
+            justify-content: space-between;
+            align-items: center;
+
+            gap: 25px;
+
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+
+
+        .header h1 {
+
+            margin: 0;
+
+            font-size: 40px;
+
+            color: #1769e0;
+        }
+
+
+        .header p {
+
+            margin-top: 9px;
+
+            color: #62748a;
+
+            font-size: 18px;
+        }
+
+
+        .header-buttons {
+
+            display: flex;
+
+            gap: 12px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .header-btn {
+
+            display: inline-block;
+
+            padding: 13px 20px;
+
+            border-radius: 9px;
+
+            text-decoration: none;
+
+            font-weight: bold;
+
+            font-size: 14px;
+        }
+
+
+        .reports-btn {
+
+            background: #1769e0;
+            color: white;
+        }
+
+
+        .prediction-btn {
+
+            background: #172033;
+            color: white;
+        }
+
+
+        .header-btn:hover {
+
+            opacity: 0.9;
+        }
+
+
+        /* =====================================================
+           SUMMARY CARDS
+        ====================================================== */
+
+        .summary-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 22px;
+
+            margin-bottom: 35px;
+        }
+
+
+        .summary-card {
+
+            background: white;
+
+            border-radius: 18px;
+
+            padding: 28px;
+
+            box-shadow:
+                0 5px 20px
+                rgba(0, 0, 0, 0.06);
+
+            border-left: 5px solid #1769e0;
+        }
+
+
+        .summary-card.low {
+
+            border-left-color: #16a765;
+        }
+
+
+        .summary-card.medium {
+
+            border-left-color: #e9a400;
+        }
+
+
+        .summary-card.high {
+
+            border-left-color: #ed3b3b;
+        }
+
+
+        .summary-title {
+
+            color: #667d99;
+
+            font-size: 16px;
+
+            margin-bottom: 12px;
+        }
+
+
+        .summary-number {
+
+            color: #1769e0;
+
+            font-size: 40px;
+
+            font-weight: bold;
+        }
+
+
+        .summary-card.low
+        .summary-number {
+
+            color: #16a765;
+        }
+
+
+        .summary-card.medium
+        .summary-number {
+
+            color: #e9a400;
+        }
+
+
+        .summary-card.high
+        .summary-number {
+
+            color: #ed3b3b;
+        }
+
+
+        .summary-description {
+
+            margin-top: 8px;
+
+            color: #8293a8;
+
+            font-size: 14px;
+        }
+
+
+        /* =====================================================
+           QUICK ACTIONS
+        ====================================================== */
+
+        .section {
+
+            background: white;
+
+            border-radius: 18px;
+
+            padding: 30px;
+
+            margin-bottom: 30px;
+
+            box-shadow:
+                0 5px 20px
+                rgba(0, 0, 0, 0.05);
+        }
+
+
+        .section-title {
+
+            margin: 0;
+
+            color: #172033;
+
+            font-size: 28px;
+        }
+
+
+        .section-description {
+
+            margin-top: 8px;
+
+            margin-bottom: 25px;
+
+            color: #62748a;
+
+            font-size: 16px;
+        }
+
+
+        .quick-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 20px;
+        }
+
+
+        .quick-card {
+
+            display: block;
+
+            min-height: 185px;
+
+            padding: 25px;
+
+            background: #ffffff;
+
+            border: 1px solid #dce4ef;
+
+            border-radius: 15px;
+
+            text-decoration: none;
+
+            color: #172033;
+
+            transition: 0.2s ease;
+        }
+
+
+        .quick-card:hover {
+
+            transform:
+                translateY(-4px);
+
+            border-color: #1769e0;
+
+            box-shadow:
+                0 8px 22px
+                rgba(23, 105, 224, 0.12);
+        }
+
+
+        .quick-icon {
+
+            font-size: 38px;
+
+            margin-bottom: 15px;
+        }
+
+
+        .quick-card h3 {
+
+            margin: 0 0 8px;
+
+            font-size: 21px;
+
+            color: #172033;
+        }
+
+
+        .quick-card p {
+
+            margin: 0;
+
+            color: #6a809b;
+
+            line-height: 1.5;
+
+            font-size: 15px;
+        }
+
+
+        /* =====================================================
+           SPECIAL PRICE & TREND CARD
+        ====================================================== */
+
+        .trend-card {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #1769e0,
+                    #0e56bf
+                );
+
+            color: white;
+
+            border: none;
+        }
+
+
+        .trend-card h3 {
+
+            color: white;
+        }
+
+
+        .trend-card p {
+
+            color: #dceaff;
+        }
+
+
+        .trend-card:hover {
+
+            border-color: transparent;
+
+            box-shadow:
+                0 10px 25px
+                rgba(23, 105, 224, 0.25);
+        }
+
+
+        .view-analysis {
+
+            display: inline-block;
+
+            margin-top: 18px;
+
+            padding: 9px 15px;
+
+            background: white;
+
+            color: #1769e0;
+
+            border-radius: 7px;
+
+            font-weight: bold;
+
+            font-size: 13px;
+        }
+
+
+        /* =====================================================
+           SYSTEM INFORMATION
+        ====================================================== */
+
+        .info-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 20px;
+        }
+
+
+        .info-card {
+
+            background: #f7f9fc;
+
+            border: 1px solid #dfe6ef;
+
+            border-radius: 14px;
+
+            padding: 23px;
+        }
+
+
+        .info-card h3 {
+
+            margin-top: 0;
+
+            color: #1769e0;
+
+            font-size: 19px;
+        }
+
+
+        .info-card p {
+
+            color: #62748a;
+
+            line-height: 1.6;
+
+            margin-bottom: 0;
+        }
+
+
+        /* =====================================================
+           DECISION SUPPORT
+        ====================================================== */
+
+        .decision-box {
+
+            background: #edf5ff;
+
+            border-left:
+                5px solid #1769e0;
+
+            border-radius: 9px;
+
+            padding: 24px;
+
+            color: #3c5b7c;
+
+            line-height: 1.8;
+        }
+
+
+        .decision-box strong {
+
+            color: #1769e0;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ====================================================== */
+
+        footer {
+
+            background: #142443;
+
+            color: white;
+
+            margin-top: 40px;
+
+            padding: 30px;
+        }
+
+
+        .footer-content {
+
+            max-width: 1550px;
+
+            margin: auto;
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            gap: 25px;
+        }
+
+
+        .footer-title {
+
+            font-size: 18px;
+
+            font-weight: bold;
+        }
+
+
+        .footer-text {
+
+            margin-top: 7px;
+
+            color: #b9c7da;
+        }
+
+
+        .footer-links {
+
+            display: flex;
+
+            gap: 20px;
+
+            flex-wrap: wrap;
+        }
+
+
+        .footer-links a {
+
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 14px;
+        }
+
+
+        .footer-links a:hover {
+
+            color: #66a3ff;
+        }
+
+
+        /* =====================================================
+           RESPONSIVE
+        ====================================================== */
+
+        @media (max-width: 1100px) {
+
+            .summary-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .quick-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .info-grid {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+        }
+
+
+        @media (max-width: 700px) {
+
+            .container {
+
+                padding: 20px;
+            }
+
+
+            .navbar {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+            }
+
+
+            .nav-links {
+
+                gap: 15px;
+            }
+
+
+            .header {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+            }
+
+
+            .header h1 {
+
+                font-size: 30px;
+            }
+
+
+            .summary-grid,
+            .quick-grid {
+
+                grid-template-columns:
+                    1fr;
+            }
+
+
+            .footer-content {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+            }
+
+        }
+
+
+        @media print {
+
+            .navbar,
+            .header-buttons,
+            footer {
+
+                display: none;
+            }
+
+            body {
+
+                background: white;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+====================================================== -->
+
+<nav class="navbar">
+
+
+    <a
+        href="/"
+        class="brand">
+
+        AI Procurement DSS
+
+    </a>
+
+
+    <div class="nav-links">
+
+
+        <a href="/">
+            Dashboard
+        </a>
+
+
+        <a href="/vendors">
+            Vendors
+        </a>
+
+
+        <a href="/add_vendor">
+            Add Vendor
+        </a>
+
+
+        <a href="/transactions">
+            Transactions
+        </a>
+
+
+        <a href="/reports">
+            Reports
+        </a>
+
+
+        <!-- NEW -->
+
+        <a href="/price_trends">
+            Price & Trends
+        </a>
+
+
+        <a
+            href="/ai_prediction"
+            class="nav-ai">
+
+            🤖 AI Prediction
+
+        </a>
+
+
+        <a href="/logout">
+            Logout
+        </a>
+
+
+    </div>
+
+</nav>
+
+
+
+<div class="container">
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="header">
+
+
+        <div>
+
+            <h1>
+                AI Procurement Decision Support System
+            </h1>
+
+
+            <p>
+                AI-powered vendor analytics,
+                procurement risk monitoring
+                and decision support
+            </p>
+
+        </div>
+
+
+        <div class="header-buttons">
+
+
+            <a
+                href="/reports"
+                class="header-btn reports-btn">
+
+                📊 View Reports
+
+            </a>
+
+
+            <a
+                href="/ai_prediction"
+                class="header-btn prediction-btn">
+
+                🤖 AI Prediction
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SUMMARY
+    ====================================================== -->
+
+    <div class="summary-grid">
+
+
+        <!-- TOTAL VENDORS -->
+
+        <div class="summary-card">
+
+
+            <div class="summary-title">
+
+                Total Vendors
+
+            </div>
+
+
+            <div class="summary-number">
+
+                {{ total_vendors|default(0) }}
+
+            </div>
+
+
+            <div class="summary-description">
+
+                Vendors registered
+                in the procurement system
+
+            </div>
+
+        </div>
+
+
+
+        <!-- LOW RISK -->
+
+        <div class="summary-card low">
+
+
+            <div class="summary-title">
+
+                Low Risk Vendors
+
+            </div>
+
+
+            <div class="summary-number">
+
+                {{ low_risk|default(0) }}
+
+            </div>
+
+
+            <div class="summary-description">
+
+                Lower procurement risk
+
+            </div>
+
+        </div>
+
+
+
+        <!-- MEDIUM RISK -->
+
+        <div class="summary-card medium">
+
+
+            <div class="summary-title">
+
+                Medium Risk Vendors
+
+            </div>
+
+
+            <div class="summary-number">
+
+                {{ medium_risk|default(0) }}
+
+            </div>
+
+
+            <div class="summary-description">
+
+                Vendors requiring monitoring
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HIGH RISK -->
+
+        <div class="summary-card high">
+
+
+            <div class="summary-title">
+
+                High Risk Vendors
+
+            </div>
+
+
+            <div class="summary-number">
+
+                {{ high_risk|default(0) }}
+
+            </div>
+
+
+            <div class="summary-description">
+
+                Vendors requiring attention
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         QUICK ACTIONS
+    ====================================================== -->
+
+    <div class="section">
+
+
+        <h2 class="section-title">
+
+            Procurement Management
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Access the main procurement management,
+            analytics and decision-support functions.
+
+        </p>
+
+
+        <div class="quick-grid">
+
+
+            <!-- ADD VENDOR -->
+
+            <a
+                href="/add_vendor"
+                class="quick-card">
+
+
+                <div class="quick-icon">
+                    ➕
+                </div>
+
+
+                <h3>
+                    Add Vendor
+                </h3>
+
+
+                <p>
+                    Register a new supplier
+                    in the procurement system.
+                </p>
+
+            </a>
+
+
+
+            <!-- VENDOR MANAGEMENT -->
+
+            <a
+                href="/vendors"
+                class="quick-card">
+
+
+                <div class="quick-icon">
+                    👥
+                </div>
+
+
+                <h3>
+                    Vendor Management
+                </h3>
+
+
+                <p>
+                    View, search, edit and
+                    manage registered vendors.
+                </p>
+
+            </a>
+
+
+
+            <!-- AI RISK -->
+
+            <a
+                href="/ai_prediction"
+                class="quick-card">
+
+
+                <div class="quick-icon">
+                    🤖
+                </div>
+
+
+                <h3>
+                    AI Risk Prediction
+                </h3>
+
+
+                <p>
+                    Predict vendor procurement
+                    risk using the AI model.
+                </p>
+
+            </a>
+
+
+
+            <!-- TRANSACTIONS -->
+
+            <a
+                href="/transactions"
+                class="quick-card">
+
+
+                <div class="quick-icon">
+                    🛒
+                </div>
+
+
+                <h3>
+                    Procurement Transactions
+                </h3>
+
+
+                <p>
+                    Record and manage procurement
+                    transactions.
+                </p>
+
+            </a>
+
+
+
+            <!-- REPORTS -->
+
+            <a
+                href="/reports"
+                class="quick-card">
+
+
+                <div class="quick-icon">
+                    📊
+                </div>
+
+
+                <h3>
+                    Analytics & Reports
+                </h3>
+
+
+                <p>
+                    View procurement KPIs,
+                    spending, risk and
+                    vendor performance reports.
+                </p>
+
+            </a>
+
+
+
+            <!-- =================================================
+                 PRICE & TREND ANALYSIS
+            ================================================== -->
+
+            <a
+                href="/price_trends"
+                class="quick-card trend-card">
+
+
+                <div class="quick-icon">
+                    📈
+                </div>
+
+
+                <h3>
+                    Price & Trend Analysis
+                </h3>
+
+
+                <p>
+                    Compare vendor prices,
+                    analyse procurement trends
+                    and support purchasing decisions.
+                </p>
+
+
+                <span class="view-analysis">
+
+                    View Analysis →
+
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SYSTEM CAPABILITIES
+    ====================================================== -->
+
+    <div class="section">
+
+
+        <h2 class="section-title">
+
+            System Capabilities
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Key capabilities of the AI Procurement
+            Decision Support System.
+
+        </p>
+
+
+        <div class="info-grid">
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    🤖 AI-Based Risk Prediction
+                </h3>
+
+
+                <p>
+
+                    Evaluate procurement vendors and
+                    identify suppliers that may represent
+                    low, medium or high procurement risk.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    📊 Vendor Analytics
+                </h3>
+
+
+                <p>
+
+                    Analyse vendor performance using
+                    price, quality, delivery, reliability
+                    and other procurement indicators.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    💰 Price Analysis
+                </h3>
+
+
+                <p>
+
+                    Compare supplier prices and identify
+                    price differences to support
+                    evidence-based procurement decisions.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    📈 Procurement Trends
+                </h3>
+
+
+                <p>
+
+                    Analyse procurement spending patterns
+                    and transaction activity over time.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    🛒 Transaction Management
+                </h3>
+
+
+                <p>
+
+                    Record procurement transactions and
+                    use transaction information for
+                    procurement analytics.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="info-card">
+
+
+                <h3>
+                    📑 Decision Support Reports
+                </h3>
+
+
+                <p>
+
+                    Provide procurement teams with
+                    consolidated analytics to support
+                    informed supplier and purchasing
+                    decisions.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         DECISION SUPPORT
+    ====================================================== -->
+
+    <div class="section">
+
+
+        <h2 class="section-title">
+
+            💡 Procurement Decision Support
+
+        </h2>
+
+
+        <p class="section-description">
+
+            Use the system's AI predictions and analytics
+            to support data-driven procurement decisions.
+
+        </p>
+
+
+        <div class="decision-box">
+
+
+            <strong>
+                Important:
+            </strong>
+
+
+            Vendor price should not be considered
+            independently when selecting a supplier.
+
+
+            The procurement team can combine
+
+
+            <strong>
+                vendor price,
+            </strong>
+
+
+            <strong>
+                vendor performance,
+            </strong>
+
+
+            <strong>
+                procurement risk,
+            </strong>
+
+
+            and
+
+
+            <strong>
+                historical transaction information
+            </strong>
+
+
+            to make more informed procurement decisions.
+
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+
+    <div class="footer-content">
+
+
+        <div>
+
+
+            <div class="footer-title">
+
+                AI Procurement Decision Support System
+
+            </div>
+
+
+            <div class="footer-text">
+
+                Vendor Analytics • Risk Prediction •
+                Procurement Intelligence
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-links">
+
+
+            <a href="/">
+                Dashboard
+            </a>
+
+
+            <a href="/vendors">
+                Vendors
+            </a>
+
+
+            <a href="/transactions">
+                Transactions
+            </a>
+
+
+            <a href="/reports">
+                Reports
+            </a>
+
+
+            <a href="/price_trends">
+                Price & Trends
+            </a>
+
+
+            <a href="/ai_prediction">
+                AI Prediction
+            </a>
+
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+</body>
+
+</html>

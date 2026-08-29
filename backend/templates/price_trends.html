@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Price Comparison & Procurement Trend Analysis</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #17233d;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            width: 94%;
+            max-width: 1700px;
+            margin: 0 auto;
+        }
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        .top-header {
+            background: white;
+            border-bottom: 1px solid #e1e7f0;
+            padding: 18px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-inner {
+            width: 94%;
+            max-width: 1700px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-logo {
+            width: 48px;
+            height: 48px;
+            background: #1769e0;
+            color: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .brand-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1769e0;
+        }
+
+        .brand-subtitle {
+            font-size: 12px;
+            color: #7183a0;
+            margin-top: 3px;
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .nav a {
+            color: #17345f;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .nav a:hover {
+            color: #1769e0;
+        }
+
+        .nav .active {
+            background: #1769e0;
+            color: white;
+            padding: 11px 18px;
+            border-radius: 10px;
+        }
+
+        /* =========================
+           PAGE HEADER
+        ========================= */
+
+        .page-header {
+            padding: 40px 0 28px;
+        }
+
+        .page-header-top {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .page-header h1 {
+            margin: 0;
+            color: #1769e0;
+            font-size: 42px;
+            line-height: 1.15;
+        }
+
+        .page-header p {
+            margin: 14px 0 0;
+            color: #607898;
+            font-size: 19px;
+            line-height: 1.6;
+        }
+
+        .page-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 13px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .reports-btn {
+            background: #17233d;
+            color: white;
+        }
+
+        .dashboard-btn {
+            background: #e8eef8;
+            color: #17233d;
+        }
+
+        /* =========================
+           KPI CARDS
+        ========================= */
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 22px;
+            margin-bottom: 34px;
+        }
+
+        .kpi-card {
+            background: white;
+            border-radius: 18px;
+            padding: 27px;
+            box-shadow: 0 8px 25px rgba(31, 52, 85, 0.07);
+            border-left: 5px solid #1769e0;
+        }
+
+        .kpi-card.green {
+            border-left-color: #12a86b;
+        }
+
+        .kpi-card.red {
+            border-left-color: #ef3d45;
+        }
+
+        .kpi-card.yellow {
+            border-left-color: #eaa400;
+        }
+
+        .kpi-label {
+            color: #6880a3;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .kpi-value {
+            font-size: 32px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .green .kpi-value {
+            color: #0caa69;
+        }
+
+        .red .kpi-value {
+            color: #ef3d45;
+        }
+
+        .yellow .kpi-value {
+            color: #eaa000;
+        }
+
+        .blue .kpi-value {
+            color: #1769e0;
+        }
+
+        .kpi-description {
+            color: #7185a4;
+            font-size: 14px;
+        }
+
+        /* =========================
+           SECTION
+        ========================= */
+
+        .section {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(31, 52, 85, 0.06);
+        }
+
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 0 0 10px;
+            font-size: 29px;
+            color: #17233d;
+        }
+
+        .section-description {
+            margin: 0 0 24px;
+            color: #607898;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        /* =========================
+           FILTERS
+        ========================= */
+
+        .filter-box {
+            background: #f7f9fd;
+            border: 1px solid #dce5f2;
+            border-radius: 16px;
+            padding: 18px;
+            margin-bottom: 24px;
+        }
+
+        .filter-form {
+            display: grid;
+            grid-template-columns: 2.2fr 1fr 1fr auto auto;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-input,
+        .filter-select {
+            width: 100%;
+            height: 54px;
+            border: 1px solid #ccd9eb;
+            border-radius: 10px;
+            background: white;
+            padding: 0 16px;
+            font-size: 16px;
+            color: #17233d;
+            outline: none;
+        }
+
+        .filter-input:focus,
+        .filter-select:focus {
+            border-color: #1769e0;
+            box-shadow: 0 0 0 3px rgba(23, 105, 224, 0.1);
+        }
+
+        .search-btn {
+            height: 54px;
+            padding: 0 24px;
+            border: none;
+            border-radius: 10px;
+            background: #1769e0;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .search-btn:hover {
+            background: #0d58c4;
+        }
+
+        .clear-btn {
+            height: 54px;
+            padding: 0 22px;
+            border-radius: 10px;
+            background: #e8eef8;
+            color: #17233d;
+            font-size: 15px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .clear-btn:hover {
+            background: #dce5f2;
+        }
+
+        .record-count {
+            color: #607898;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        /* =========================
+           TABLE
+        ========================= */
+
+        .table-wrapper {
+            width: 100%;
+            overflow-x: auto;
+            border-radius: 12px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 850px;
+        }
+
+        .data-table thead {
+            background: #17233d;
+            color: white;
+        }
+
+        .data-table th {
+            padding: 16px 18px;
+            text-align: left;
+            font-size: 15px;
+            white-space: nowrap;
+        }
+
+        .data-table td {
+            padding: 16px 18px;
+            border-bottom: 1px solid #e1e7f0;
+            font-size: 15px;
+            color: #1d3150;
+        }
+
+        .data-table tbody tr:nth-child(even) {
+            background: #f8fafd;
+        }
+
+        .data-table tbody tr:hover {
+            background: #eef5ff;
+        }
+
+        .price {
+            font-weight: 700;
+            color: #1769e0;
+        }
+
+        .score {
+            font-weight: 700;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 7px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .risk-low {
+            color: #078653;
+            background: #d9f8e8;
+        }
+
+        .risk-medium {
+            color: #a76a00;
+            background: #fff0c7;
+        }
+
+        .risk-high {
+            color: #d92d38;
+            background: #ffe0e3;
+        }
+
+        .risk-unknown {
+            color: #607080;
+            background: #e9eef4;
+        }
+
+        .empty-message {
+            text-align: center;
+            padding: 45px 20px;
+            background: #f8fafd;
+            border-radius: 12px;
+            color: #6880a3;
+            font-size: 17px;
+        }
+
+        /* =========================
+           TWO COLUMN
+        ========================= */
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .chart-card {
+            background: #f8fafd;
+            border: 1px solid #e2e9f3;
+            border-radius: 14px;
+            padding: 22px;
+        }
+
+        .chart-card h3 {
+            margin: 0 0 8px;
+            font-size: 20px;
+            color: #17233d;
+        }
+
+        .chart-card p {
+            margin: 0 0 18px;
+            color: #7185a4;
+            font-size: 14px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 330px;
+        }
+
+        /* =========================
+           MONTHLY TREND
+        ========================= */
+
+        .trend-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .trend-table th {
+            background: #17233d;
+            color: white;
+            padding: 13px 15px;
+            text-align: left;
+        }
+
+        .trend-table td {
+            padding: 13px 15px;
+            border-bottom: 1px solid #e0e7f0;
+        }
+
+        .trend-table tr:nth-child(even) {
+            background: #f8fafd;
+        }
+
+        /* =========================
+           INSIGHTS
+        ========================= */
+
+        .insights-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .insight {
+            background: #f5f8fd;
+            border-radius: 14px;
+            padding: 22px;
+            border-left: 5px solid #1769e0;
+        }
+
+        .insight.green {
+            border-left-color: #12a86b;
+        }
+
+        .insight.yellow {
+            border-left-color: #eaa400;
+        }
+
+        .insight.red {
+            border-left-color: #ef3d45;
+        }
+
+        .insight h3 {
+            margin: 0 0 12px;
+            font-size: 19px;
+        }
+
+        .insight p {
+            margin: 0;
+            color: #607898;
+            line-height: 1.7;
+            font-size: 15px;
+        }
+
+        /* =========================
+           CATEGORY SUMMARY
+        ========================= */
+
+        .category-list {
+            display: grid;
+            gap: 13px;
+        }
+
+        .category-row {
+            background: white;
+            border: 1px solid #e1e7f0;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .category-row-top {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+            margin-bottom: 9px;
+        }
+
+        .category-name {
+            font-weight: 700;
+        }
+
+        .category-value {
+            font-weight: 700;
+            color: #1769e0;
+        }
+
+        .progress {
+            width: 100%;
+            height: 9px;
+            background: #e9eef5;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #1769e0;
+            border-radius: 20px;
+            width: 0;
+        }
+
+        .category-meta {
+            margin-top: 8px;
+            color: #7185a4;
+            font-size: 13px;
+        }
+
+        /* =========================
+           FOOTER
+        ========================= */
+
+        .footer {
+            margin-top: 50px;
+            background: #172747;
+            color: white;
+            padding: 35px 0;
+        }
+
+        .footer-inner {
+            width: 94%;
+            max-width: 1700px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .footer-title {
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        .footer-text {
+            color: #afc0dc;
+            margin-top: 8px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .footer-links a {
+            color: white;
+        }
+
+        /* =========================
+           RESPONSIVE
+        ========================= */
+
+        @media (max-width: 1100px) {
+
+            .kpi-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .filter-form {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .search-btn,
+            .clear-btn {
+                width: 100%;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 750px) {
+
+            .nav {
+                display: none;
+            }
+
+            .page-header-top {
+                flex-direction: column;
+            }
+
+            .page-header h1 {
+                font-size: 32px;
+            }
+
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-form {
+                grid-template-columns: 1fr;
+            }
+
+            .section {
+                padding: 20px;
+            }
+
+            .insights-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="top-header">
+
+    <div class="header-inner">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                AI
+            </div>
+
+            <div>
+                <div class="brand-title">
+                    AI Procurement
+                </div>
+
+                <div class="brand-subtitle">
+                    Decision Support System
+                </div>
+            </div>
+
+        </div>
+
+        <nav class="nav">
+
+            <a href="{{ url_for('dashboard') }}">
+                Dashboard
+            </a>
+
+            <a href="{{ url_for('vendors') }}">
+                Vendors
+            </a>
+
+            <a href="{{ url_for('transactions') }}">
+                Transactions
+            </a>
+
+            <a href="{{ url_for('reports') }}">
+                Reports
+            </a>
+
+            <a href="{{ url_for('price_trends') }}" class="active">
+                Price & Trends
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main class="container">
+
+    <!-- PAGE HEADER -->
+
+    <section class="page-header">
+
+        <div class="page-header-top">
+
+            <div>
+
+                <h1>
+                    Price Comparison & Procurement Trend Analysis
+                </h1>
+
+                <p>
+                    Compare supplier pricing for the same item or material
+                    and monitor procurement spending patterns over time.
+                </p>
+
+            </div>
+
+            <div class="page-actions">
+
+                <a
+                    href="{{ url_for('reports') }}"
+                    class="action-btn reports-btn">
+                    ← Reports
+                </a>
+
+                <a
+                    href="{{ url_for('dashboard') }}"
+                    class="action-btn dashboard-btn">
+                    Dashboard
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         KPI CARDS
+    ====================================================== -->
+
+    <section class="kpi-grid">
+
+        <div class="kpi-card green">
+
+            <div class="kpi-label">
+                Lowest Vendor Price
+            </div>
+
+            <div class="kpi-value">
+                LKR {{ "{:,.2f}".format(lowest_price or 0) }}
+            </div>
+
+            <div class="kpi-description">
+                Lowest recorded supplier unit price
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card red">
+
+            <div class="kpi-label">
+                Highest Vendor Price
+            </div>
+
+            <div class="kpi-value">
+                LKR {{ "{:,.2f}".format(highest_price or 0) }}
+            </div>
+
+            <div class="kpi-description">
+                Highest recorded supplier unit price
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card yellow">
+
+            <div class="kpi-label">
+                Average Unit Price
+            </div>
+
+            <div class="kpi-value">
+                LKR {{ "{:,.2f}".format(average_price or 0) }}
+            </div>
+
+            <div class="kpi-description">
+                Average supplier unit price
+            </div>
+
+        </div>
+
+
+        <div class="kpi-card blue">
+
+            <div class="kpi-label">
+                Price Records
+            </div>
+
+            <div class="kpi-value">
+                {{ priced_vendor_count or 0 }}
+            </div>
+
+            <div class="kpi-description">
+                Supplier price records available
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         VENDOR PRICE COMPARISON
+    ====================================================== -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            🔎 Vendor Price Comparison
+        </h2>
+
+        <p class="section-description">
+            Compare vendor unit prices for the same item or material
+            to support supplier selection and procurement decision-making.
+        </p>
+
+
+        <!-- FILTER AREA -->
+
+        <div class="filter-box">
+
+            <form
+                method="GET"
+                action="{{ url_for('price_trends') }}"
+                class="filter-form">
+
+                <!-- SEARCH -->
+
+                <input
+                    type="text"
+                    name="search"
+                    class="filter-input"
+                    value="{{ search or '' }}"
+                    placeholder="🔎 Search vendor or item...">
+
+
+                <!-- CATEGORY -->
+
+                <select
+                    name="category"
+                    class="filter-select">
+
+                    <option value="">
+                        All Categories
+                    </option>
+
+                    {% for category_row in price_categories %}
+
+                        {% set category_value = category_row.Category %}
+
+                        {% if category_value %}
+
+                            <option
+                                value="{{ category_value }}"
+                                {% if selected_category == category_value %}
+                                    selected
+                                {% endif %}>
+
+                                {{ category_value }}
+
+                            </option>
+
+                        {% endif %}
+
+                    {% endfor %}
+
+                </select>
+
+
+                <!-- RISK -->
+
+                <select
+                    name="risk"
+                    class="filter-select">
+
+                    <option value="">
+                        All Risk Levels
+                    </option>
+
+                    <option
+                        value="Low"
+                        {% if selected_risk == "Low" %}
+                            selected
+                        {% endif %}>
+                        Low Risk
+                    </option>
+
+                    <option
+                        value="Medium"
+                        {% if selected_risk == "Medium" %}
+                            selected
+                        {% endif %}>
+                        Medium Risk
+                    </option>
+
+                    <option
+                        value="High"
+                        {% if selected_risk == "High" %}
+                            selected
+                        {% endif %}>
+                        High Risk
+                    </option>
+
+                </select>
+
+
+                <!-- SEARCH BUTTON -->
+
+                <button
+                    type="submit"
+                    class="search-btn">
+
+                    Search
+
+                </button>
+
+
+                <!-- CLEAR -->
+
+                <a
+                    href="{{ url_for('price_trends') }}"
+                    class="clear-btn">
+
+                    Clear
+
+                </a>
+
+            </form>
+
+        </div>
+
+
+        <!-- RECORD COUNT -->
+
+        <div class="record-count">
+
+            Showing
+            <strong>{{ price_record_count or 0 }}</strong>
+            price records
+
+        </div>
+
+
+        <!-- TABLE -->
+
+        {% if price_data %}
+
+        <div class="table-wrapper">
+
+            <table class="data-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Item / Material
+                        </th>
+
+                        <th>
+                            Vendor
+                        </th>
+
+                        <th>
+                            Category
+                        </th>
+
+                        <th>
+                            Unit Price
+                        </th>
+
+                        <th>
+                            Vendor Score
+                        </th>
+
+                        <th>
+                            Risk
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for row in price_data %}
+
+                    <tr>
+
+                        <td>
+                            {{ row.ItemMaterial or "Not specified" }}
+                        </td>
+
+                        <td>
+                            {{ row.VendorName or "Unknown Vendor" }}
+                        </td>
+
+                        <td>
+                            {{ row.Category or "Uncategorized" }}
+                        </td>
+
+                        <td class="price">
+                            LKR {{ "{:,.2f}".format(row.UnitPrice or 0) }}
+                        </td>
+
+                        <td class="score">
+                            {{ "{:.2f}".format(row.VendorScore or 0) }}
+                        </td>
+
+                        <td>
+
+                            {% set risk_value = (row.RiskLevel or "Unknown")|lower %}
+
+                            {% if risk_value == "low" %}
+
+                                <span class="risk-badge risk-low">
+                                    LOW
+                                </span>
+
+                            {% elif risk_value == "medium" %}
+
+                                <span class="risk-badge risk-medium">
+                                    MEDIUM
+                                </span>
+
+                            {% elif risk_value == "high" %}
+
+                                <span class="risk-badge risk-high">
+                                    HIGH
+                                </span>
+
+                            {% else %}
+
+                                <span class="risk-badge risk-unknown">
+                                    {{ row.RiskLevel or "Unknown" }}
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+            <div class="empty-message">
+
+                No price comparison data is available
+                for the selected filters.
+
+            </div>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- =====================================================
+         MONTHLY PROCUREMENT TRENDS
+    ====================================================== -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            📈 Monthly Procurement Trends
+        </h2>
+
+        <p class="section-description">
+            Monitor procurement spending and transaction activity
+            across different months.
+        </p>
+
+
+        {% if trend_data %}
+
+        <div class="two-column">
+
+            <!-- SPENDING CHART -->
+
+            <div class="chart-card">
+
+                <h3>
+                    Monthly Procurement Spending
+                </h3>
+
+                <p>
+                    Total procurement value by month.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas id="monthlySpendingChart"></canvas>
+
+                </div>
+
+            </div>
+
+
+            <!-- TRANSACTION CHART -->
+
+            <div class="chart-card">
+
+                <h3>
+                    Monthly Transaction Activity
+                </h3>
+
+                <p>
+                    Number of procurement transactions by month.
+                </p>
+
+                <div class="chart-container">
+
+                    <canvas id="monthlyTransactionChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TREND TABLE -->
+
+        <div class="table-wrapper">
+
+            <table class="trend-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Month
+                        </th>
+
+                        <th>
+                            Transactions
+                        </th>
+
+                        <th>
+                            Total Spending
+                        </th>
+
+                        <th>
+                            Average Unit Price
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for row in trend_data %}
+
+                    <tr>
+
+                        <td>
+                            {{ row.month_label or row.month or "N/A" }}
+                        </td>
+
+                        <td>
+                            {{ row.transaction_count or 0 }}
+                        </td>
+
+                        <td>
+                            LKR
+                            {{ "{:,.2f}".format(row.total_value or 0) }}
+                        </td>
+
+                        <td>
+                            LKR
+                            {{ "{:,.2f}".format(row.avg_unit_price or 0) }}
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+
+        <!-- Hidden data for JavaScript -->
+
+        <div id="trendData" style="display:none;">
+
+            {% for row in trend_data %}
+
+                <div
+                    class="trend-row"
+                    data-month="{{ row.month_label or row.month or 'N/A' }}"
+                    data-spending="{{ row.total_value or 0 }}"
+                    data-transactions="{{ row.transaction_count or 0 }}">
+                </div>
+
+            {% endfor %}
+
+        </div>
+
+
+        {% else %}
+
+            <div class="empty-message">
+
+                Monthly procurement trend data is not available yet.
+
+                <br><br>
+
+                Add procurement transactions with dates
+                to generate monthly trend analysis.
+
+            </div>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- =====================================================
+         CATEGORY SPENDING
+    ====================================================== -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            📊 Spending by Category
+        </h2>
+
+        <p class="section-description">
+            Identify which procurement categories contribute
+            most to total spending.
+        </p>
+
+
+        {% if spending_trend %}
+
+            {% set maximum_category_spending =
+                spending_trend[0].total_value or 1
+            %}
+
+            <div class="category-list">
+
+                {% for row in spending_trend %}
+
+                <div
+                    class="category-row"
+                    data-category-value="{{ row.total_value or 0 }}"
+                    data-category-max="{{ maximum_category_spending }}">
+
+                    <div class="category-row-top">
+
+                        <div class="category-name">
+                            {{ row.Category or "Uncategorized" }}
+                        </div>
+
+                        <div class="category-value">
+                            LKR
+                            {{ "{:,.2f}".format(row.total_value or 0) }}
+                        </div>
+
+                    </div>
+
+
+                    <div class="progress">
+
+                        <div class="progress-bar"></div>
+
+                    </div>
+
+
+                    <div class="category-meta">
+
+                        {{ row.transaction_count or 0 }}
+                        transactions
+
+                        ·
+
+                        Average unit price:
+                        LKR
+                        {{ "{:,.2f}".format(row.average_unit_price or 0) }}
+
+                    </div>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+        {% else %}
+
+            <div class="empty-message">
+                Category spending data is not available yet.
+            </div>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- =====================================================
+         RISK COMPARISON
+    ====================================================== -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            ⚠️ Vendor Risk Comparison
+        </h2>
+
+        <p class="section-description">
+            Price should be considered together with vendor risk
+            and performance before selecting a supplier.
+        </p>
+
+
+        {% if risk_summary %}
+
+        <div class="table-wrapper">
+
+            <table class="data-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Risk Level
+                        </th>
+
+                        <th>
+                            Price Records
+                        </th>
+
+                        <th>
+                            Average Price
+                        </th>
+
+                        <th>
+                            Average Vendor Score
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    {% for row in risk_summary %}
+
+                    <tr>
+
+                        <td>
+
+                            {% set risk_value =
+                                (row.RiskLevel or "Unknown")|lower
+                            %}
+
+                            {% if risk_value == "low" %}
+
+                                <span class="risk-badge risk-low">
+                                    LOW
+                                </span>
+
+                            {% elif risk_value == "medium" %}
+
+                                <span class="risk-badge risk-medium">
+                                    MEDIUM
+                                </span>
+
+                            {% elif risk_value == "high" %}
+
+                                <span class="risk-badge risk-high">
+                                    HIGH
+                                </span>
+
+                            {% else %}
+
+                                <span class="risk-badge risk-unknown">
+                                    {{ row.RiskLevel or "Unknown" }}
+                                </span>
+
+                            {% endif %}
+
+                        </td>
+
+                        <td>
+                            {{ row.vendor_count or 0 }}
+                        </td>
+
+                        <td>
+                            LKR
+                            {{ "{:,.2f}".format(row.average_price or 0) }}
+                        </td>
+
+                        <td>
+                            {{ "{:.2f}".format(row.average_vendor_score or 0) }}
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        {% else %}
+
+            <div class="empty-message">
+                Vendor risk comparison data is not available.
+            </div>
+
+        {% endif %}
+
+    </section>
+
+
+    <!-- =====================================================
+         DECISION INSIGHTS
+    ====================================================== -->
+
+    <section class="section">
+
+        <h2 class="section-title">
+            💡 Procurement Decision Insights
+        </h2>
+
+        <p class="section-description">
+            Use price, spending and risk information together
+            to support evidence-based procurement decisions.
+        </p>
+
+
+        <div class="insights-grid">
+
+
+            <div class="insight">
+
+                <h3>
+                    💰 Price Comparison
+                </h3>
+
+                <p>
+                    Compare prices offered by different suppliers
+                    for the same item or material before selecting
+                    a vendor.
+                </p>
+
+            </div>
+
+
+            <div class="insight yellow">
+
+                <h3>
+                    📊 Average Price
+                </h3>
+
+                <p>
+                    The average unit price provides a reference point
+                    for identifying unusually high or low supplier prices.
+                </p>
+
+            </div>
+
+
+            <div class="insight green">
+
+                <h3>
+                    📈 Spending Trends
+                </h3>
+
+                <p>
+                    Monthly spending patterns can help procurement
+                    teams identify increases, decreases and changing
+                    purchasing behaviour.
+                </p>
+
+            </div>
+
+
+            <div class="insight red">
+
+                <h3>
+                    ⚠️ Risk-Aware Selection
+                </h3>
+
+                <p>
+                    Procurement decisions should consider both supplier
+                    price and predicted vendor risk rather than price alone.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PROCUREMENT RECOMMENDATION
+    ====================================================== -->
+
+    <section class="section">
+
+        <div class="insight">
+
+            <h3>
+                🎯 Procurement Recommendation
+            </h3>
+
+            <p>
+                Use this analysis together with the AI vendor risk
+                prediction and vendor performance information.
+                A supplier offering the lowest price may not always
+                be the most suitable option if the supplier has poor
+                performance or high procurement risk.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div>
+
+            <div class="footer-title">
+                AI Procurement Decision Support System
+            </div>
+
+            <div class="footer-text">
+                Vendor Analytics • Price Comparison • Trend Analysis
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="{{ url_for('dashboard') }}">
+                Dashboard
+            </a>
+
+            <a href="{{ url_for('vendors') }}">
+                Vendors
+            </a>
+
+            <a href="{{ url_for('transactions') }}">
+                Transactions
+            </a>
+
+            <a href="{{ url_for('reports') }}">
+                Reports
+            </a>
+
+            <a href="{{ url_for('price_trends') }}">
+                Price & Trends
+            </a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     CHART.JS
+========================================================= -->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    /* =====================================================
+       CATEGORY PROGRESS BARS
+    ====================================================== */
+
+    const categoryRows =
+        document.querySelectorAll(".category-row");
+
+    categoryRows.forEach(function (row) {
+
+        const value =
+            parseFloat(row.dataset.categoryValue) || 0;
+
+        const maximum =
+            parseFloat(row.dataset.categoryMax) || 1;
+
+        const percentage =
+            Math.min((value / maximum) * 100, 100);
+
+        const bar =
+            row.querySelector(".progress-bar");
+
+        if (bar) {
+            bar.style.width = percentage + "%";
+        }
+
+    });
+
+
+    /* =====================================================
+       MONTHLY TREND DATA
+    ====================================================== */
+
+    const trendRows =
+        document.querySelectorAll(".trend-row");
+
+    const labels = [];
+    const spending = [];
+    const transactions = [];
+
+    trendRows.forEach(function (row) {
+
+        labels.push(
+            row.dataset.month
+        );
+
+        spending.push(
+            parseFloat(row.dataset.spending) || 0
+        );
+
+        transactions.push(
+            parseInt(row.dataset.transactions) || 0
+        );
+
+    });
+
+
+    /* =====================================================
+       MONTHLY SPENDING CHART
+    ====================================================== */
+
+    const spendingCanvas =
+        document.getElementById("monthlySpendingChart");
+
+    if (
+        spendingCanvas &&
+        labels.length > 0 &&
+        typeof Chart !== "undefined"
+    ) {
+
+        new Chart(
+            spendingCanvas,
+            {
+                type: "line",
+
+                data: {
+                    labels: labels,
+
+                    datasets: [
+                        {
+                            label: "Procurement Spending (LKR)",
+
+                            data: spending,
+
+                            borderWidth: 3,
+
+                            tension: 0.3,
+
+                            fill: false
+                        }
+                    ]
+                },
+
+                options: {
+
+                    responsive: true,
+
+                    maintainAspectRatio: false,
+
+                    plugins: {
+
+                        legend: {
+                            display: true
+                        }
+
+                    },
+
+                    scales: {
+
+                        y: {
+
+                            beginAtZero: true,
+
+                            ticks: {
+
+                                callback: function (value) {
+
+                                    return "LKR " +
+                                        Number(value).toLocaleString();
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        );
+
+    }
+
+
+    /* =====================================================
+       MONTHLY TRANSACTION CHART
+    ====================================================== */
+
+    const transactionCanvas =
+        document.getElementById("monthlyTransactionChart");
+
+    if (
+        transactionCanvas &&
+        labels.length > 0 &&
+        typeof Chart !== "undefined"
+    ) {
+
+        new Chart(
+            transactionCanvas,
+            {
+                type: "bar",
+
+                data: {
+                    labels: labels,
+
+                    datasets: [
+                        {
+                            label: "Transactions",
+
+                            data: transactions,
+
+                            borderWidth: 1
+                        }
+                    ]
+                },
+
+                options: {
+
+                    responsive: true,
+
+                    maintainAspectRatio: false,
+
+                    plugins: {
+
+                        legend: {
+                            display: true
+                        }
+
+                    },
+
+                    scales: {
+
+                        y: {
+
+                            beginAtZero: true,
+
+                            ticks: {
+                                precision: 0
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+        );
+
+    }
+
+});
+
+</script>
+
+</body>
+</html>

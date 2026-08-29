@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Procurement Transactions</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 35px;
+            color: #0d2a50;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: auto;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #1769e0;
+            margin: 0;
+            font-size: 42px;
+        }
+
+        .subtitle {
+            color: #58759a;
+            font-size: 18px;
+            margin-top: 8px;
+        }
+
+        .button {
+            padding: 13px 22px;
+            border-radius: 9px;
+            background: #e8eef7;
+            color: #12325b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #dbe5f3;
+        }
+
+        /* CARDS */
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 16px;
+            box-shadow: 0 5px 18px rgba(0, 0, 0, 0.07);
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #1769e0;
+            margin-top: 0;
+        }
+
+        /* SUMMARY */
+        .summary {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .summary-box {
+            background: #f7faff;
+            border: 1px solid #dce7f5;
+            border-radius: 10px;
+            padding: 18px 25px;
+            flex: 1;
+        }
+
+        .summary-label {
+            color: #58759a;
+        }
+
+        .summary-value {
+            color: #1769e0;
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 7px;
+        }
+
+        /* FORM */
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            padding: 12px;
+            border: 1px solid #ccd7e5;
+            border-radius: 7px;
+            font-size: 15px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        input:focus,
+        select:focus {
+            outline: none;
+            border-color: #1769e0;
+        }
+
+        .save {
+            margin-top: 22px;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 7px;
+            background: #1769e0;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .save:hover {
+            background: #1259c4;
+        }
+
+        /* TABLE */
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1100px;
+        }
+
+        th {
+            background: #14223b;
+            color: white;
+            padding: 14px;
+            text-align: left;
+        }
+
+        td {
+            padding: 14px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        tr:hover {
+            background: #f7faff;
+        }
+
+        /* DELETE BUTTON */
+        .delete {
+            border: none;
+            background: #ffe2e2;
+            color: #d62828;
+            padding: 7px 11px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .delete:hover {
+            background: #ffd0d0;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 900px) {
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .summary {
+                flex-direction: column;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div>
+            <h1>Procurement Transactions</h1>
+
+            <div class="subtitle">
+                Record and manage procurement purchase transactions
+            </div>
+        </div>
+
+        <a class="button" href="{{ url_for('dashboard') }}">
+            ← Dashboard
+        </a>
+
+    </div>
+
+
+    <!-- SUMMARY -->
+    <div class="summary">
+
+        <div class="summary-box">
+
+            <div class="summary-label">
+                Total Transactions
+            </div>
+
+            <div class="summary-value">
+                {{ total_transactions }}
+            </div>
+
+        </div>
+
+
+        <div class="summary-box">
+
+            <div class="summary-label">
+                Total Procurement Value (LKR)
+            </div>
+
+            <div class="summary-value">
+                {{ "{:,.2f}".format(total_value or 0) }}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ADD TRANSACTION -->
+    <div class="card">
+
+        <h2>
+            Add Procurement Transaction
+        </h2>
+
+
+        <form method="POST">
+
+            <div class="form-grid">
+
+
+                <!-- VENDOR -->
+                <div class="field">
+
+                    <label>
+                        Vendor
+                    </label>
+
+                    <select
+                        name="VendorID"
+                        required
+                    >
+
+                        <option value="">
+                            Select Vendor
+                        </option>
+
+                        {% for vendor in vendors %}
+
+                        <option value="{{ vendor.VendorID }}">
+
+                            {{ vendor.VendorName }}
+                            ({{ vendor.VendorID }})
+
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+
+                <!-- ITEM -->
+                <div class="field">
+
+                    <label>
+                        Item / Material
+                    </label>
+
+                    <input
+                        type="text"
+                        name="ItemMaterial"
+                        placeholder="e.g. Printer Paper"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CATEGORY -->
+                <div class="field">
+
+                    <label>
+                        Category
+                    </label>
+
+                    <input
+                        type="text"
+                        name="Category"
+                        placeholder="e.g. Office Supplies"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- QUANTITY -->
+                <div class="field">
+
+                    <label>
+                        Quantity
+                    </label>
+
+                    <input
+                        type="number"
+                        name="Quantity"
+                        min="1"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- UNIT PRICE -->
+                <div class="field">
+
+                    <label>
+                        Unit Price (LKR)
+                    </label>
+
+                    <input
+                        type="number"
+                        name="UnitPrice"
+                        min="0"
+                        step="0.01"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- DATE -->
+                <div class="field">
+
+                    <label>
+                        Transaction Date
+                    </label>
+
+                    <input
+                        type="date"
+                        name="TransactionDate"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- DELIVERY STATUS -->
+                <div class="field">
+
+                    <label>
+                        Delivery Status
+                    </label>
+
+                    <select
+                        name="DeliveryStatus"
+                        required
+                    >
+
+                        <option value="">
+                            Select Status
+                        </option>
+
+                        <option>
+                            Pending
+                        </option>
+
+                        <option>
+                            In Progress
+                        </option>
+
+                        <option>
+                            Delivered
+                        </option>
+
+                        <option>
+                            Delayed
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- PAYMENT STATUS -->
+                <div class="field">
+
+                    <label>
+                        Payment Status
+                    </label>
+
+                    <select
+                        name="PaymentStatus"
+                        required
+                    >
+
+                        <option value="">
+                            Select Status
+                        </option>
+
+                        <option>
+                            Pending
+                        </option>
+
+                        <option>
+                            Partially Paid
+                        </option>
+
+                        <option>
+                            Paid
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="save"
+                type="submit"
+            >
+                Save Transaction
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- TRANSACTION RECORDS -->
+    <div class="card">
+
+        <h2>
+            Procurement Transaction Records
+        </h2>
+
+
+        <div class="table-wrapper">
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            Transaction ID
+                        </th>
+
+                        <th>
+                            Vendor
+                        </th>
+
+                        <th>
+                            Item / Material
+                        </th>
+
+                        <th>
+                            Category
+                        </th>
+
+                        <th>
+                            Quantity
+                        </th>
+
+                        <th>
+                            Unit Price
+                        </th>
+
+                        <th>
+                            Total Value
+                        </th>
+
+                        <th>
+                            Date
+                        </th>
+
+                        <th>
+                            Delivery
+                        </th>
+
+                        <th>
+                            Payment
+                        </th>
+
+                        <th>
+                            Action
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    {% for transaction in transactions %}
+
+                    <tr>
+
+                        <td>
+                            {{ transaction.TransactionID }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.VendorName or transaction.VendorID }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.ItemMaterial }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.Category }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.Quantity }}
+                        </td>
+
+
+                        <td>
+                            {{ "{:,.2f}".format(transaction.UnitPrice) }}
+                        </td>
+
+
+                        <td>
+
+                            <strong>
+                                {{ "{:,.2f}".format(transaction.TotalValue) }}
+                            </strong>
+
+                        </td>
+
+
+                        <td>
+                            {{ transaction.TransactionDate }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.DeliveryStatus }}
+                        </td>
+
+
+                        <td>
+                            {{ transaction.PaymentStatus }}
+                        </td>
+
+
+                        <td>
+
+                            <form
+                                method="POST"
+                                action="{{ url_for('delete_transaction', transaction_id=transaction.TransactionID) }}"
+                                onsubmit="return confirm('Delete this transaction?');"
+                            >
+
+                                <button
+                                    class="delete"
+                                    type="submit"
+                                >
+                                    Delete
+                                </button>
+
+                            </form>
+
+                        </td>
+
+                    </tr>
+
+
+                    {% else %}
+
+                    <tr>
+
+                        <td
+                            colspan="11"
+                            style="text-align:center;"
+                        >
+
+                            No procurement transactions recorded yet.
+
+                        </td>
+
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

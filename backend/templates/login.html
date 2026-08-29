@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Procurement AI - Login</title>
+
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            min-height: 100vh;
+
+            font-family: Arial, sans-serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #eef5ff,
+                    #f8fafc
+                );
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+        }
+
+
+        .login-container {
+
+            width: 100%;
+
+            max-width: 430px;
+
+            padding: 20px;
+
+        }
+
+
+        .login-card {
+
+            background: white;
+
+            padding: 40px;
+
+            border-radius: 16px;
+
+            box-shadow:
+                0 10px 35px
+                rgba(0, 0, 0, 0.10);
+
+        }
+
+
+        .logo {
+
+            width: 70px;
+
+            height: 70px;
+
+            margin: 0 auto 20px;
+
+            border-radius: 50%;
+
+            background: #1769e0;
+
+            color: white;
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            font-size: 32px;
+
+        }
+
+
+        h1 {
+
+            text-align: center;
+
+            color: #172b4d;
+
+            margin: 0;
+
+            font-size: 28px;
+
+        }
+
+
+        .subtitle {
+
+            text-align: center;
+
+            color: #718096;
+
+            margin-top: 8px;
+
+            margin-bottom: 30px;
+
+            font-size: 14px;
+
+        }
+
+
+        .system-name {
+
+            text-align: center;
+
+            color: #1769e0;
+
+            font-weight: bold;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .form-group {
+
+            margin-bottom: 20px;
+
+        }
+
+
+        label {
+
+            display: block;
+
+            margin-bottom: 8px;
+
+            font-weight: bold;
+
+            color: #344054;
+
+        }
+
+
+        input {
+
+            width: 100%;
+
+            padding: 13px 14px;
+
+            border: 1px solid #ccd6e2;
+
+            border-radius: 8px;
+
+            font-size: 15px;
+
+            outline: none;
+
+        }
+
+
+        input:focus {
+
+            border-color: #1769e0;
+
+            box-shadow:
+                0 0 0 3px
+                rgba(23, 105, 224, 0.12);
+
+        }
+
+
+        .login-btn {
+
+            width: 100%;
+
+            padding: 14px;
+
+            margin-top: 8px;
+
+            border: none;
+
+            border-radius: 8px;
+
+            background: #1769e0;
+
+            color: white;
+
+            font-size: 16px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+        }
+
+
+        .login-btn:hover {
+
+            background: #0d55c7;
+
+        }
+
+
+        .error {
+
+            background: #fee2e2;
+
+            color: #b91c1c;
+
+            border: 1px solid #fecaca;
+
+            padding: 12px;
+
+            border-radius: 7px;
+
+            margin-bottom: 20px;
+
+            text-align: center;
+
+            font-size: 14px;
+
+        }
+
+
+        .footer {
+
+            text-align: center;
+
+            margin-top: 25px;
+
+            color: #8a94a6;
+
+            font-size: 13px;
+
+        }
+
+
+        .security {
+
+            margin-top: 20px;
+
+            padding: 12px;
+
+            background: #f0f7ff;
+
+            border-radius: 7px;
+
+            text-align: center;
+
+            color: #31577d;
+
+            font-size: 13px;
+
+        }
+
+
+        @media (max-width: 500px) {
+
+            .login-card {
+
+                padding: 30px 22px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="login-container">
+
+
+    <div class="login-card">
+
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            🤖
+
+        </div>
+
+
+        <!-- TITLE -->
+
+        <h1>
+
+            Welcome Back
+
+        </h1>
+
+
+        <div class="subtitle">
+
+            Sign in to access the procurement system
+
+        </div>
+
+
+        <div class="system-name">
+
+            AI Procurement Decision Support System
+
+        </div>
+
+
+        <!-- ERROR MESSAGE -->
+
+        {% if error %}
+
+        <div class="error">
+
+            ⚠️ {{ error }}
+
+        </div>
+
+        {% endif %}
+
+
+        <!-- LOGIN FORM -->
+
+        <form method="POST"
+              action="{{ url_for('login') }}">
+
+
+            <!-- USERNAME -->
+
+            <div class="form-group">
+
+                <label for="username">
+
+                    Username
+
+                </label>
+
+                <input
+
+                    type="text"
+
+                    id="username"
+
+                    name="username"
+
+                    placeholder="Enter your username"
+
+                    autocomplete="username"
+
+                    required
+
+                >
+
+            </div>
+
+
+            <!-- PASSWORD -->
+
+            <div class="form-group">
+
+                <label for="password">
+
+                    Password
+
+                </label>
+
+                <input
+
+                    type="password"
+
+                    id="password"
+
+                    name="password"
+
+                    placeholder="Enter your password"
+
+                    autocomplete="current-password"
+
+                    required
+
+                >
+
+            </div>
+
+
+            <!-- LOGIN BUTTON -->
+
+            <button
+
+                type="submit"
+
+                class="login-btn">
+
+                🔐 Login
+
+            </button>
+
+
+        </form>
+
+
+        <!-- SECURITY MESSAGE -->
+
+        <div class="security">
+
+            🔒 Authorized procurement users only
+
+        </div>
+
+
+        <!-- FOOTER -->
+
+        <div class="footer">
+
+            Procurement AI System
+
+            <br>
+
+            Vendor Evaluation & Risk Prediction
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+</body>
+
+</html>

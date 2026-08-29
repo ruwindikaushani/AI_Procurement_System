@@ -1,0 +1,1655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Vendor Management</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #0f2747;
+        }
+
+        .container {
+            width: 96%;
+            margin: auto;
+            padding: 30px 0 50px;
+        }
+
+        /* ================= HEADER ================= */
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: #1769e0;
+            font-size: 42px;
+        }
+
+        .header p {
+            margin-top: 8px;
+            color: #6680a3;
+            font-size: 18px;
+        }
+
+        .header-buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 10px;
+            padding: 14px 22px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: #1769e0;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #0d57c5;
+        }
+
+        .btn-secondary {
+            background: #e8eef7;
+            color: #10294a;
+        }
+
+        .btn-secondary:hover {
+            background: #dce5f2;
+        }
+
+        /* ================= STAT CARDS ================= */
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 35px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: 18px;
+            padding: 28px;
+            box-shadow: 0 8px 25px rgba(30,70,110,0.08);
+        }
+
+        .stat-title {
+            color: #6680a3;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        .blue {
+            color: #1769e0;
+        }
+
+        .green {
+            color: #10a95b;
+        }
+
+        .orange {
+            color: #e99a00;
+        }
+
+        .red {
+            color: #ef3f3f;
+        }
+
+        /* ================= SEARCH ================= */
+
+        .search-section {
+            background: white;
+            border-radius: 18px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(30,70,110,0.08);
+        }
+
+        .search-section h2 {
+            margin-top: 0;
+            font-size: 25px;
+        }
+
+        .search-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr auto;
+            gap: 14px;
+        }
+
+        .search-input,
+        .filter-select {
+            width: 100%;
+            padding: 16px;
+            border: 1px solid #d6dfeb;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: none;
+            background: white;
+        }
+
+        .search-input:focus,
+        .filter-select:focus {
+            border-color: #1769e0;
+            box-shadow: 0 0 0 3px rgba(23,105,224,0.1);
+        }
+
+        .clear-btn {
+            padding: 16px 22px;
+            border: none;
+            border-radius: 10px;
+            background: #e8eef7;
+            color: #10294a;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .clear-btn:hover {
+            background: #dce5f2;
+        }
+
+        /* ================= TABLE ================= */
+
+        .table-section {
+            background: white;
+            border-radius: 18px;
+            padding: 28px;
+            box-shadow: 0 8px 25px rgba(30,70,110,0.08);
+            overflow: hidden;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 22px;
+        }
+
+        .table-header h2 {
+            margin: 0;
+            font-size: 26px;
+        }
+
+        .vendor-count {
+            color: #6680a3;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 1650px;
+        }
+
+        thead {
+            background: #151f34;
+            color: white;
+        }
+
+        th {
+            padding: 17px 14px;
+            text-align: left;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 17px 14px;
+            border-bottom: 1px solid #e2e8f0;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        tbody tr:hover {
+            background: #f7faff;
+        }
+
+        .vendor-name {
+            font-weight: bold;
+            color: #0f2747;
+        }
+
+        .item-material {
+            font-weight: bold;
+            color: #405a7b;
+        }
+
+        /* Actual price */
+
+        .unit-price {
+            font-weight: bold;
+            color: #1769e0;
+        }
+
+        /* Price score */
+
+        .score {
+            font-weight: bold;
+        }
+
+        .score-high {
+            color: #10a95b;
+        }
+
+        .score-medium {
+            color: #e99a00;
+        }
+
+        .score-low {
+            color: #ef3f3f;
+        }
+
+        /* ================= RISK ================= */
+
+        .risk-badge {
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .risk-low {
+            background: #d9f8e7;
+            color: #07934d;
+        }
+
+        .risk-medium {
+            background: #fff0c9;
+            color: #c97c00;
+        }
+
+        .risk-high {
+            background: #ffe0e0;
+            color: #ef3333;
+        }
+
+        /* ================= ACTIONS ================= */
+
+        .actions {
+            display: flex;
+            gap: 7px;
+        }
+
+        .action-btn {
+            border: none;
+            border-radius: 8px;
+            padding: 9px 13px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .view-btn {
+            background: #e8f1ff;
+            color: #1769e0;
+        }
+
+        .edit-btn {
+            background: #fff2d6;
+            color: #b87300;
+        }
+
+        .delete-btn {
+            background: #ffe3e3;
+            color: #e93636;
+        }
+
+        .view-btn:hover {
+            background: #d8e8ff;
+        }
+
+        .edit-btn:hover {
+            background: #ffe8b8;
+        }
+
+        .delete-btn:hover {
+            background: #ffd1d1;
+        }
+
+        /* ================= EMPTY ================= */
+
+        .empty-message {
+            text-align: center;
+            padding: 50px;
+            color: #7185a1;
+            font-size: 18px;
+        }
+
+        /* ================= MODAL ================= */
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10,25,45,0.55);
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            width: 750px;
+            max-width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            border-radius: 18px;
+            padding: 30px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+            color: #1769e0;
+        }
+
+        .close-btn {
+            border: none;
+            background: #edf2f7;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .detail-box {
+            background: #f7faff;
+            border: 1px solid #e0e7f0;
+            border-radius: 10px;
+            padding: 15px;
+        }
+
+        .detail-label {
+            display: block;
+            color: #6680a3;
+            font-size: 13px;
+            margin-bottom: 6px;
+        }
+
+        .detail-value {
+            font-weight: bold;
+            color: #10294a;
+            font-size: 16px;
+        }
+
+        .detail-price {
+            color: #1769e0;
+        }
+
+        /* ================= FOOTER ================= */
+
+        .footer {
+            text-align: center;
+            margin-top: 35px;
+            color: #6680a3;
+            font-size: 15px;
+        }
+
+        /* ================= RESPONSIVE ================= */
+
+        @media(max-width:1000px) {
+
+            .stats {
+                grid-template-columns: repeat(2,1fr);
+            }
+
+            .search-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+
+        }
+
+        @media(max-width:600px) {
+
+            .stats {
+                grid-template-columns: 1fr;
+            }
+
+            .details-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 32px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ================= HEADER ================= -->
+
+    <div class="header">
+
+        <div>
+
+            <h1>Vendor Management</h1>
+
+            <p>
+                Manage, evaluate and monitor procurement vendors
+            </p>
+
+        </div>
+
+        <div class="header-buttons">
+
+            <a href="{{ url_for('add_vendor') }}"
+               class="btn btn-primary">
+
+                + Add Vendor
+
+            </a>
+
+            <a href="{{ url_for('dashboard') }}"
+               class="btn btn-secondary">
+
+                ← Dashboard
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= STATISTICS ================= -->
+
+    <div class="stats">
+
+        <div class="stat-card">
+
+            <div class="stat-title">
+                Total Vendors
+            </div>
+
+            <div class="stat-number blue">
+                {{ total }}
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-title">
+                Low Risk
+            </div>
+
+            <div class="stat-number green">
+                {{ low }}
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-title">
+                Medium Risk
+            </div>
+
+            <div class="stat-number orange">
+                {{ medium }}
+            </div>
+
+        </div>
+
+
+        <div class="stat-card">
+
+            <div class="stat-title">
+                High Risk
+            </div>
+
+            <div class="stat-number red">
+                {{ high }}
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= SEARCH ================= -->
+
+    <div class="search-section">
+
+        <h2>Search & Filter Vendors</h2>
+
+        <div class="search-grid">
+
+            <input
+                type="text"
+                id="searchInput"
+                class="search-input"
+                placeholder="Search Vendor ID, Vendor Name or Item / Material..."
+            >
+
+            <select
+                id="riskFilter"
+                class="filter-select">
+
+                <option value="">
+                    All Risk Levels
+                </option>
+
+                <option value="Low">
+                    Low Risk
+                </option>
+
+                <option value="Medium">
+                    Medium Risk
+                </option>
+
+                <option value="High">
+                    High Risk
+                </option>
+
+            </select>
+
+
+            <select
+                id="categoryFilter"
+                class="filter-select">
+
+                <option value="">
+                    All Categories
+                </option>
+
+                {% for category in categories %}
+
+                <option value="{{ category['Category'] }}">
+                    {{ category['Category'] }}
+                </option>
+
+                {% endfor %}
+
+            </select>
+
+
+            <button
+                class="clear-btn"
+                onclick="clearFilters()">
+
+                Clear
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TABLE ================= -->
+
+    <div class="table-section">
+
+        <div class="table-header">
+
+            <h2>
+                Registered Vendors
+            </h2>
+
+            <div class="vendor-count">
+
+                Showing
+                <span id="showingCount">
+                    {{ vendors|length }}
+                </span>
+                vendors
+
+            </div>
+
+        </div>
+
+
+        <div class="table-container">
+
+            <table>
+
+                <thead>
+
+                <tr>
+
+                    <th>Vendor ID</th>
+
+                    <th>Vendor Name</th>
+
+                    <th>Category</th>
+
+                    <th>Item / Material</th>
+
+                    <th>Unit Price (LKR)</th>
+
+                    <th>Price Score</th>
+
+                    <th>Quality Score</th>
+
+                    <th>Delivery Score</th>
+
+                    <th>Vendor Score</th>
+
+                    <th>Complaints</th>
+
+                    <th>Reliability</th>
+
+                    <th>On-Time</th>
+
+                    <th>Risk</th>
+
+                    <th>Actions</th>
+
+                </tr>
+
+                </thead>
+
+
+                <tbody id="vendorTableBody">
+
+                {% for vendor in vendors %}
+
+                <tr
+                    class="vendor-row"
+
+                    data-vendor-id="{{ vendor['VendorID'] }}"
+
+                    data-vendor-name="{{ vendor['VendorName'] }}"
+
+                    data-category="{{ vendor['Category'] }}"
+
+                    data-item="{{ vendor['ItemMaterial'] or 'Not specified' }}"
+
+                    data-risk="{{ vendor['RiskLevel'] }}"
+                >
+
+                    <!-- Vendor ID -->
+
+                    <td>
+                        {{ vendor['VendorID'] }}
+                    </td>
+
+
+                    <!-- Vendor Name -->
+
+                    <td class="vendor-name">
+                        {{ vendor['VendorName'] }}
+                    </td>
+
+
+                    <!-- Category -->
+
+                    <td>
+                        {{ vendor['Category'] }}
+                    </td>
+
+
+                    <!-- Item -->
+
+                    <td class="item-material">
+
+                        {% if vendor['ItemMaterial'] %}
+
+                            {{ vendor['ItemMaterial'] }}
+
+                        {% else %}
+
+                            Not specified
+
+                        {% endif %}
+
+                    </td>
+
+
+                    <!-- ACTUAL UNIT PRICE -->
+
+                    <td class="unit-price">
+
+                        {% if vendor['UnitPrice'] is not none %}
+
+                            LKR
+                            {{ "{:,.2f}".format(vendor['UnitPrice']|float) }}
+
+                        {% else %}
+
+                            Not available
+
+                        {% endif %}
+
+                    </td>
+
+
+                    <!-- PRICE SCORE -->
+
+                    <td>
+
+                        <span
+                            class="score
+                            {% if vendor['PriceScore']|float >= 75 %}
+                                score-high
+                            {% elif vendor['PriceScore']|float >= 60 %}
+                                score-medium
+                            {% else %}
+                                score-low
+                            {% endif %}"
+                        >
+
+                            {{ "%.2f"|format(
+                                vendor['PriceScore']|float
+                            ) }}
+
+                        </span>
+
+                    </td>
+
+
+                    <!-- QUALITY -->
+
+                    <td>
+
+                        {{ "%.2f"|format(
+                            vendor['QualityScore']|float
+                        ) }}
+
+                    </td>
+
+
+                    <!-- DELIVERY -->
+
+                    <td>
+
+                        {{ "%.2f"|format(
+                            vendor['DeliveryScore']|float
+                        ) }}
+
+                    </td>
+
+
+                    <!-- VENDOR SCORE -->
+
+                    <td>
+
+                        <span
+                            class="score
+                            {% if vendor['VendorScore']|float >= 75 %}
+                                score-high
+                            {% elif vendor['VendorScore']|float >= 60 %}
+                                score-medium
+                            {% else %}
+                                score-low
+                            {% endif %}"
+                        >
+
+                            {{ "%.2f"|format(
+                                vendor['VendorScore']|float
+                            ) }}
+
+                        </span>
+
+                    </td>
+
+
+                    <!-- COMPLAINTS -->
+
+                    <td>
+                        {{ vendor['ComplaintCount'] }}
+                    </td>
+
+
+                    <!-- RELIABILITY -->
+
+                    <td>
+
+                        {{ "%.2f"|format(
+                            vendor['ReliabilityScore']|float
+                        ) }}
+
+                    </td>
+
+
+                    <!-- ON TIME -->
+
+                    <td>
+
+                        {{ "%.2f"|format(
+                            vendor['OnTimeDeliveryRate']|float
+                        ) }}%
+
+                    </td>
+
+
+                    <!-- RISK -->
+
+                    <td>
+
+                        {% if vendor['RiskLevel'] == 'Low' %}
+
+                            <span class="risk-badge risk-low">
+                                LOW
+                            </span>
+
+                        {% elif vendor['RiskLevel'] == 'Medium' %}
+
+                            <span class="risk-badge risk-medium">
+                                MEDIUM
+                            </span>
+
+                        {% else %}
+
+                            <span class="risk-badge risk-high">
+                                HIGH
+                            </span>
+
+                        {% endif %}
+
+                    </td>
+
+
+                    <!-- ACTIONS -->
+
+                    <td>
+
+                        <div class="actions">
+
+                            <button
+                                type="button"
+                                class="action-btn view-btn"
+                                onclick="viewVendor(this)"
+                            >
+                                👁 View
+                            </button>
+
+
+                            <button
+                                type="button"
+                                class="action-btn edit-btn"
+                                onclick="editVendor(this)"
+                            >
+                                ✏ Edit
+                            </button>
+
+
+                            <button
+                                type="button"
+                                class="action-btn delete-btn"
+                                onclick="deleteVendor(this)"
+                            >
+                                🗑 Delete
+                            </button>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+
+                <tr
+                    id="noResults"
+                    style="display:none;"
+                >
+
+                    <td
+                        colspan="14"
+                        class="empty-message"
+                    >
+
+                        No vendors found matching your search.
+
+                    </td>
+
+                </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <div class="footer">
+
+        AI Procurement Decision Support System
+        |
+        Vendor Analytics & Risk Management
+
+    </div>
+
+</div>
+
+
+<!-- ================================================= -->
+<!-- VIEW VENDOR MODAL -->
+<!-- ================================================= -->
+
+<div
+    id="vendorModal"
+    class="modal"
+>
+
+    <div class="modal-content">
+
+        <div class="modal-header">
+
+            <h2>
+                Vendor Details
+            </h2>
+
+            <button
+                class="close-btn"
+                onclick="closeModal()"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="details-grid">
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Vendor ID
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalVendorID"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Vendor Name
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalVendorName"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Category
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalCategory"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Item / Material
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalItem"
+                ></span>
+
+            </div>
+
+
+            <!-- ACTUAL UNIT PRICE -->
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Unit Price
+                </span>
+
+                <span
+                    class="detail-value detail-price"
+                    id="modalUnitPrice"
+                ></span>
+
+            </div>
+
+
+            <!-- PRICE SCORE -->
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Price Score
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalPriceScore"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Quality Score
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalQuality"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Delivery Score
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalDelivery"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Vendor Score
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalVendorScore"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Complaints
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalComplaints"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Reliability
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalReliability"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    On-Time Delivery
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalOnTime"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Contract Value
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalContract"
+                ></span>
+
+            </div>
+
+
+            <div class="detail-box">
+
+                <span class="detail-label">
+                    Risk Level
+                </span>
+
+                <span
+                    class="detail-value"
+                    id="modalRisk"
+                ></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+/* ================================================= */
+/* SEARCH AND FILTER */
+/* ================================================= */
+
+const searchInput =
+    document.getElementById("searchInput");
+
+const riskFilter =
+    document.getElementById("riskFilter");
+
+const categoryFilter =
+    document.getElementById("categoryFilter");
+
+const vendorRows =
+    document.querySelectorAll(".vendor-row");
+
+const showingCount =
+    document.getElementById("showingCount");
+
+const noResults =
+    document.getElementById("noResults");
+
+
+function filterVendors() {
+
+    const search =
+        searchInput.value
+        .toLowerCase()
+        .trim();
+
+    const risk =
+        riskFilter.value;
+
+    const category =
+        categoryFilter.value;
+
+    let visibleCount = 0;
+
+
+    vendorRows.forEach(function(row) {
+
+        const vendorID =
+            row.dataset.vendorId
+            .toLowerCase();
+
+        const vendorName =
+            row.dataset.vendorName
+            .toLowerCase();
+
+        const item =
+            row.dataset.item
+            .toLowerCase();
+
+        const rowCategory =
+            row.dataset.category;
+
+        const rowRisk =
+            row.dataset.risk;
+
+
+        const matchesSearch =
+            vendorID.includes(search) ||
+            vendorName.includes(search) ||
+            item.includes(search);
+
+
+        const matchesRisk =
+            risk === "" ||
+            rowRisk === risk;
+
+
+        const matchesCategory =
+            category === "" ||
+            rowCategory === category;
+
+
+        if (
+            matchesSearch &&
+            matchesRisk &&
+            matchesCategory
+        ) {
+
+            row.style.display = "";
+
+            visibleCount++;
+
+        }
+
+        else {
+
+            row.style.display = "none";
+
+        }
+
+    });
+
+
+    showingCount.textContent =
+        visibleCount;
+
+
+    if (visibleCount === 0) {
+
+        noResults.style.display = "";
+
+    }
+
+    else {
+
+        noResults.style.display = "none";
+
+    }
+
+}
+
+
+searchInput.addEventListener(
+    "input",
+    filterVendors
+);
+
+
+riskFilter.addEventListener(
+    "change",
+    filterVendors
+);
+
+
+categoryFilter.addEventListener(
+    "change",
+    filterVendors
+);
+
+
+/* ================================================= */
+/* CLEAR FILTERS */
+/* ================================================= */
+
+function clearFilters() {
+
+    searchInput.value = "";
+
+    riskFilter.value = "";
+
+    categoryFilter.value = "";
+
+    filterVendors();
+
+}
+
+
+/* ================================================= */
+/* VIEW VENDOR */
+/* ================================================= */
+
+function viewVendor(button) {
+
+    const row =
+        button.closest(".vendor-row");
+
+    const cells =
+        row.querySelectorAll("td");
+
+
+    /*
+        Table positions:
+
+        0 = Vendor ID
+        1 = Vendor Name
+        2 = Category
+        3 = Item
+        4 = Unit Price
+        5 = Price Score
+        6 = Quality
+        7 = Delivery
+        8 = Vendor Score
+        9 = Complaints
+        10 = Reliability
+        11 = On-Time
+        12 = Risk
+        13 = Actions
+    */
+
+
+    document.getElementById(
+        "modalVendorID"
+    ).textContent =
+        cells[0].textContent.trim();
+
+
+    document.getElementById(
+        "modalVendorName"
+    ).textContent =
+        cells[1].textContent.trim();
+
+
+    document.getElementById(
+        "modalCategory"
+    ).textContent =
+        cells[2].textContent.trim();
+
+
+    document.getElementById(
+        "modalItem"
+    ).textContent =
+        cells[3].textContent.trim();
+
+
+    document.getElementById(
+        "modalUnitPrice"
+    ).textContent =
+        cells[4].textContent.trim();
+
+
+    document.getElementById(
+        "modalPriceScore"
+    ).textContent =
+        cells[5].textContent.trim();
+
+
+    document.getElementById(
+        "modalQuality"
+    ).textContent =
+        cells[6].textContent.trim();
+
+
+    document.getElementById(
+        "modalDelivery"
+    ).textContent =
+        cells[7].textContent.trim();
+
+
+    document.getElementById(
+        "modalVendorScore"
+    ).textContent =
+        cells[8].textContent.trim();
+
+
+    document.getElementById(
+        "modalComplaints"
+    ).textContent =
+        cells[9].textContent.trim();
+
+
+    document.getElementById(
+        "modalReliability"
+    ).textContent =
+        cells[10].textContent.trim();
+
+
+    document.getElementById(
+        "modalOnTime"
+    ).textContent =
+        cells[11].textContent.trim();
+
+
+    document.getElementById(
+        "modalRisk"
+    ).textContent =
+        cells[12].textContent.trim();
+
+
+    document.getElementById(
+        "modalContract"
+    ).textContent =
+        "Available in vendor record";
+
+
+    document.getElementById(
+        "vendorModal"
+    ).style.display = "flex";
+
+}
+
+
+/* ================================================= */
+/* CLOSE MODAL */
+/* ================================================= */
+
+function closeModal() {
+
+    document.getElementById(
+        "vendorModal"
+    ).style.display = "none";
+
+}
+
+
+window.addEventListener(
+    "click",
+    function(event) {
+
+        const modal =
+            document.getElementById(
+                "vendorModal"
+            );
+
+        if (event.target === modal) {
+
+            closeModal();
+
+        }
+
+    }
+);
+
+
+/* ================================================= */
+/* EDIT VENDOR */
+/* ================================================= */
+
+function editVendor(button) {
+
+    const row =
+        button.closest(".vendor-row");
+
+    const vendorID =
+        row.dataset.vendorId;
+
+
+    window.location.href =
+        "/edit_vendor/" +
+        encodeURIComponent(vendorID);
+
+}
+
+
+/* ================================================= */
+/* DELETE VENDOR */
+/* ================================================= */
+
+function deleteVendor(button) {
+
+    const row =
+        button.closest(".vendor-row");
+
+    const vendorID =
+        row.dataset.vendorId;
+
+    const vendorName =
+        row.dataset.vendorName;
+
+
+    const confirmed =
+        confirm(
+            "Are you sure you want to delete " +
+            vendorName +
+            " (" +
+            vendorID +
+            ")?"
+        );
+
+
+    if (!confirmed) {
+
+        return;
+
+    }
+
+
+    fetch(
+        "/delete_vendor/" +
+        encodeURIComponent(vendorID),
+        {
+            method: "POST",
+
+            headers: {
+                "Content-Type":
+                    "application/json"
+            }
+        }
+    )
+
+    .then(function(response) {
+
+        if (!response.ok) {
+
+            throw new Error(
+                "Delete request failed"
+            );
+
+        }
+
+        return response.json();
+
+    })
+
+    .then(function(data) {
+
+        if (data.success) {
+
+            row.remove();
+
+            filterVendors();
+
+            alert(
+                "Vendor deleted successfully."
+            );
+
+        }
+
+        else {
+
+            alert(
+                data.message ||
+                "Unable to delete vendor."
+            );
+
+        }
+
+    })
+
+    .catch(function(error) {
+
+        console.error(error);
+
+        alert(
+            "Could not delete vendor. " +
+            "Please check the Flask backend."
+        );
+
+    });
+
+}
+
+</script>
+
+</body>
+</html>

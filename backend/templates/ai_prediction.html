@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Vendor Risk Prediction</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 40px;
+            color: #172b4d;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #1769e0;
+            margin: 0;
+            font-size: 38px;
+        }
+
+        .subtitle {
+            color: #6b7c93;
+            margin-top: 8px;
+            font-size: 16px;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            background: #e9eff8;
+            color: #17365d;
+            padding: 12px 18px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .back-btn:hover {
+            background: #dce6f5;
+        }
+
+        .section-title {
+            color: #1769e0;
+            font-size: 23px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e1e7ef;
+            padding-bottom: 10px;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 22px;
+        }
+
+        .field {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #243b5a;
+        }
+
+        .help-text {
+            font-size: 13px;
+            color: #718096;
+            margin-top: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 13px;
+            border: 1px solid #ccd6e2;
+            border-radius: 7px;
+            font-size: 15px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #1769e0;
+            box-shadow: 0 0 0 2px rgba(23, 105, 224, 0.12);
+        }
+
+        .button-area {
+            margin-top: 30px;
+        }
+
+        .predict-btn {
+            padding: 14px 25px;
+            background: #1769e0;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .predict-btn:hover {
+            background: #0d55c7;
+        }
+
+        /* RESULT */
+
+        .result {
+            margin-top: 40px;
+            padding: 30px;
+            border-radius: 12px;
+            background: #f8fbff;
+            border: 1px solid #d8e5f5;
+        }
+
+        .result-title {
+            color: #1769e0;
+            margin-top: 0;
+            font-size: 25px;
+        }
+
+        .risk-card {
+            margin-top: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .risk-card h2 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .risk-card p {
+            margin-top: 8px;
+            font-size: 16px;
+        }
+
+        .risk-low {
+            background: #dcfce7;
+            border: 1px solid #86efac;
+            color: #15803d;
+        }
+
+        .risk-medium {
+            background: #fff4cc;
+            border: 1px solid #f4d35e;
+            color: #b77900;
+        }
+
+        .risk-high {
+            background: #fee2e2;
+            border: 1px solid #fca5a5;
+            color: #dc2626;
+        }
+
+        .score-box {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .score-item {
+            background: white;
+            border: 1px solid #e0e7ef;
+            padding: 20px;
+            border-radius: 9px;
+        }
+
+        .score-label {
+            color: #64748b;
+            font-size: 14px;
+        }
+
+        .score-value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #1769e0;
+            margin-top: 6px;
+        }
+
+        .factors {
+            margin-top: 25px;
+        }
+
+        .factors h3 {
+            color: #17365d;
+        }
+
+        .factors ul {
+            padding-left: 20px;
+        }
+
+        .factors li {
+            margin-bottom: 10px;
+        }
+
+        .recommendation {
+            margin-top: 25px;
+            padding: 20px;
+            background: #eef6ff;
+            border-left: 5px solid #1769e0;
+            border-radius: 6px;
+        }
+
+        .recommendation strong {
+            color: #1769e0;
+        }
+
+        .note {
+            margin-top: 25px;
+            padding: 15px;
+            background: #eef7ff;
+            border-radius: 7px;
+            color: #31577d;
+            font-size: 14px;
+        }
+
+        @media (max-width: 700px) {
+
+            body {
+                padding: 15px;
+            }
+
+            .container {
+                padding: 25px;
+            }
+
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .score-box {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+
+    <div class="header">
+
+        <div>
+            <h1>🤖 AI Vendor Risk Prediction</h1>
+            <div class="subtitle">
+                Predict procurement risk using vendor performance indicators
+            </div>
+        </div>
+
+        <a href="/" class="back-btn">
+            ← Dashboard
+        </a>
+
+    </div>
+
+
+    <!-- INPUT SECTION -->
+
+    <div class="section-title">
+        Vendor Performance Information
+    </div>
+
+    <form method="POST">
+
+        <div class="form-grid">
+
+            <!-- PRICE -->
+
+            <div class="field">
+                <label>Price Score</label>
+
+                <input
+                    type="number"
+                    name="PriceScore"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    value="{{ form_data.get('PriceScore', '') }}"
+                    placeholder="0 - 100"
+                    required
+                >
+
+                <span class="help-text">
+                    Evaluation score out of 100
+                </span>
+            </div>
+
+
+            <!-- QUALITY -->
+
+            <div class="field">
+                <label>Quality Score</label>
+
+                <input
+                    type="number"
+                    name="QualityScore"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    value="{{ form_data.get('QualityScore', '') }}"
+                    placeholder="0 - 100"
+                    required
+                >
+
+                <span class="help-text">
+                    Evaluation score out of 100
+                </span>
+            </div>
+
+
+            <!-- DELIVERY -->
+
+            <div class="field">
+                <label>Delivery Score</label>
+
+                <input
+                    type="number"
+                    name="DeliveryScore"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    value="{{ form_data.get('DeliveryScore', '') }}"
+                    placeholder="0 - 100"
+                    required
+                >
+
+                <span class="help-text">
+                    Delivery performance score
+                </span>
+            </div>
+
+
+            <!-- COMPLAINTS -->
+
+            <div class="field">
+                <label>Complaint Count</label>
+
+                <input
+                    type="number"
+                    name="ComplaintCount"
+                    min="0"
+                    step="1"
+                    value="{{ form_data.get('ComplaintCount', '') }}"
+                    placeholder="Number of complaints"
+                    required
+                >
+
+                <span class="help-text">
+                    Number of recorded complaints
+                </span>
+            </div>
+
+
+            <!-- RELIABILITY -->
+
+            <div class="field">
+                <label>Reliability Score</label>
+
+                <input
+                    type="number"
+                    name="ReliabilityScore"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    value="{{ form_data.get('ReliabilityScore', '') }}"
+                    placeholder="0 - 100"
+                    required
+                >
+
+                <span class="help-text">
+                    Reliability evaluation score
+                </span>
+            </div>
+
+
+            <!-- ON TIME -->
+
+            <div class="field">
+                <label>On-Time Delivery Rate (%)</label>
+
+                <input
+                    type="number"
+                    name="OnTimeDeliveryRate"
+                    min="0"
+                    max="100"
+                    step="0.01"
+                    value="{{ form_data.get('OnTimeDeliveryRate', '') }}"
+                    placeholder="0 - 100%"
+                    required
+                >
+
+                <span class="help-text">
+                    Percentage of deliveries made on time
+                </span>
+            </div>
+
+
+            <!-- CONTRACT -->
+
+            <div class="field">
+
+                <label>Contract Value (LKR)</label>
+
+                <input
+                    type="number"
+                    name="ContractValue"
+                    min="0"
+                    step="0.01"
+                    value="{{ form_data.get('ContractValue', '') }}"
+                    placeholder="Enter contract value"
+                    required
+                >
+
+                <span class="help-text">
+                    Total contract value in Sri Lankan Rupees
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="button-area">
+
+            <button
+                type="submit"
+                class="predict-btn">
+
+                🤖 Predict Vendor Risk
+
+            </button>
+
+        </div>
+
+    </form>
+
+
+    <!-- PREDICTION RESULT -->
+
+    {% if prediction %}
+
+    <div class="result">
+
+        <h2 class="result-title">
+            AI Prediction Result
+        </h2>
+
+
+        <!-- RISK LEVEL -->
+
+        {% if prediction|string|lower == 'low' %}
+
+            <div class="risk-card risk-low">
+
+                <h2>LOW RISK</h2>
+
+                <p>
+                    The AI model predicts that this vendor has a
+                    relatively low procurement risk.
+                </p>
+
+            </div>
+
+        {% elif prediction|string|lower == 'medium' %}
+
+            <div class="risk-card risk-medium">
+
+                <h2>MEDIUM RISK</h2>
+
+                <p>
+                    The AI model predicts that this vendor requires
+                    monitoring and further evaluation.
+                </p>
+
+            </div>
+
+        {% elif prediction|string|lower == 'high' %}
+
+            <div class="risk-card risk-high">
+
+                <h2>HIGH RISK</h2>
+
+                <p>
+                    The AI model predicts that this vendor requires
+                    increased attention before procurement decisions.
+                </p>
+
+            </div>
+
+        {% else %}
+
+            <div class="risk-card risk-medium">
+
+                <h2>{{ prediction }}</h2>
+
+                <p>
+                    Predicted vendor risk level.
+                </p>
+
+            </div>
+
+        {% endif %}
+
+
+        <!-- SCORE -->
+
+        <div class="score-box">
+
+            <div class="score-item">
+
+                <div class="score-label">
+                    Calculated Vendor Score
+                </div>
+
+                <div
+                    class="score-value"
+                    id="vendorScore">
+                    -
+                </div>
+
+            </div>
+
+
+            <div class="score-item">
+
+                <div class="score-label">
+                    Predicted Risk Level
+                </div>
+
+                <div class="score-value">
+                    {{ prediction }}
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RISK FACTORS -->
+
+        <div class="factors">
+
+            <h3>
+                Risk Factors to Consider
+            </h3>
+
+            <ul id="riskFactors">
+                <li>Review the vendor performance indicators above.</li>
+            </ul>
+
+        </div>
+
+
+        <!-- RECOMMENDATION -->
+
+        <div class="recommendation">
+
+            <strong>Procurement Recommendation</strong>
+
+            <p id="recommendationText">
+                Review the predicted risk together with the vendor's
+                performance indicators before making a procurement decision.
+            </p>
+
+        </div>
+
+
+        <div class="note">
+
+            <strong>Note:</strong>
+            The predicted risk level is generated by the trained
+            machine learning model using the entered vendor
+            performance information.
+
+        </div>
+
+    </div>
+
+    {% endif %}
+
+</div>
+
+
+<!-- RESULT CALCULATION SCRIPT -->
+
+{% if prediction %}
+
+<script>
+
+    // Get values entered by the user
+
+    const price =
+        parseFloat("{{ form_data.get('PriceScore', 0) }}") || 0;
+
+    const quality =
+        parseFloat("{{ form_data.get('QualityScore', 0) }}") || 0;
+
+    const delivery =
+        parseFloat("{{ form_data.get('DeliveryScore', 0) }}") || 0;
+
+    const complaints =
+        parseInt("{{ form_data.get('ComplaintCount', 0) }}") || 0;
+
+    const reliability =
+        parseFloat("{{ form_data.get('ReliabilityScore', 0) }}") || 0;
+
+    const ontime =
+        parseFloat("{{ form_data.get('OnTimeDeliveryRate', 0) }}") || 0;
+
+
+    // Same Vendor Score formula currently used
+    // by your Flask application
+
+    const vendorScore =
+        (
+            price +
+            quality +
+            delivery +
+            reliability +
+            ontime -
+            (complaints * 2)
+        ) / 5;
+
+
+    const finalScore =
+        vendorScore.toFixed(2);
+
+
+    document.getElementById("vendorScore").innerText =
+        finalScore + " / 100";
+
+
+    // Risk factors
+
+    const factors =
+        document.getElementById("riskFactors");
+
+    factors.innerHTML = "";
+
+
+    if (price < 60) {
+
+        factors.innerHTML +=
+            "<li>⚠️ Low price evaluation score.</li>";
+
+    }
+
+    if (quality < 60) {
+
+        factors.innerHTML +=
+            "<li>⚠️ Low quality performance score.</li>";
+
+    }
+
+    if (delivery < 60) {
+
+        factors.innerHTML +=
+            "<li>⚠️ Low delivery performance score.</li>";
+
+    }
+
+    if (complaints >= 10) {
+
+        factors.innerHTML +=
+            "<li>⚠️ High number of customer complaints.</li>";
+
+    }
+
+    if (reliability < 60) {
+
+        factors.innerHTML +=
+            "<li>⚠️ Low vendor reliability score.</li>";
+
+    }
+
+    if (ontime < 60) {
+
+        factors.innerHTML +=
+            "<li>⚠️ Low on-time delivery performance.</li>";
+
+    }
+
+
+    // If no major warning factors exist
+
+    if (factors.innerHTML === "") {
+
+        factors.innerHTML =
+            "<li>✅ No major performance warning indicators identified.</li>";
+
+    }
+
+
+    // Recommendation
+
+    const prediction =
+        "{{ prediction }}".toLowerCase();
+
+    const recommendation =
+        document.getElementById("recommendationText");
+
+
+    if (prediction === "high") {
+
+        recommendation.innerText =
+            "Conduct additional vendor evaluation and consider alternative suppliers before awarding a contract.";
+
+    }
+
+    else if (prediction === "medium") {
+
+        recommendation.innerText =
+            "Continue monitoring vendor performance and consider additional evaluation before making the procurement decision.";
+
+    }
+
+    else if (prediction === "low") {
+
+        recommendation.innerText =
+            "The vendor shows relatively lower predicted procurement risk. Normal monitoring and performance review are recommended.";
+
+    }
+
+</script>
+
+{% endif %}
+
+</body>
+</html>

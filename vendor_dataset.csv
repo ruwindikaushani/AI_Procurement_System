@@ -1,0 +1,1501 @@
+VendorID,VendorName,Category,ItemMaterial,UnitPrice,PriceScore,QualityScore,DeliveryScore,ComplaintCount,ReliabilityScore,OnTimeDeliveryRate,ContractValue,VendorScore,RiskLevel
+V0001,Alpha IT Systems,IT Equipment,Laptop Computers,236300,84,79,44,9,63,52,80775,67.65,Medium
+V0002,TechGlobal Solutions,Office Supplies,Printer Paper,3550,100,78,68,10,62,43,558917,75.5,Medium
+V0003,Prime Stationery Traders,Raw Materials,Packaging Materials,3250,95,93,98,3,50,94,4425839,85.1,Low
+V0004,Elite Office Solutions,Electrical Items,LED Lighting,14200,71,73,84,7,74,77,4416047,74.1,Medium
+V0005,FutureNet Technologies,IT Equipment,Desktop Computers,203500,75,82,43,8,72,59,2897587,68.25,Medium
+V0006,ABC Raw Materials,Office Supplies,Stationery,3650,67,72,59,6,66,86,4282492,66.75,Medium
+V0007,ABC Raw Materials,Electrical Items,Electrical Cables,3150,63,75,67,9,44,83,2101501,62.2,Medium
+V0008,Elite Office Solutions,Logistics Services,Freight Transportation,244600,82,100,62,3,71,87,1564234,80.6,Low
+V0009,FutureNet Technologies,Safety Equipment,Safety Helmets,5500,68,50,96,8,74,58,2983335,69.5,Medium
+V0010,SmartTech Distributors,Safety Equipment,Protective Gloves,2500,69,76,46,13,48,77,753999,58.55,High
+V0011,Prime Stationery Traders,Electrical Items,Switches and Sockets,3450,90,75,96,2,74,46,449847,84.25,Low
+V0012,Lanka Industrial Suppliers,Logistics Services,Local Delivery,38750,67,79,70,2,85,99,4576803,76.5,Medium
+V0013,Elite Office Solutions,Safety Equipment,Safety Shoes,8100,47,67,87,18,44,94,2366754,55.7,High
+V0014,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,27550,99,57,67,11,48,94,3394402,66.5,Medium
+V0015,FutureNet Technologies,Office Supplies,Files and Folders,550,51,57,49,4,53,52,2589828,55.4,High
+V0016,FutureNet Technologies,Logistics Services,Warehouse Services,41450,54,80,75,18,91,46,4855315,67.7,Medium
+V0017,Prime Stationery Traders,Office Supplies,Ink Cartridges,19000,85,47,61,11,91,96,2672619,67.9,Medium
+V0018,Alpha IT Systems,Office Supplies,Office Consumables,6750,85,50,95,9,80,40,4866574,74.25,Medium
+V0019,Elite Office Solutions,Mechanical Parts,Bearings,37650,69,55,87,16,84,49,3531554,67.2,Medium
+V0020,SmartTech Distributors,Mechanical Parts,Machine Components,161700,90,46,77,6,91,66,4538086,74.6,Medium
+V0021,Prime Stationery Traders,Furniture,Office Desks,64600,68,65,82,18,75,83,4761368,65.65,Medium
+V0022,Lanka Industrial Suppliers,IT Equipment,Network Equipment,34150,49,45,79,6,48,74,2696143,55.9,High
+V0023,Alpha IT Systems,Electrical Items,Circuit Breakers,4000,59,96,42,16,70,57,3365946,63.15,Medium
+V0024,Lanka Industrial Suppliers,Safety Equipment,Protective Clothing,16300,61,97,59,13,96,72,3953212,74.0,Medium
+V0025,TechGlobal Solutions,IT Equipment,Printers,49000,73,70,62,10,68,95,1908472,66.75,Medium
+V0026,FutureNet Technologies,IT Equipment,Computer Accessories,9350,83,73,96,7,90,70,483374,82.7,Low
+V0027,Elite Office Solutions,Logistics Services,Cargo Handling,5300,61,44,77,20,60,97,2675220,53.65,High
+V0028,SmartTech Distributors,Electrical Items,Electrical Components,11150,79,53,71,12,78,66,4230462,66.8,Medium
+V0029,Alpha IT Systems,Office Supplies,Printer Paper,5600,95,57,91,16,90,67,3353272,76.2,Medium
+V0030,ABC Raw Materials,Mechanical Parts,Gears,5950,41,75,68,4,47,42,3898509,60.0,Medium
+V0031,TechGlobal Solutions,Logistics Services,Transport Services,99350,45,58,89,7,63,97,1328716,62.65,Medium
+V0032,FutureNet Technologies,Logistics Services,Freight Transportation,114850,52,61,89,9,89,96,2153641,69.35,Medium
+V0033,TechGlobal Solutions,Mechanical Parts,Replacement Parts,39050,99,89,84,15,58,95,1581089,77.9,Medium
+V0034,SmartTech Distributors,Safety Equipment,Safety Helmets,4500,42,91,44,10,69,59,272578,60.85,Medium
+V0035,Elite Office Solutions,Office Supplies,Stationery,3350,95,92,59,20,55,47,1701947,69.55,Medium
+V0036,SmartTech Distributors,IT Equipment,Laptop Computers,281250,70,73,70,1,100,57,499424,79.25,Medium
+V0037,TechGlobal Solutions,Furniture,Office Chairs,74550,59,90,45,2,43,55,669518,63.85,Medium
+V0038,Lanka Industrial Suppliers,Mechanical Parts,Industrial Components,126750,46,45,86,8,67,48,1961767,59.35,High
+V0039,TechGlobal Solutions,Furniture,Storage Cabinets,65450,73,73,48,0,66,72,3017483,69.3,Medium
+V0040,Alpha IT Systems,Logistics Services,Local Delivery,12600,53,42,100,12,95,71,469408,66.75,Medium
+V0041,Digital Edge Suppliers,Raw Materials,Industrial Raw Materials,57350,75,100,80,13,41,46,822578,71.45,Medium
+V0042,Prime Stationery Traders,Logistics Services,Warehouse Services,79250,70,67,94,19,97,40,3773802,72.95,Medium
+V0043,FutureNet Technologies,Safety Equipment,Protective Gloves,2150,57,89,64,3,70,56,3031103,71.8,Medium
+V0044,FutureNet Technologies,Safety Equipment,Safety Shoes,13650,95,41,87,0,57,92,1601351,72.8,Medium
+V0045,TechGlobal Solutions,Logistics Services,Cargo Handling,56250,98,68,74,13,99,54,2260585,79.6,Medium
+V0046,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,32100,93,72,66,19,64,67,572764,67.75,Medium
+V0047,OfficeMart Lanka,Logistics Services,Transport Services,52950,57,49,74,8,93,78,3463718,65.9,Medium
+V0048,Lanka Industrial Suppliers,Office Supplies,Files and Folders,800,66,45,62,5,69,87,3518637,61.45,Medium
+V0049,TechGlobal Solutions,Safety Equipment,Protective Clothing,6850,80,75,97,0,76,76,3606997,83.35,Low
+V0050,Elite Office Solutions,Logistics Services,Freight Transportation,219050,66,94,42,14,89,85,1197571,69.2,Medium
+V0051,Lanka Industrial Suppliers,Logistics Services,Local Delivery,40200,74,65,63,20,52,67,3778505,57.75,High
+V0052,OfficeMart Lanka,Office Supplies,Ink Cartridges,16700,88,46,99,1,44,99,3330126,71.6,Medium
+V0053,TechGlobal Solutions,Mechanical Parts,Bearings,21600,49,61,43,10,73,58,3403164,55.7,High
+V0054,SmartTech Distributors,Mechanical Parts,Machine Components,37750,61,54,91,18,57,56,2042810,59.35,High
+V0055,Prime Stationery Traders,Raw Materials,Plastic Materials,4600,91,80,68,12,70,94,3015163,74.35,Medium
+V0056,Lanka Industrial Suppliers,Logistics Services,Warehouse Services,14600,57,78,62,15,42,52,1596562,57.05,High
+V0057,Prime Stationery Traders,IT Equipment,Desktop Computers,229400,95,60,70,12,78,83,105462,72.35,Medium
+V0058,Alpha IT Systems,Office Supplies,Office Consumables,4350,53,43,62,2,65,67,306481,58.4,High
+V0059,FutureNet Technologies,Mechanical Parts,Gears,5100,75,95,47,6,71,63,2409334,73.1,Medium
+V0060,TechGlobal Solutions,Raw Materials,Metal Materials,61050,87,44,99,3,53,64,2742868,71.65,Medium
+V0061,TechGlobal Solutions,IT Equipment,Network Equipment,168100,73,90,72,10,86,98,1453851,77.35,Medium
+V0062,Elite Office Solutions,Furniture,Meeting Tables,110200,92,70,88,7,86,44,1014025,81.8,Low
+V0063,TechGlobal Solutions,Office Supplies,Printer Paper,6300,40,92,47,13,47,59,4775975,55.3,High
+V0064,Alpha IT Systems,Electrical Items,LED Lighting,7200,82,54,98,1,79,54,462574,78.9,Medium
+V0065,Digital Edge Suppliers,Furniture,Office Furniture,72050,90,62,43,10,83,83,3171280,68.2,Medium
+V0066,Elite Office Solutions,Logistics Services,Cargo Handling,63050,71,94,48,7,44,84,1371138,66.15,Medium
+V0067,Elite Office Solutions,Raw Materials,Production Materials,87800,83,48,77,18,83,91,4022306,65.75,Medium
+V0068,SmartTech Distributors,Raw Materials,Packaging Materials,1850,78,76,48,11,58,100,4711231,64.2,Medium
+V0069,TechGlobal Solutions,Furniture,Office Desks,70700,46,44,96,16,94,95,1663618,62.5,Medium
+V0070,Prime Stationery Traders,Mechanical Parts,Replacement Parts,78050,48,60,71,7,76,72,3352333,62.9,Medium
+V0071,Alpha IT Systems,Furniture,Office Chairs,70800,78,85,69,14,95,59,2898701,76.55,Medium
+V0072,FutureNet Technologies,Logistics Services,Transport Services,62500,65,55,52,5,48,52,2738260,57.5,High
+V0073,OfficeMart Lanka,Logistics Services,Freight Transportation,234800,44,88,74,2,100,87,3119866,76.8,Medium
+V0074,SmartTech Distributors,Office Supplies,Stationery,3150,94,97,56,13,43,55,2899391,71.05,Medium
+V0075,Prime Stationery Traders,Raw Materials,Industrial Raw Materials,70400,97,50,44,19,59,48,2224830,57.85,High
+V0076,Alpha IT Systems,Furniture,Storage Cabinets,73600,51,99,95,14,48,60,1104128,69.1,Medium
+V0077,Alpha IT Systems,Electrical Items,Electrical Cables,4250,69,89,71,13,70,98,3114696,71.2,Medium
+V0078,TechGlobal Solutions,Furniture,Meeting Tables,127550,67,47,76,0,72,46,4046574,68.1,Medium
+V0079,ABC Raw Materials,Furniture,Office Furniture,171300,93,93,72,1,88,72,999204,88.0,Low
+V0080,TechGlobal Solutions,Logistics Services,Local Delivery,39900,94,72,54,5,81,66,4553366,76.0,Medium
+V0081,OfficeMart Lanka,IT Equipment,Printers,115750,56,54,44,5,97,79,2808399,63.2,Medium
+V0082,Digital Edge Suppliers,Electrical Items,Switches and Sockets,3550,92,74,78,6,47,77,4768973,73.5,Medium
+V0083,FutureNet Technologies,Furniture,Office Desks,119400,69,91,72,4,40,63,1176025,70.4,Medium
+V0084,FutureNet Technologies,Raw Materials,Plastic Materials,10850,82,80,83,15,61,79,3281145,71.8,Medium
+V0085,ABC Raw Materials,Logistics Services,Warehouse Services,75350,87,49,70,3,88,51,3886360,74.1,Medium
+V0086,TechGlobal Solutions,Mechanical Parts,Industrial Components,71750,53,82,100,2,73,89,2285237,77.35,Medium
+V0087,TechGlobal Solutions,Electrical Items,Circuit Breakers,3100,80,52,45,14,68,61,2956515,58.6,High
+V0088,Elite Office Solutions,Logistics Services,Cargo Handling,38700,45,54,88,5,60,96,2299727,61.85,Medium
+V0089,Prime Stationery Traders,Office Supplies,Files and Folders,2250,54,65,99,5,51,95,1048304,67.25,Medium
+V0090,FutureNet Technologies,Office Supplies,Ink Cartridges,26050,50,43,84,10,99,95,1337986,64.85,Medium
+V0091,OfficeMart Lanka,Office Supplies,Office Consumables,6000,92,56,53,1,95,79,2179929,76.1,Medium
+V0092,Lanka Industrial Suppliers,Safety Equipment,Safety Helmets,6450,80,98,49,16,76,50,1262366,71.5,Medium
+V0093,Prime Stationery Traders,Electrical Items,Electrical Components,8650,45,81,83,17,91,73,766005,67.8,Medium
+V0094,Digital Edge Suppliers,Office Supplies,Printer Paper,4900,86,99,49,1,46,45,2087270,74.75,Medium
+V0095,SmartTech Distributors,Mechanical Parts,Bearings,19050,93,51,53,8,80,51,3066466,68.6,Medium
+V0096,FutureNet Technologies,Raw Materials,Metal Materials,54600,41,55,66,8,43,79,2320860,51.8,High
+V0097,Alpha IT Systems,Furniture,Office Chairs,41050,43,54,100,18,49,100,1615131,55.05,High
+V0098,Lanka Industrial Suppliers,IT Equipment,Computer Accessories,3300,47,57,91,8,47,68,2163960,59.6,High
+V0099,ABC Raw Materials,Electrical Items,LED Lighting,7450,90,96,87,11,54,66,2985674,79.2,Medium
+V0100,SmartTech Distributors,Electrical Items,Electrical Cables,2500,88,94,64,16,43,64,2906302,68.9,Medium
+V0101,Alpha IT Systems,Electrical Items,Switches and Sockets,2850,54,82,43,11,87,76,2689578,64.5,Medium
+V0102,Digital Edge Suppliers,Furniture,Storage Cabinets,50250,61,66,93,15,44,54,2180416,61.65,Medium
+V0103,TechGlobal Solutions,Furniture,Meeting Tables,58000,84,51,43,5,48,63,2706635,59.45,High
+V0104,FutureNet Technologies,Raw Materials,Production Materials,57800,68,42,76,10,72,95,598919,62.1,Medium
+V0105,Digital Edge Suppliers,Safety Equipment,Protective Gloves,3850,88,83,98,4,78,94,3202084,85.95,Low
+V0106,Elite Office Solutions,Logistics Services,Transport Services,46400,97,47,48,0,81,40,4777663,71.8,Medium
+V0107,SmartTech Distributors,Logistics Services,Freight Transportation,226100,53,54,87,2,58,58,575361,64.75,Medium
+V0108,Elite Office Solutions,Raw Materials,Packaging Materials,4850,84,73,67,14,41,58,1280586,63.85,Medium
+V0109,Elite Office Solutions,Logistics Services,Local Delivery,29250,56,100,79,4,85,75,4334516,79.8,Medium
+V0110,Lanka Industrial Suppliers,Office Supplies,Stationery,1700,96,95,78,6,50,77,4275317,80.35,Low
+V0111,TechGlobal Solutions,Electrical Items,Circuit Breakers,10450,66,81,53,18,60,63,513480,60.35,Medium
+V0112,ABC Raw Materials,Mechanical Parts,Machine Components,49350,49,50,92,1,52,87,1333598,63.05,Medium
+V0113,Alpha IT Systems,Safety Equipment,Safety Shoes,11300,94,42,96,5,63,49,2883312,73.3,Medium
+V0114,Elite Office Solutions,Logistics Services,Warehouse Services,28650,98,42,71,11,85,70,1512652,70.7,Medium
+V0115,TechGlobal Solutions,Electrical Items,Electrical Components,9750,76,80,60,17,69,93,326548,66.3,Medium
+V0116,Elite Office Solutions,Electrical Items,LED Lighting,2500,42,47,100,3,81,96,3271223,66.95,Medium
+V0117,Elite Office Solutions,Logistics Services,Cargo Handling,29650,87,90,52,3,98,96,2123581,82.75,Low
+V0118,Digital Edge Suppliers,Office Supplies,Files and Folders,700,45,97,56,5,44,99,2266794,63.0,Medium
+V0119,ABC Raw Materials,Logistics Services,Transport Services,120850,47,71,74,14,64,88,772811,60.1,Medium
+V0120,TechGlobal Solutions,Safety Equipment,Fire Extinguishers,9700,56,66,78,12,56,54,3897650,61.3,Medium
+V0121,Alpha IT Systems,Office Supplies,Ink Cartridges,30200,72,67,60,0,52,78,814089,67.15,Medium
+V0122,FutureNet Technologies,Safety Equipment,Protective Clothing,10200,91,75,97,9,83,86,524092,83.0,Low
+V0123,ABC Raw Materials,IT Equipment,Laptop Computers,236050,67,66,42,7,87,51,1040527,65.55,Medium
+V0124,Alpha IT Systems,Raw Materials,Industrial Raw Materials,49150,72,90,74,20,87,60,2706489,72.7,Medium
+V0125,Digital Edge Suppliers,Safety Equipment,Safety Helmets,4750,86,51,99,15,54,41,4477014,67.35,Medium
+V0126,ABC Raw Materials,Safety Equipment,Protective Gloves,1850,89,48,51,10,50,65,3217329,59.45,High
+V0127,TechGlobal Solutions,Raw Materials,Plastic Materials,9500,65,62,68,0,81,97,4051115,71.55,Medium
+V0128,Digital Edge Suppliers,Furniture,Office Furniture,75650,100,58,78,20,46,73,97992,64.3,Medium
+V0129,Alpha IT Systems,Furniture,Office Desks,64550,96,91,77,14,58,51,250254,76.75,Medium
+V0130,Digital Edge Suppliers,Safety Equipment,Safety Shoes,8350,42,82,42,3,74,94,1104927,62.7,Medium
+V0131,ABC Raw Materials,Logistics Services,Freight Transportation,68200,68,93,89,11,71,55,1667271,76.75,Medium
+V0132,Elite Office Solutions,Logistics Services,Local Delivery,18900,45,73,65,13,55,68,3461529,57.0,High
+V0133,Prime Stationery Traders,Office Supplies,Office Consumables,4650,67,49,63,9,90,90,3637061,65.1,Medium
+V0134,Alpha IT Systems,Electrical Items,Electrical Cables,300,64,50,40,9,72,52,1470330,56.4,High
+V0135,ABC Raw Materials,Office Supplies,Printer Paper,2950,87,67,88,15,60,64,3460999,70.6,Medium
+V0136,Prime Stationery Traders,Mechanical Parts,Gears,18650,56,62,40,6,82,75,1899456,60.9,Medium
+V0137,Digital Edge Suppliers,Electrical Items,Switches and Sockets,4250,54,97,72,1,84,80,4554863,78.45,Medium
+V0138,FutureNet Technologies,Mechanical Parts,Replacement Parts,42650,82,100,67,2,67,95,2842133,81.3,Low
+V0139,Alpha IT Systems,Raw Materials,Metal Materials,12550,57,64,85,11,98,77,3037499,71.35,Medium
+V0140,TechGlobal Solutions,Office Supplies,Stationery,3900,45,92,94,20,78,83,366697,68.65,Medium
+V0141,Alpha IT Systems,Raw Materials,Production Materials,73900,94,74,45,12,56,81,3749874,66.2,Medium
+V0142,FutureNet Technologies,Raw Materials,Packaging Materials,5400,53,89,57,15,49,53,1696327,59.2,High
+V0143,Alpha IT Systems,Office Supplies,Files and Folders,1350,85,85,40,14,89,59,4347737,71.3,Medium
+V0144,ABC Raw Materials,Raw Materials,Industrial Raw Materials,25650,75,84,99,7,48,77,1125374,75.65,Medium
+V0145,OfficeMart Lanka,Raw Materials,Plastic Materials,3250,89,44,46,8,88,82,3331864,66.05,Medium
+V0146,FutureNet Technologies,Office Supplies,Ink Cartridges,4850,68,52,96,20,43,58,3340568,57.8,High
+V0147,Digital Edge Suppliers,Mechanical Parts,Industrial Components,148600,63,42,53,7,96,99,857638,62.55,Medium
+V0148,Elite Office Solutions,Raw Materials,Metal Materials,44600,51,88,55,11,61,84,2205519,62.45,Medium
+V0149,FutureNet Technologies,Safety Equipment,Fire Extinguishers,14950,67,85,74,3,66,51,1653446,74.5,Medium
+V0150,TechGlobal Solutions,Office Supplies,Office Consumables,8250,89,65,93,14,44,80,2878397,68.9,Medium
+V0151,ABC Raw Materials,Logistics Services,Warehouse Services,19800,62,45,81,4,46,84,4141423,60.15,Medium
+V0152,Elite Office Solutions,IT Equipment,Desktop Computers,119600,99,41,47,7,82,80,1482807,67.3,Medium
+V0153,FutureNet Technologies,Logistics Services,Cargo Handling,111450,93,49,75,3,76,69,3199893,74.2,Medium
+V0154,Lanka Industrial Suppliers,Electrical Items,Circuit Breakers,13300,96,85,79,3,86,48,2906932,86.75,Low
+V0155,Lanka Industrial Suppliers,Safety Equipment,Protective Clothing,8050,86,89,73,0,59,92,1088457,80.15,Low
+V0156,Prime Stationery Traders,Safety Equipment,Safety Helmets,1850,71,76,78,20,95,45,3289034,71.35,Medium
+V0157,Elite Office Solutions,Safety Equipment,Protective Gloves,2900,68,62,97,20,62,50,84399,64.3,Medium
+V0158,FutureNet Technologies,Logistics Services,Transport Services,138650,49,52,79,9,56,58,1431254,57.75,High
+V0159,Lanka Industrial Suppliers,Raw Materials,Production Materials,55000,81,55,90,16,51,42,1995465,64.2,Medium
+V0160,Elite Office Solutions,Safety Equipment,Safety Shoes,13750,72,80,42,6,67,58,3660718,66.8,Medium
+V0161,ABC Raw Materials,Logistics Services,Freight Transportation,25300,90,70,96,9,78,66,2539797,80.3,Low
+V0162,OfficeMart Lanka,Office Supplies,Printer Paper,4000,96,48,72,13,93,85,1900373,72.5,Medium
+V0163,Elite Office Solutions,Safety Equipment,Fire Extinguishers,27150,80,49,76,0,43,74,4259488,66.05,Medium
+V0164,Alpha IT Systems,Safety Equipment,Protective Clothing,13100,90,92,44,4,86,84,3055986,79.5,Medium
+V0165,Prime Stationery Traders,Logistics Services,Local Delivery,21900,47,94,56,9,96,89,1046480,71.15,Medium
+V0166,ABC Raw Materials,Logistics Services,Warehouse Services,10300,81,98,77,11,79,91,3672212,80.45,Low
+V0167,Lanka Industrial Suppliers,Office Supplies,Stationery,2450,76,48,94,15,77,49,723684,67.7,Medium
+V0168,OfficeMart Lanka,Safety Equipment,Safety Helmets,5450,96,48,70,17,86,76,4797390,68.7,Medium
+V0169,FutureNet Technologies,IT Equipment,Network Equipment,30400,98,90,57,16,60,60,199978,72.4,Medium
+V0170,SmartTech Distributors,Safety Equipment,Protective Gloves,1650,65,50,52,5,94,51,4156473,65.45,Medium
+V0171,Prime Stationery Traders,Raw Materials,Packaging Materials,3000,87,64,79,0,74,67,3897242,78.35,Medium
+V0172,Digital Edge Suppliers,Raw Materials,Industrial Raw Materials,65000,90,74,48,18,53,76,1165698,62.2,Medium
+V0173,SmartTech Distributors,Logistics Services,Cargo Handling,87450,67,93,44,5,44,59,3496211,65.1,Medium
+V0174,SmartTech Distributors,Logistics Services,Transport Services,71000,80,48,78,13,80,93,3097794,67.1,Medium
+V0175,Lanka Industrial Suppliers,Mechanical Parts,Bearings,27600,46,40,65,17,41,99,2015250,44.2,High
+V0176,OfficeMart Lanka,Logistics Services,Freight Transportation,223050,93,54,51,18,67,86,4248886,61.35,Medium
+V0177,Lanka Industrial Suppliers,Safety Equipment,Safety Shoes,16200,67,67,44,15,78,52,3084259,60.4,Medium
+V0178,FutureNet Technologies,Electrical Items,Electrical Components,17550,77,77,84,8,76,93,169667,76.5,Medium
+V0179,SmartTech Distributors,Office Supplies,Files and Folders,1700,46,56,91,0,83,72,2583299,70.3,Medium
+V0180,OfficeMart Lanka,IT Equipment,Printers,114500,89,44,92,9,96,50,189223,76.35,Medium
+V0181,OfficeMart Lanka,Raw Materials,Plastic Materials,10200,47,53,94,6,95,72,4812369,69.8,Medium
+V0182,Lanka Industrial Suppliers,Raw Materials,Metal Materials,31250,46,55,96,17,88,72,1617331,63.55,Medium
+V0183,SmartTech Distributors,Office Supplies,Ink Cartridges,31450,43,59,41,6,77,80,4851391,56.1,High
+V0184,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,10750,60,42,84,14,49,42,1581497,55.1,High
+V0185,Alpha IT Systems,Office Supplies,Office Consumables,7500,79,46,52,8,95,56,3351024,66.65,Medium
+V0186,SmartTech Distributors,Raw Materials,Production Materials,33250,92,72,63,7,40,81,3893426,68.1,Medium
+V0187,Prime Stationery Traders,Office Supplies,Printer Paper,2200,80,49,78,11,46,61,3789901,61.55,Medium
+V0188,OfficeMart Lanka,Logistics Services,Local Delivery,20700,75,52,43,8,90,59,2753908,64.35,Medium
+V0189,Elite Office Solutions,Mechanical Parts,Machine Components,52050,79,51,55,19,50,96,2239851,54.0,High
+V0190,Digital Edge Suppliers,Furniture,Office Chairs,67750,85,70,70,19,76,95,4666407,68.45,Medium
+V0191,Alpha IT Systems,Raw Materials,Packaging Materials,5200,68,75,60,17,47,40,441862,58.65,High
+V0192,TechGlobal Solutions,Raw Materials,Industrial Raw Materials,20150,73,62,89,13,82,67,1383673,71.45,Medium
+V0193,TechGlobal Solutions,Mechanical Parts,Gears,36450,42,92,58,13,79,86,1110890,64.4,Medium
+V0194,Elite Office Solutions,Safety Equipment,Protective Clothing,7750,72,50,54,8,90,63,4051529,65.3,Medium
+V0195,FutureNet Technologies,Office Supplies,Stationery,1400,61,78,65,18,95,49,2741288,67.75,Medium
+V0196,ABC Raw Materials,Mechanical Parts,Replacement Parts,42450,40,50,44,4,56,53,978465,50.5,High
+V0197,Lanka Industrial Suppliers,Electrical Items,LED Lighting,10050,45,65,73,4,76,92,3831486,65.3,Medium
+V0198,FutureNet Technologies,Office Supplies,Files and Folders,550,73,40,51,17,88,100,3097794,57.55,High
+V0199,Prime Stationery Traders,IT Equipment,Computer Accessories,8550,63,67,66,16,94,97,2587822,66.5,Medium
+V0200,Digital Edge Suppliers,Mechanical Parts,Industrial Components,50850,82,84,76,6,50,48,211875,73.7,Medium
+V0201,Prime Stationery Traders,Office Supplies,Ink Cartridges,6450,42,44,59,4,83,54,2907195,57.9,High
+V0202,TechGlobal Solutions,Mechanical Parts,Bearings,15950,64,96,94,18,88,71,4284699,77.4,Medium
+V0203,FutureNet Technologies,Raw Materials,Plastic Materials,5850,100,52,48,1,43,75,3442167,65.7,Medium
+V0204,Alpha IT Systems,Safety Equipment,Safety Helmets,8400,88,65,74,4,71,48,554278,75.25,Medium
+V0205,Digital Edge Suppliers,Office Supplies,Office Consumables,2950,55,55,52,7,90,66,2898889,62.4,Medium
+V0206,Prime Stationery Traders,Raw Materials,Metal Materials,22150,60,92,70,7,72,90,2318364,72.9,Medium
+V0207,FutureNet Technologies,Electrical Items,Electrical Cables,4150,90,79,55,0,95,99,3249795,82.25,Low
+V0208,Digital Edge Suppliers,Furniture,Storage Cabinets,42500,92,53,74,0,70,86,2608769,75.05,Medium
+V0209,FutureNet Technologies,Safety Equipment,Protective Gloves,2600,61,42,97,12,58,76,3043358,60.75,Medium
+V0210,FutureNet Technologies,Electrical Items,Switches and Sockets,1500,42,45,52,6,61,93,583195,51.35,High
+V0211,TechGlobal Solutions,Mechanical Parts,Machine Components,133850,50,83,56,0,51,53,3180292,64.65,Medium
+V0212,TechGlobal Solutions,Mechanical Parts,Gears,83550,59,44,78,18,78,89,434890,57.95,High
+V0213,Digital Edge Suppliers,IT Equipment,Laptop Computers,207200,46,51,69,9,96,44,2185331,62.75,Medium
+V0214,Alpha IT Systems,Electrical Items,Circuit Breakers,16300,63,87,90,2,70,82,3070836,78.5,Medium
+V0215,ABC Raw Materials,Raw Materials,Production Materials,73850,45,48,43,4,48,81,412212,49.45,High
+V0216,SmartTech Distributors,Electrical Items,Electrical Components,21900,60,43,53,8,79,63,3012057,58.15,High
+V0217,Lanka Industrial Suppliers,Mechanical Parts,Replacement Parts,74050,90,80,53,5,42,40,4826074,69.0,Medium
+V0218,FutureNet Technologies,Safety Equipment,Safety Shoes,6850,89,73,74,0,79,56,1287252,81.1,Low
+V0219,TechGlobal Solutions,Furniture,Meeting Tables,163150,59,40,69,20,86,84,161373,55.75,High
+V0220,ABC Raw Materials,Furniture,Office Furniture,57700,90,93,87,0,52,83,148177,83.55,Low
+V0221,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,171600,78,42,47,3,98,48,4172176,67.5,Medium
+V0222,Alpha IT Systems,IT Equipment,Network Equipment,61500,69,99,81,4,97,56,1637267,85.6,Low
+V0223,Alpha IT Systems,Safety Equipment,Fire Extinguishers,10700,53,63,62,1,63,40,2089816,63.5,Medium
+V0224,ABC Raw Materials,Office Supplies,Printer Paper,2800,72,60,100,8,75,73,4385622,74.0,Medium
+V0225,FutureNet Technologies,IT Equipment,Printers,108850,78,51,54,4,55,78,3214210,62.05,Medium
+V0226,Digital Edge Suppliers,Electrical Items,LED Lighting,10750,80,100,97,10,52,55,287882,79.8,Medium
+V0227,Digital Edge Suppliers,IT Equipment,Computer Accessories,34450,95,88,82,17,55,75,4085989,74.65,Medium
+V0228,ABC Raw Materials,IT Equipment,Laptop Computers,283600,63,53,57,19,77,74,160571,56.3,High
+V0229,Lanka Industrial Suppliers,Furniture,Office Desks,107500,60,57,49,20,91,57,1839210,57.25,High
+V0230,ABC Raw Materials,Raw Materials,Packaging Materials,3700,49,89,76,6,47,87,3008894,66.1,Medium
+V0231,ABC Raw Materials,Mechanical Parts,Industrial Components,109650,99,75,86,11,66,45,2194064,78.4,Medium
+V0232,Prime Stationery Traders,Office Supplies,Stationery,2800,87,69,65,10,58,99,388045,68.6,Medium
+V0233,TechGlobal Solutions,Mechanical Parts,Bearings,3650,87,42,69,19,43,97,2926102,55.15,High
+V0234,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,600,64,80,69,3,54,56,2589913,69.1,Medium
+V0235,Digital Edge Suppliers,Safety Equipment,Protective Clothing,13400,83,57,94,16,95,84,3165370,74.8,Medium
+V0236,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,69150,54,96,69,15,80,93,1490952,69.8,Medium
+V0237,Digital Edge Suppliers,Electrical Items,Switches and Sockets,1250,93,69,66,4,70,69,1742303,75.7,Medium
+V0238,Digital Edge Suppliers,Office Supplies,Files and Folders,1250,57,64,85,11,67,53,4620034,65.15,Medium
+V0239,Lanka Industrial Suppliers,Electrical Items,Circuit Breakers,13250,53,43,53,10,48,67,4866433,49.2,High
+V0240,Alpha IT Systems,Logistics Services,Warehouse Services,69200,49,71,67,17,92,96,941135,63.3,Medium
+V0241,Digital Edge Suppliers,IT Equipment,Desktop Computers,140600,49,80,98,18,43,50,284742,61.45,Medium
+V0242,Lanka Industrial Suppliers,Raw Materials,Plastic Materials,10150,50,46,71,15,60,75,4575531,52.7,High
+V0243,Digital Edge Suppliers,Office Supplies,Ink Cartridges,8950,40,70,57,20,44,94,4963287,47.7,High
+V0244,SmartTech Distributors,Office Supplies,Office Consumables,1800,89,90,44,19,62,75,4570239,66.45,Medium
+V0245,ABC Raw Materials,Electrical Items,Electrical Components,22950,50,46,74,5,89,67,2653888,64.1,Medium
+V0246,Prime Stationery Traders,Mechanical Parts,Machine Components,121900,57,96,62,2,90,98,4568682,77.65,Medium
+V0247,FutureNet Technologies,Mechanical Parts,Gears,32350,99,40,69,1,83,86,1408331,74.65,Medium
+V0248,Prime Stationery Traders,Furniture,Office Chairs,61400,55,76,99,18,55,60,2588363,64.55,Medium
+V0249,Digital Edge Suppliers,Mechanical Parts,Replacement Parts,51050,69,46,89,8,73,94,4669812,67.15,Medium
+V0250,ABC Raw Materials,Office Supplies,Printer Paper,4550,91,64,64,0,70,94,3736075,75.55,Medium
+V0251,Elite Office Solutions,IT Equipment,Network Equipment,156600,60,61,72,2,53,98,4799225,64.25,Medium
+V0252,TechGlobal Solutions,Office Supplies,Stationery,1000,98,64,92,2,45,42,4058534,76.9,Medium
+V0253,Digital Edge Suppliers,Furniture,Storage Cabinets,50950,66,99,76,0,71,97,2208611,80.65,Low
+V0254,Lanka Industrial Suppliers,Furniture,Meeting Tables,194350,79,74,53,7,84,98,4131838,72.15,Medium
+V0255,TechGlobal Solutions,Raw Materials,Metal Materials,79350,78,49,44,5,42,66,3707509,56.45,High
+V0256,SmartTech Distributors,Electrical Items,LED Lighting,17200,79,72,53,9,51,82,1768055,64.05,Medium
+V0257,Lanka Industrial Suppliers,Raw Materials,Production Materials,44900,92,43,99,3,52,74,1748805,72.45,Medium
+V0258,Digital Edge Suppliers,Furniture,Office Furniture,155400,79,92,56,15,82,58,4177895,72.85,Medium
+V0259,ABC Raw Materials,Mechanical Parts,Industrial Components,90650,84,70,64,13,43,81,2863866,63.4,Medium
+V0260,SmartTech Distributors,Furniture,Office Desks,49950,97,91,81,13,78,52,2650070,82.3,Low
+V0261,ABC Raw Materials,Furniture,Office Chairs,55350,40,71,59,9,75,40,2503443,60.05,Medium
+V0262,SmartTech Distributors,Logistics Services,Cargo Handling,94350,100,69,71,14,80,49,4327001,75.45,Medium
+V0263,TechGlobal Solutions,Raw Materials,Packaging Materials,5200,63,72,47,4,49,74,883849,60.95,Medium
+V0264,Digital Edge Suppliers,Office Supplies,Files and Folders,950,64,64,43,11,44,54,745777,53.9,High
+V0265,OfficeMart Lanka,IT Equipment,Printers,172850,44,98,76,20,80,95,3983820,66.7,Medium
+V0266,Alpha IT Systems,Safety Equipment,Safety Helmets,3500,94,96,72,17,98,41,156513,83.0,Low
+V0267,OfficeMart Lanka,Mechanical Parts,Bearings,6700,90,77,98,17,51,62,3375593,73.05,Medium
+V0268,FutureNet Technologies,Electrical Items,Electrical Cables,1100,61,73,81,4,90,65,4453465,75.7,Medium
+V0269,SmartTech Distributors,Logistics Services,Transport Services,49800,47,99,54,17,86,41,2447226,66.0,Medium
+V0270,OfficeMart Lanka,Office Supplies,Ink Cartridges,10450,54,60,82,4,88,70,901847,70.5,Medium
+V0271,TechGlobal Solutions,Furniture,Storage Cabinets,58700,48,93,61,8,68,47,3698349,67.05,Medium
+V0272,Digital Edge Suppliers,Office Supplies,Office Consumables,7300,44,91,79,7,47,80,2917430,65.45,Medium
+V0273,Elite Office Solutions,Furniture,Meeting Tables,58900,47,57,80,6,40,82,1065193,57.0,High
+V0274,SmartTech Distributors,Raw Materials,Industrial Raw Materials,120950,90,60,87,9,53,48,3228739,71.0,Medium
+V0275,Prime Stationery Traders,Raw Materials,Plastic Materials,4650,97,55,75,4,42,87,2749002,69.4,Medium
+V0276,ABC Raw Materials,Electrical Items,Switches and Sockets,1600,83,48,57,0,85,64,3733777,71.15,Medium
+V0277,ABC Raw Materials,Safety Equipment,Protective Gloves,4450,60,87,99,14,78,55,158119,75.15,Medium
+V0278,Elite Office Solutions,Logistics Services,Freight Transportation,129200,100,53,89,17,66,64,4431546,70.75,Medium
+V0279,OfficeMart Lanka,Raw Materials,Metal Materials,33950,75,88,47,15,56,94,3327082,63.85,Medium
+V0280,FutureNet Technologies,Office Supplies,Printer Paper,4300,48,50,80,16,77,74,4114253,57.9,High
+V0281,Elite Office Solutions,Office Supplies,Stationery,2900,90,61,64,8,56,66,3444961,67.75,Medium
+V0282,FutureNet Technologies,Logistics Services,Local Delivery,21450,68,92,89,0,56,85,4673285,79.0,Medium
+V0283,Elite Office Solutions,Raw Materials,Production Materials,92350,76,67,60,6,75,79,591252,69.75,Medium
+V0284,Digital Edge Suppliers,IT Equipment,Computer Accessories,22800,68,90,52,19,98,56,3813734,70.0,Medium
+V0285,Elite Office Solutions,Mechanical Parts,Machine Components,57550,58,52,82,17,57,85,2764039,56.8,High
+V0286,Digital Edge Suppliers,Electrical Items,Circuit Breakers,3250,57,76,40,3,75,87,3529557,64.75,Medium
+V0287,ABC Raw Materials,Office Supplies,Files and Folders,1350,61,41,54,19,80,69,3414344,52.8,High
+V0288,Prime Stationery Traders,Office Supplies,Ink Cartridges,27700,64,77,74,14,63,62,3211967,65.65,Medium
+V0289,ABC Raw Materials,Mechanical Parts,Gears,59100,54,70,44,4,76,84,828435,63.0,Medium
+V0290,ABC Raw Materials,Safety Equipment,Safety Shoes,5250,63,80,81,14,90,75,2408753,72.95,Medium
+V0291,TechGlobal Solutions,Safety Equipment,Fire Extinguishers,11750,68,82,46,4,81,45,2189255,70.9,Medium
+V0292,Lanka Industrial Suppliers,Mechanical Parts,Replacement Parts,121500,60,51,55,18,92,99,490571,58.15,High
+V0293,FutureNet Technologies,Electrical Items,Electrical Components,7550,67,88,75,12,56,82,1320248,68.95,Medium
+V0294,OfficeMart Lanka,Office Supplies,Office Consumables,5900,94,100,68,3,40,64,1372829,78.6,Medium
+V0295,Lanka Industrial Suppliers,IT Equipment,Laptop Computers,171150,93,95,56,1,59,94,3034941,79.5,Medium
+V0296,Elite Office Solutions,Furniture,Office Furniture,90500,76,82,48,3,41,79,2992483,65.8,Medium
+V0297,Lanka Industrial Suppliers,Electrical Items,LED Lighting,17900,90,68,66,14,63,70,1384471,68.3,Medium
+V0298,Elite Office Solutions,Safety Equipment,Protective Clothing,12700,77,83,42,14,60,45,1602670,63.4,Medium
+V0299,OfficeMart Lanka,Electrical Items,Electrical Cables,1050,87,89,86,5,87,90,2350041,86.1,Low
+V0300,Elite Office Solutions,Mechanical Parts,Industrial Components,21550,41,66,96,7,40,66,1995435,60.45,Medium
+V0301,Prime Stationery Traders,IT Equipment,Desktop Computers,210000,46,62,63,10,52,45,1764291,55.0,High
+V0302,FutureNet Technologies,Mechanical Parts,Bearings,12350,93,75,62,10,71,44,352114,73.6,Medium
+V0303,Elite Office Solutions,Mechanical Parts,Machine Components,50700,45,62,61,6,83,50,4965546,62.55,Medium
+V0304,OfficeMart Lanka,Office Supplies,Printer Paper,4350,96,74,55,19,65,40,1910094,67.0,Medium
+V0305,Digital Edge Suppliers,Raw Materials,Packaging Materials,3050,71,90,45,1,73,73,4651059,73.35,Medium
+V0306,Digital Edge Suppliers,Safety Equipment,Safety Helmets,4850,97,56,46,7,58,48,4038752,65.55,Medium
+V0307,Digital Edge Suppliers,IT Equipment,Network Equipment,77300,49,72,48,7,45,51,4635691,55.35,High
+V0308,Alpha IT Systems,Safety Equipment,Protective Gloves,2550,91,90,59,8,72,83,79452,77.45,Medium
+V0309,Digital Edge Suppliers,Raw Materials,Industrial Raw Materials,95950,78,50,91,14,56,83,1063974,64.4,Medium
+V0310,Digital Edge Suppliers,Furniture,Office Desks,100600,73,98,99,6,100,75,650855,89.55,Low
+V0311,OfficeMart Lanka,IT Equipment,Printers,144950,80,44,92,17,90,94,2942509,68.9,Medium
+V0312,Elite Office Solutions,Raw Materials,Plastic Materials,6100,67,67,98,5,56,49,4207723,71.8,Medium
+V0313,SmartTech Distributors,Safety Equipment,Safety Shoes,13500,94,65,91,11,51,86,2579012,72.65,Medium
+V0314,TechGlobal Solutions,Logistics Services,Warehouse Services,81400,74,62,54,0,60,89,3016224,66.8,Medium
+V0315,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,24600,72,66,74,19,43,87,4516590,58.4,High
+V0316,Prime Stationery Traders,Mechanical Parts,Gears,65150,74,99,88,15,94,79,287201,82.15,Low
+V0317,Alpha IT Systems,Raw Materials,Metal Materials,81750,43,81,94,8,40,100,3872971,63.8,Medium
+V0318,FutureNet Technologies,Office Supplies,Stationery,2250,84,75,57,16,64,78,3588767,65.95,Medium
+V0319,FutureNet Technologies,Mechanical Parts,Replacement Parts,61800,75,64,71,19,49,40,3638470,59.25,High
+V0320,Alpha IT Systems,Office Supplies,Files and Folders,1500,42,91,40,0,50,51,1035995,61.25,Medium
+V0321,ABC Raw Materials,Mechanical Parts,Industrial Components,16500,60,48,71,3,75,65,1853278,64.7,Medium
+V0322,Digital Edge Suppliers,Raw Materials,Production Materials,5050,73,78,54,7,96,65,481606,74.25,Medium
+V0323,ABC Raw Materials,Mechanical Parts,Bearings,21550,66,40,69,20,43,51,521941,48.9,High
+V0324,SmartTech Distributors,IT Equipment,Computer Accessories,12950,55,73,44,14,94,46,2946825,62.6,Medium
+V0325,OfficeMart Lanka,Furniture,Office Chairs,60850,56,94,65,13,97,84,3075299,73.4,Medium
+V0326,ABC Raw Materials,Furniture,Storage Cabinets,70600,63,82,95,18,58,65,4902661,67.85,Medium
+V0327,ABC Raw Materials,Safety Equipment,Protective Clothing,5100,43,75,61,2,64,100,1723024,63.5,Medium
+V0328,OfficeMart Lanka,Office Supplies,Ink Cartridges,22450,82,77,44,2,78,96,634543,73.15,Medium
+V0329,SmartTech Distributors,Logistics Services,Cargo Handling,117850,80,66,56,9,69,65,3793440,67.0,Medium
+V0330,SmartTech Distributors,Logistics Services,Transport Services,100800,80,77,97,20,63,75,3583788,71.25,Medium
+V0331,Elite Office Solutions,Raw Materials,Packaging Materials,5850,99,47,59,3,65,85,3623415,69.8,Medium
+V0332,Lanka Industrial Suppliers,IT Equipment,Laptop Computers,215000,84,95,90,7,49,40,863064,79.05,Medium
+V0333,OfficeMart Lanka,Logistics Services,Freight Transportation,200250,53,90,74,4,63,52,2297337,71.15,Medium
+V0334,FutureNet Technologies,Furniture,Meeting Tables,147750,81,48,86,7,96,51,3252296,75.15,Medium
+V0335,Lanka Industrial Suppliers,Office Supplies,Office Consumables,2850,89,41,69,10,60,93,754654,63.3,Medium
+V0336,Elite Office Solutions,Electrical Items,Switches and Sockets,6800,54,44,65,19,89,87,897177,55.8,High
+V0337,SmartTech Distributors,Furniture,Office Furniture,65850,68,92,73,14,84,45,1123956,74.4,Medium
+V0338,ABC Raw Materials,Furniture,Office Desks,117600,53,60,75,4,42,50,3138578,59.65,High
+V0339,OfficeMart Lanka,Office Supplies,Printer Paper,5500,83,63,100,11,41,59,154173,69.2,Medium
+V0340,Lanka Industrial Suppliers,Furniture,Office Chairs,58550,72,81,75,19,48,94,126390,63.35,Medium
+V0341,TechGlobal Solutions,Furniture,Storage Cabinets,91350,86,48,55,2,42,87,3646274,61.9,Medium
+V0342,Alpha IT Systems,Raw Materials,Industrial Raw Materials,42500,41,70,54,18,84,65,2814387,56.35,High
+V0343,Prime Stationery Traders,IT Equipment,Desktop Computers,158250,86,98,79,6,41,73,786301,77.0,Medium
+V0344,Elite Office Solutions,Office Supplies,Stationery,2400,43,72,87,8,83,48,1127677,68.75,Medium
+V0345,FutureNet Technologies,Raw Materials,Plastic Materials,1650,46,75,42,9,67,70,1375361,57.55,High
+V0346,Digital Edge Suppliers,Office Supplies,Files and Folders,1900,83,63,100,17,68,79,4480070,71.6,Medium
+V0347,Elite Office Solutions,Logistics Services,Local Delivery,24300,57,98,47,1,89,80,2275498,75.45,Medium
+V0348,FutureNet Technologies,Logistics Services,Warehouse Services,8000,79,91,48,17,67,55,3280511,67.0,Medium
+V0349,Lanka Industrial Suppliers,IT Equipment,Network Equipment,50250,83,42,79,0,54,60,2578003,67.85,Medium
+V0350,Prime Stationery Traders,Logistics Services,Cargo Handling,118450,67,69,55,16,43,93,4493555,55.6,High
+V0351,Prime Stationery Traders,Electrical Items,Circuit Breakers,8350,75,81,81,13,83,67,2521649,75.3,Medium
+V0352,OfficeMart Lanka,Furniture,Meeting Tables,197250,57,45,40,8,85,90,4489328,56.5,High
+V0353,Digital Edge Suppliers,IT Equipment,Printers,119950,81,40,81,19,56,49,1019657,58.15,High
+V0354,TechGlobal Solutions,Raw Materials,Metal Materials,28750,49,51,62,14,68,64,1707081,54.0,High
+V0355,Lanka Industrial Suppliers,Raw Materials,Production Materials,8100,83,66,89,18,50,45,2125997,66.05,Medium
+V0356,Elite Office Solutions,Raw Materials,Packaging Materials,2450,82,87,55,5,41,99,661114,68.95,Medium
+V0357,Prime Stationery Traders,IT Equipment,Computer Accessories,32400,71,50,88,7,97,80,1758148,73.75,Medium
+V0358,FutureNet Technologies,Office Supplies,Ink Cartridges,11800,76,70,95,0,63,67,4394672,78.1,Medium
+V0359,Lanka Industrial Suppliers,Logistics Services,Transport Services,70650,89,95,49,11,65,99,4567122,73.3,Medium
+V0360,Alpha IT Systems,Mechanical Parts,Machine Components,94400,65,90,87,17,64,68,1345308,70.45,Medium
+V0361,SmartTech Distributors,Office Supplies,Office Consumables,5000,78,57,46,8,42,95,4650114,57.35,High
+V0362,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,33200,73,62,76,9,40,53,246214,62.45,Medium
+V0363,ABC Raw Materials,IT Equipment,Laptop Computers,152250,72,85,76,12,62,55,1009248,70.85,Medium
+V0364,FutureNet Technologies,Safety Equipment,Safety Helmets,5700,41,59,90,10,68,80,4664889,61.6,Medium
+V0365,Digital Edge Suppliers,Electrical Items,Electrical Components,24250,58,86,82,14,69,60,4668544,69.2,Medium
+V0366,OfficeMart Lanka,Mechanical Parts,Gears,78750,42,49,67,7,88,71,778972,60.25,Medium
+V0367,TechGlobal Solutions,Raw Materials,Plastic Materials,9550,40,66,46,13,79,49,4276437,55.0,High
+V0368,FutureNet Technologies,Raw Materials,Metal Materials,36200,58,75,71,9,92,72,159694,71.35,Medium
+V0369,TechGlobal Solutions,Office Supplies,Printer Paper,6500,64,59,55,6,98,73,3099085,68.35,Medium
+V0370,ABC Raw Materials,Office Supplies,Stationery,3200,97,66,100,13,84,65,233928,81.05,Low
+V0371,Digital Edge Suppliers,Raw Materials,Production Materials,37500,82,45,75,8,46,67,2638964,61.95,Medium
+V0372,SmartTech Distributors,Electrical Items,LED Lighting,7900,41,44,63,13,90,53,2385544,55.35,High
+V0373,FutureNet Technologies,Furniture,Office Furniture,45950,78,82,68,20,52,76,4981769,64.0,Medium
+V0374,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,118750,70,57,74,17,54,67,1327165,58.85,High
+V0375,ABC Raw Materials,IT Equipment,Network Equipment,98650,86,52,78,18,97,86,4669640,70.5,Medium
+V0376,ABC Raw Materials,Raw Materials,Packaging Materials,2650,49,44,89,13,75,92,1403695,59.55,High
+V0377,Prime Stationery Traders,Mechanical Parts,Replacement Parts,46750,43,85,89,2,48,64,2669154,68.4,Medium
+V0378,Digital Edge Suppliers,Mechanical Parts,Industrial Components,104750,60,49,97,3,92,50,3576548,73.55,Medium
+V0379,ABC Raw Materials,Electrical Items,Electrical Cables,2250,72,57,44,16,98,96,2279254,62.65,Medium
+V0380,ABC Raw Materials,Mechanical Parts,Bearings,16900,87,63,42,11,63,68,1315249,63.0,Medium
+V0381,Lanka Industrial Suppliers,Safety Equipment,Protective Gloves,500,93,81,82,4,69,42,1035429,81.7,Low
+V0382,ABC Raw Materials,Logistics Services,Freight Transportation,167150,61,67,68,12,78,53,2854441,65.2,Medium
+V0383,Prime Stationery Traders,Office Supplies,Files and Folders,750,90,67,77,15,78,82,3728420,72.75,Medium
+V0384,Lanka Industrial Suppliers,Furniture,Office Desks,32400,67,84,62,8,75,88,3614075,71.15,Medium
+V0385,Digital Edge Suppliers,Mechanical Parts,Machine Components,32900,96,84,80,12,63,78,3600255,77.6,Medium
+V0386,FutureNet Technologies,Electrical Items,Switches and Sockets,1800,94,58,92,14,94,91,1401119,78.2,Medium
+V0387,ABC Raw Materials,Furniture,Office Chairs,51900,88,53,95,1,50,60,1141785,73.75,Medium
+V0388,TechGlobal Solutions,Logistics Services,Local Delivery,6650,99,95,59,2,65,42,1828749,82.3,Low
+V0389,Alpha IT Systems,Logistics Services,Warehouse Services,29300,51,92,60,20,58,65,3002491,59.35,High
+V0390,TechGlobal Solutions,Mechanical Parts,Gears,50250,42,74,58,14,70,51,843993,57.6,High
+V0391,TechGlobal Solutions,Office Supplies,Ink Cartridges,17350,89,48,57,13,89,70,553654,66.95,Medium
+V0392,Lanka Industrial Suppliers,Mechanical Parts,Replacement Parts,108050,76,73,55,13,71,53,863660,65.95,Medium
+V0393,FutureNet Technologies,Raw Materials,Industrial Raw Materials,53600,96,70,66,18,80,89,2569606,71.7,Medium
+V0394,Digital Edge Suppliers,Safety Equipment,Safety Shoes,16350,85,80,42,18,74,55,4298773,65.45,Medium
+V0395,Digital Edge Suppliers,Furniture,Storage Cabinets,40850,45,48,99,8,88,47,735489,66.65,Medium
+V0396,SmartTech Distributors,IT Equipment,Printers,120650,97,50,81,19,74,96,3302315,68.25,Medium
+V0397,OfficeMart Lanka,Furniture,Meeting Tables,53300,96,48,100,6,56,87,1210701,74.2,Medium
+V0398,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,16500,95,85,46,18,95,76,2208514,74.2,Medium
+V0399,TechGlobal Solutions,Logistics Services,Cargo Handling,57750,47,53,40,5,47,55,1922198,49.9,High
+V0400,Prime Stationery Traders,Electrical Items,Circuit Breakers,9700,100,94,59,15,52,92,1829416,73.2,Medium
+V0401,Prime Stationery Traders,Office Supplies,Office Consumables,8500,42,50,41,14,42,71,122232,42.6,High
+V0402,SmartTech Distributors,Electrical Items,Electrical Components,14350,53,97,53,7,55,98,3071494,65.6,Medium
+V0403,Elite Office Solutions,Safety Equipment,Protective Clothing,7250,56,46,92,16,54,72,3033326,56.7,High
+V0404,TechGlobal Solutions,Electrical Items,LED Lighting,8400,98,55,96,1,97,58,1887813,86.35,Low
+V0405,Alpha IT Systems,Electrical Items,Electrical Cables,1550,42,63,46,19,85,100,2546117,52.95,High
+V0406,Elite Office Solutions,Office Supplies,Printer Paper,4400,93,90,44,8,59,42,1638443,72.35,Medium
+V0407,Prime Stationery Traders,Office Supplies,Stationery,3300,65,88,57,17,62,72,1934866,63.55,Medium
+V0408,SmartTech Distributors,Logistics Services,Transport Services,12150,52,56,75,14,75,62,4240782,60.0,Medium
+V0409,Prime Stationery Traders,Mechanical Parts,Industrial Components,139400,43,78,43,5,62,82,2905393,58.75,High
+V0410,TechGlobal Solutions,Raw Materials,Plastic Materials,7300,77,75,58,7,98,62,1666475,75.7,Medium
+V0411,Elite Office Solutions,IT Equipment,Computer Accessories,29550,77,59,54,13,83,44,3167463,64.9,Medium
+V0412,OfficeMart Lanka,Logistics Services,Freight Transportation,151950,76,69,98,2,62,93,2419313,77.25,Medium
+V0413,TechGlobal Solutions,Electrical Items,Switches and Sockets,1450,64,46,48,4,59,93,1189910,56.9,High
+V0414,Digital Edge Suppliers,Office Supplies,Files and Folders,1100,89,93,48,9,98,40,3315629,80.2,Low
+V0415,FutureNet Technologies,Raw Materials,Metal Materials,21400,42,67,74,1,80,95,4303060,67.55,Medium
+V0416,Alpha IT Systems,Raw Materials,Production Materials,46650,93,74,91,6,63,95,620179,79.55,Medium
+V0417,Elite Office Solutions,Mechanical Parts,Bearings,7950,62,87,82,1,74,42,4114556,77.95,Medium
+V0418,SmartTech Distributors,Logistics Services,Local Delivery,3800,44,67,76,1,89,73,62146,70.25,Medium
+V0419,Prime Stationery Traders,Raw Materials,Packaging Materials,6350,68,47,54,2,83,64,1717467,65.15,Medium
+V0420,Digital Edge Suppliers,Raw Materials,Industrial Raw Materials,39950,72,95,75,1,87,97,1501737,83.65,Low
+V0421,Prime Stationery Traders,Raw Materials,Plastic Materials,800,54,78,70,9,72,67,3934711,66.9,Medium
+V0422,FutureNet Technologies,Raw Materials,Metal Materials,46950,54,58,77,18,65,55,1273186,57.4,High
+V0423,Elite Office Solutions,IT Equipment,Laptop Computers,232100,98,96,97,6,53,56,243048,85.5,Low
+V0424,Elite Office Solutions,Furniture,Office Furniture,170650,78,84,96,17,67,64,3106890,74.6,Medium
+V0425,SmartTech Distributors,Office Supplies,Ink Cartridges,30550,78,58,55,0,68,61,3566349,68.6,Medium
+V0426,Elite Office Solutions,IT Equipment,Desktop Computers,186650,95,79,52,0,81,60,4456959,80.1,Low
+V0427,Elite Office Solutions,Office Supplies,Office Consumables,4000,56,62,54,9,75,54,1443202,60.8,Medium
+V0428,Lanka Industrial Suppliers,Raw Materials,Production Materials,46950,93,69,61,3,72,50,3874591,75.6,Medium
+V0429,ABC Raw Materials,Mechanical Parts,Machine Components,14150,64,59,66,1,76,97,938256,68.65,Medium
+V0430,FutureNet Technologies,Logistics Services,Warehouse Services,15450,83,49,77,4,91,79,4019721,74.6,Medium
+V0431,Elite Office Solutions,Electrical Items,Circuit Breakers,9900,87,85,57,8,56,59,2786703,71.6,Medium
+V0432,OfficeMart Lanka,Office Supplies,Printer Paper,2250,59,63,44,5,87,74,2621555,64.2,Medium
+V0433,TechGlobal Solutions,Mechanical Parts,Gears,26350,51,90,41,13,69,44,1951956,60.75,Medium
+V0434,Elite Office Solutions,Mechanical Parts,Replacement Parts,56850,76,63,53,19,96,83,4631968,65.05,Medium
+V0435,ABC Raw Materials,Office Supplies,Stationery,950,67,82,59,15,71,68,4647301,65.75,Medium
+V0436,Elite Office Solutions,IT Equipment,Network Equipment,156850,60,75,99,13,68,50,1276877,70.65,Medium
+V0437,Prime Stationery Traders,Safety Equipment,Safety Helmets,7700,87,60,52,19,40,60,3270839,55.65,High
+V0438,Lanka Industrial Suppliers,IT Equipment,Printers,110400,52,70,74,2,57,81,1514026,65.7,Medium
+V0439,Prime Stationery Traders,Safety Equipment,Protective Gloves,800,88,82,81,6,66,57,1522085,78.9,Medium
+V0440,TechGlobal Solutions,Mechanical Parts,Industrial Components,86800,47,87,76,17,43,73,4495713,58.8,High
+V0441,Digital Edge Suppliers,Electrical Items,Electrical Components,1450,51,62,100,9,48,42,1492026,63.35,Medium
+V0442,Alpha IT Systems,Raw Materials,Packaging Materials,5250,79,47,62,4,45,55,840450,60.9,Medium
+V0443,Alpha IT Systems,Furniture,Office Desks,116350,94,40,56,7,72,95,214884,65.6,Medium
+V0444,Alpha IT Systems,Furniture,Office Chairs,23450,59,60,87,19,59,82,4777608,59.45,High
+V0445,Alpha IT Systems,Furniture,Storage Cabinets,83500,91,41,47,20,95,70,4330499,61.4,Medium
+V0446,Prime Stationery Traders,IT Equipment,Computer Accessories,33400,48,79,57,16,84,72,3960219,61.95,Medium
+V0447,TechGlobal Solutions,Furniture,Meeting Tables,201950,55,93,84,5,42,99,2151545,69.7,Medium
+V0448,OfficeMart Lanka,Furniture,Office Furniture,177950,80,73,55,14,100,58,4588385,72.25,Medium
+V0449,OfficeMart Lanka,Raw Materials,Industrial Raw Materials,107200,87,77,73,19,41,72,456139,64.3,Medium
+V0450,Digital Edge Suppliers,Mechanical Parts,Bearings,2900,77,45,99,9,83,63,3071685,72.4,Medium
+V0451,Elite Office Solutions,Logistics Services,Cargo Handling,48050,47,89,81,0,40,54,743637,68.2,Medium
+V0452,OfficeMart Lanka,Safety Equipment,Safety Shoes,17000,97,59,69,0,57,69,816989,74.2,Medium
+V0453,Lanka Industrial Suppliers,Safety Equipment,Fire Extinguishers,15700,89,68,94,5,66,46,2147560,78.75,Medium
+V0454,SmartTech Distributors,Office Supplies,Files and Folders,1550,44,78,50,4,40,42,3270687,56.5,High
+V0455,FutureNet Technologies,Mechanical Parts,Machine Components,150500,82,71,61,11,80,78,2559845,70.95,Medium
+V0456,SmartTech Distributors,IT Equipment,Laptop Computers,279900,73,44,44,5,93,64,2392576,64.15,Medium
+V0457,Lanka Industrial Suppliers,Raw Materials,Plastic Materials,10000,78,80,96,12,89,55,4034907,80.5,Low
+V0458,SmartTech Distributors,Raw Materials,Metal Materials,30050,98,84,70,15,69,95,3055640,75.8,Medium
+V0459,FutureNet Technologies,Safety Equipment,Protective Clothing,4150,40,78,95,2,80,53,1446476,73.5,Medium
+V0460,FutureNet Technologies,Electrical Items,LED Lighting,13250,68,73,78,10,63,95,4241144,68.45,Medium
+V0461,Elite Office Solutions,Mechanical Parts,Gears,59900,69,88,86,10,76,92,652571,76.65,Medium
+V0462,Lanka Industrial Suppliers,Logistics Services,Transport Services,26750,90,45,91,16,95,88,1584100,72.95,Medium
+V0463,Digital Edge Suppliers,Furniture,Office Desks,52950,64,59,47,13,96,76,3549798,62.85,Medium
+V0464,ABC Raw Materials,Logistics Services,Freight Transportation,49300,79,45,66,11,87,60,2559520,66.1,Medium
+V0465,Digital Edge Suppliers,Raw Materials,Production Materials,78200,65,45,67,13,47,70,3394037,53.8,High
+V0466,Prime Stationery Traders,Furniture,Office Chairs,27900,46,81,56,2,55,85,2631810,62.95,Medium
+V0467,OfficeMart Lanka,Logistics Services,Local Delivery,13300,97,75,51,14,49,92,2316142,66.0,Medium
+V0468,ABC Raw Materials,Office Supplies,Ink Cartridges,18900,62,95,85,15,56,62,3311083,69.95,Medium
+V0469,Lanka Industrial Suppliers,Raw Materials,Packaging Materials,3050,97,93,51,2,96,54,3106270,85.9,Low
+V0470,Elite Office Solutions,Safety Equipment,Safety Helmets,7350,96,46,46,14,67,73,4836352,61.1,Medium
+V0471,Alpha IT Systems,Office Supplies,Office Consumables,3200,53,55,64,4,86,63,4915389,65.0,Medium
+V0472,Alpha IT Systems,Safety Equipment,Protective Gloves,700,85,92,76,1,45,85,3574961,77.95,Medium
+V0473,OfficeMart Lanka,Safety Equipment,Safety Shoes,14800,69,73,90,12,99,93,1071191,77.3,Medium
+V0474,Alpha IT Systems,Mechanical Parts,Replacement Parts,52800,51,57,73,16,76,81,2051184,58.8,High
+V0475,ABC Raw Materials,Furniture,Storage Cabinets,87900,49,90,49,7,81,41,1151824,67.25,Medium
+V0476,SmartTech Distributors,Office Supplies,Printer Paper,5100,75,84,52,6,41,72,170348,65.35,Medium
+V0477,TechGlobal Solutions,Furniture,Meeting Tables,199600,89,99,90,19,95,62,3014440,84.5,Low
+V0478,TechGlobal Solutions,Safety Equipment,Fire Extinguishers,8550,40,45,52,16,51,75,1463824,43.85,High
+V0479,TechGlobal Solutions,Office Supplies,Stationery,2750,52,63,56,17,50,53,1823147,51.45,High
+V0480,Prime Stationery Traders,Raw Materials,Industrial Raw Materials,23600,88,91,45,13,52,85,713584,67.65,Medium
+V0481,TechGlobal Solutions,Logistics Services,Warehouse Services,71250,75,63,43,5,100,98,1777856,70.6,Medium
+V0482,Lanka Industrial Suppliers,Mechanical Parts,Industrial Components,23700,52,92,69,3,88,84,3822055,75.9,Medium
+V0483,ABC Raw Materials,Raw Materials,Plastic Materials,3450,66,100,86,12,80,78,614170,78.7,Medium
+V0484,Alpha IT Systems,IT Equipment,Desktop Computers,117550,100,63,70,18,79,77,3094689,71.55,Medium
+V0485,Lanka Industrial Suppliers,Furniture,Office Furniture,121150,68,51,56,7,96,53,1881190,66.65,Medium
+V0486,Alpha IT Systems,Raw Materials,Metal Materials,55000,92,98,98,15,54,56,3762314,80.4,Low
+V0487,Digital Edge Suppliers,Safety Equipment,Protective Clothing,14250,81,91,99,7,80,88,2014209,85.3,Low
+V0488,TechGlobal Solutions,Safety Equipment,Safety Helmets,6650,82,97,64,13,87,48,3703667,78.45,Medium
+V0489,SmartTech Distributors,Mechanical Parts,Bearings,41200,71,88,79,13,67,98,1529671,72.45,Medium
+V0490,SmartTech Distributors,Furniture,Office Desks,57950,72,54,85,3,68,55,288658,70.6,Medium
+V0491,Digital Edge Suppliers,Mechanical Parts,Machine Components,127850,70,93,53,10,68,51,3728573,69.95,Medium
+V0492,Digital Edge Suppliers,Mechanical Parts,Gears,38650,97,87,85,20,96,53,1782964,82.2,Low
+V0493,Digital Edge Suppliers,Safety Equipment,Protective Gloves,3700,84,75,62,15,100,69,1409922,74.65,Medium
+V0494,Elite Office Solutions,Safety Equipment,Safety Shoes,12550,92,87,58,15,74,86,1928756,73.65,Medium
+V0495,Digital Edge Suppliers,Raw Materials,Production Materials,80150,78,77,59,4,42,83,4791756,66.95,Medium
+V0496,Digital Edge Suppliers,Furniture,Office Chairs,31350,42,97,68,4,72,60,873169,70.75,Medium
+V0497,TechGlobal Solutions,Mechanical Parts,Replacement Parts,76450,81,88,91,8,79,87,4971326,82.25,Low
+V0498,Lanka Industrial Suppliers,Mechanical Parts,Industrial Components,121200,71,57,77,1,63,99,807355,69.5,Medium
+V0499,Digital Edge Suppliers,Raw Materials,Packaging Materials,4750,90,50,45,1,59,49,2215237,65.3,Medium
+V0500,ABC Raw Materials,Office Supplies,Files and Folders,650,93,48,97,16,51,100,959358,66.85,Medium
+V0501,Alpha IT Systems,Office Supplies,Ink Cartridges,30000,85,71,73,19,87,77,858064,71.5,Medium
+V0502,SmartTech Distributors,Mechanical Parts,Bearings,34950,47,71,96,3,45,93,2048356,66.2,Medium
+V0503,TechGlobal Solutions,Logistics Services,Cargo Handling,23850,68,96,54,17,66,72,1338936,66.5,Medium
+V0504,Elite Office Solutions,Mechanical Parts,Machine Components,51500,84,67,72,12,61,68,1965305,68.35,Medium
+V0505,ABC Raw Materials,Logistics Services,Transport Services,43450,92,50,94,7,94,82,1801534,79.6,Medium
+V0506,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,3600,95,51,46,5,61,64,3449730,65.4,Medium
+V0507,Alpha IT Systems,Logistics Services,Freight Transportation,128000,99,85,79,19,92,49,773055,80.7,Low
+V0508,Elite Office Solutions,Mechanical Parts,Gears,27300,93,75,40,10,84,93,232673,71.8,Medium
+V0509,TechGlobal Solutions,IT Equipment,Network Equipment,76200,97,65,68,9,96,95,1502443,78.8,Medium
+V0510,Elite Office Solutions,IT Equipment,Printers,102650,93,71,41,19,87,55,859585,67.1,Medium
+V0511,FutureNet Technologies,Furniture,Storage Cabinets,52600,96,83,62,19,84,88,2304104,74.45,Medium
+V0512,SmartTech Distributors,Electrical Items,Switches and Sockets,3850,89,69,99,19,59,100,3872616,71.6,Medium
+V0513,FutureNet Technologies,Logistics Services,Local Delivery,44150,50,74,91,19,55,64,4297776,60.7,Medium
+V0514,TechGlobal Solutions,Office Supplies,Office Consumables,8000,61,92,52,15,93,90,2207818,69.75,Medium
+V0515,SmartTech Distributors,Safety Equipment,Fire Extinguishers,21150,96,64,46,1,60,88,1401282,70.7,Medium
+V0516,Lanka Industrial Suppliers,IT Equipment,Computer Accessories,28250,44,60,51,2,68,64,175936,58.8,High
+V0517,ABC Raw Materials,Raw Materials,Industrial Raw Materials,52950,47,46,41,15,51,69,748054,44.15,High
+V0518,OfficeMart Lanka,Electrical Items,Circuit Breakers,4550,59,43,65,10,61,84,4336722,55.7,High
+V0519,ABC Raw Materials,Office Supplies,Printer Paper,5200,84,45,97,5,53,49,4198988,69.75,Medium
+V0520,Lanka Industrial Suppliers,Furniture,Meeting Tables,114950,77,51,76,19,53,66,3232587,58.3,High
+V0521,Prime Stationery Traders,Safety Equipment,Protective Clothing,12800,89,68,100,7,78,89,4656512,81.35,Low
+V0522,ABC Raw Materials,Safety Equipment,Safety Helmets,1950,79,78,75,3,55,57,510826,73.75,Medium
+V0523,TechGlobal Solutions,Raw Materials,Plastic Materials,2050,88,97,92,11,62,98,4095906,81.55,Low
+V0524,SmartTech Distributors,Electrical Items,Electrical Components,10650,58,50,50,2,76,51,2464817,61.2,Medium
+V0525,Elite Office Solutions,Raw Materials,Metal Materials,40200,55,84,63,1,49,55,785285,66.65,Medium
+V0526,Elite Office Solutions,Office Supplies,Stationery,3150,81,64,75,13,74,88,1794941,69.55,Medium
+V0527,Digital Edge Suppliers,Logistics Services,Warehouse Services,40150,80,59,93,18,79,92,2367867,70.15,Medium
+V0528,FutureNet Technologies,Furniture,Office Furniture,33950,42,94,64,18,53,45,4019701,58.4,High
+V0529,SmartTech Distributors,Logistics Services,Cargo Handling,86600,67,58,57,8,76,71,3783135,63.85,Medium
+V0530,Elite Office Solutions,Office Supplies,Files and Folders,1950,59,88,92,4,54,78,4637002,73.95,Medium
+V0531,Alpha IT Systems,Logistics Services,Transport Services,140550,96,72,68,1,86,76,2972085,82.3,Low
+V0532,Elite Office Solutions,Furniture,Office Desks,32050,74,48,90,15,63,91,4264914,63.6,Medium
+V0533,TechGlobal Solutions,Raw Materials,Production Materials,13600,84,57,58,20,76,88,1287956,62.05,Medium
+V0534,Elite Office Solutions,Office Supplies,Ink Cartridges,13600,64,89,74,5,62,51,2712536,72.95,Medium
+V0535,Elite Office Solutions,Furniture,Office Chairs,30300,90,77,45,18,61,79,1973995,63.95,Medium
+V0536,Alpha IT Systems,Furniture,Storage Cabinets,43250,85,58,88,19,89,62,906715,71.65,Medium
+V0537,Elite Office Solutions,Raw Materials,Packaging Materials,4550,64,42,63,7,42,87,3339426,54.0,High
+V0538,Digital Edge Suppliers,Electrical Items,LED Lighting,10400,77,52,54,2,69,79,444775,65.85,Medium
+V0539,Elite Office Solutions,Safety Equipment,Protective Gloves,4350,100,76,88,0,42,89,2489289,80.0,Low
+V0540,Alpha IT Systems,Furniture,Meeting Tables,140600,85,81,91,13,57,85,4208671,74.6,Medium
+V0541,Prime Stationery Traders,Electrical Items,Electrical Cables,2400,82,59,82,17,64,85,4779405,65.95,Medium
+V0542,Alpha IT Systems,Electrical Items,Switches and Sockets,3750,77,97,76,8,65,62,4769090,77.7,Medium
+V0543,ABC Raw Materials,Safety Equipment,Safety Shoes,5850,70,92,79,14,91,81,1602379,77.5,Medium
+V0544,Alpha IT Systems,Logistics Services,Freight Transportation,203100,42,49,68,6,97,49,3813958,62.75,Medium
+V0545,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,89050,42,87,99,17,43,50,880280,62.15,Medium
+V0546,SmartTech Distributors,Office Supplies,Office Consumables,7750,85,50,96,17,78,61,2356810,70.05,Medium
+V0547,FutureNet Technologies,Raw Materials,Plastic Materials,750,71,43,65,20,56,78,185394,52.7,High
+V0548,Alpha IT Systems,Logistics Services,Local Delivery,24100,48,54,64,7,100,88,3425415,64.8,Medium
+V0549,FutureNet Technologies,Electrical Items,Circuit Breakers,14150,61,80,45,15,98,97,978495,66.35,Medium
+V0550,SmartTech Distributors,IT Equipment,Laptop Computers,220600,49,59,70,15,97,87,866212,62.9,Medium
+V0551,Digital Edge Suppliers,Raw Materials,Metal Materials,3250,42,86,54,12,73,60,2090148,61.4,Medium
+V0552,Lanka Industrial Suppliers,Mechanical Parts,Replacement Parts,105250,76,99,40,6,56,60,3202375,69.95,Medium
+V0553,FutureNet Technologies,Safety Equipment,Fire Extinguishers,29950,46,76,87,7,46,66,3590712,63.6,Medium
+V0554,SmartTech Distributors,IT Equipment,Desktop Computers,129200,86,56,93,18,72,84,2345676,69.5,Medium
+V0555,Digital Edge Suppliers,IT Equipment,Network Equipment,140000,49,80,97,0,43,56,3255352,70.25,Medium
+V0556,Lanka Industrial Suppliers,IT Equipment,Printers,136600,63,57,69,5,83,45,4199111,67.9,Medium
+V0557,TechGlobal Solutions,Raw Materials,Production Materials,68800,56,85,91,11,65,58,4955706,70.95,Medium
+V0558,ABC Raw Materials,Safety Equipment,Protective Clothing,6750,78,60,100,8,77,68,3604618,75.9,Medium
+V0559,OfficeMart Lanka,Raw Materials,Packaging Materials,4050,45,94,77,20,73,81,3631423,64.75,Medium
+V0560,SmartTech Distributors,Mechanical Parts,Industrial Components,80350,57,69,48,14,85,45,4038848,61.1,Medium
+V0561,TechGlobal Solutions,Office Supplies,Printer Paper,3550,85,54,85,10,90,63,3249924,74.75,Medium
+V0562,TechGlobal Solutions,Logistics Services,Warehouse Services,12950,70,73,94,7,62,88,4283298,73.45,Medium
+V0563,Lanka Industrial Suppliers,Mechanical Parts,Bearings,17300,91,65,56,2,71,58,2636552,73.4,Medium
+V0564,FutureNet Technologies,Safety Equipment,Safety Helmets,5500,59,98,46,4,43,66,4767229,65.05,Medium
+V0565,FutureNet Technologies,IT Equipment,Computer Accessories,26400,83,58,58,10,47,65,442596,61.25,Medium
+V0566,Elite Office Solutions,IT Equipment,Laptop Computers,145400,65,49,47,7,48,93,1913302,54.0,High
+V0567,SmartTech Distributors,Mechanical Parts,Machine Components,25300,42,49,51,2,46,47,3986267,51.15,High
+V0568,ABC Raw Materials,Logistics Services,Cargo Handling,45950,94,93,61,5,53,47,2607677,77.05,Medium
+V0569,TechGlobal Solutions,Raw Materials,Industrial Raw Materials,74450,86,75,89,13,61,49,4207476,73.75,Medium
+V0570,TechGlobal Solutions,Furniture,Office Furniture,38150,44,92,65,13,85,69,3381228,67.5,Medium
+V0571,Lanka Industrial Suppliers,Office Supplies,Stationery,2500,85,82,77,14,43,57,4101472,68.75,Medium
+V0572,SmartTech Distributors,Safety Equipment,Protective Gloves,450,54,71,67,5,88,51,4754893,69.75,Medium
+V0573,TechGlobal Solutions,Furniture,Office Desks,44300,74,45,41,17,100,46,3976609,59.45,High
+V0574,Elite Office Solutions,Raw Materials,Plastic Materials,8400,77,44,83,18,51,48,768348,58.05,High
+V0575,ABC Raw Materials,Logistics Services,Transport Services,101650,55,85,79,20,74,42,4898364,65.6,Medium
+V0576,Elite Office Solutions,Furniture,Office Chairs,69700,58,79,85,18,92,88,2901455,70.65,Medium
+V0577,OfficeMart Lanka,Raw Materials,Metal Materials,61500,72,96,72,7,92,41,1212245,81.3,Low
+V0578,SmartTech Distributors,Raw Materials,Production Materials,50850,78,71,43,15,64,89,1314367,61.15,Medium
+V0579,TechGlobal Solutions,Office Supplies,Files and Folders,1100,44,89,72,17,77,74,1271476,64.55,Medium
+V0580,SmartTech Distributors,IT Equipment,Desktop Computers,143700,79,93,86,16,95,44,182470,81.2,Low
+V0581,ABC Raw Materials,Electrical Items,Electrical Components,24750,90,99,60,12,60,51,1517462,75.25,Medium
+V0582,Lanka Industrial Suppliers,Raw Materials,Packaging Materials,1900,69,75,41,8,84,45,3080018,67.0,Medium
+V0583,OfficeMart Lanka,Electrical Items,LED Lighting,17450,76,50,99,6,90,88,3438594,76.3,Medium
+V0584,TechGlobal Solutions,Logistics Services,Freight Transportation,167850,43,78,45,11,80,41,4313303,59.75,High
+V0585,Lanka Industrial Suppliers,Furniture,Storage Cabinets,88350,70,82,43,3,90,45,285278,73.1,Medium
+V0586,FutureNet Technologies,Furniture,Meeting Tables,78250,95,82,90,15,98,85,1479372,84.35,Low
+V0587,Lanka Industrial Suppliers,IT Equipment,Network Equipment,56950,77,73,43,9,98,44,4338936,71.2,Medium
+V0588,Digital Edge Suppliers,Safety Equipment,Safety Shoes,13000,95,68,42,5,56,92,2781074,67.85,Medium
+V0589,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,47900,73,81,77,2,65,87,3092356,75.9,Medium
+V0590,FutureNet Technologies,Furniture,Office Furniture,147700,80,68,100,12,63,64,1832163,73.6,Medium
+V0591,Digital Edge Suppliers,IT Equipment,Printers,161700,89,65,95,17,40,98,3137575,67.0,Medium
+V0592,TechGlobal Solutions,IT Equipment,Computer Accessories,12300,100,52,49,4,78,70,2843605,71.4,Medium
+V0593,ABC Raw Materials,Electrical Items,Electrical Cables,300,48,51,55,11,90,80,1422265,58.25,High
+V0594,ABC Raw Materials,IT Equipment,Laptop Computers,181000,46,54,84,15,44,87,2912325,53.1,High
+V0595,Elite Office Solutions,Mechanical Parts,Gears,66100,84,58,96,18,64,74,4776423,68.5,Medium
+V0596,Digital Edge Suppliers,Electrical Items,Switches and Sockets,1800,85,56,52,0,49,40,1331007,65.45,Medium
+V0597,Digital Edge Suppliers,Mechanical Parts,Replacement Parts,99450,71,56,65,15,46,82,4662561,56.45,High
+V0598,SmartTech Distributors,Mechanical Parts,Industrial Components,18900,67,97,59,15,63,71,2010318,67.9,Medium
+V0599,Alpha IT Systems,Office Supplies,Ink Cartridges,12900,40,99,100,3,80,86,4674050,79.25,Medium
+V0600,OfficeMart Lanka,Electrical Items,Circuit Breakers,11250,52,75,74,4,90,75,2462359,72.55,Medium
+V0601,Digital Edge Suppliers,Office Supplies,Office Consumables,2850,65,66,78,15,94,67,1767651,69.65,Medium
+V0602,Digital Edge Suppliers,Furniture,Office Desks,118750,100,69,63,18,46,40,3277865,65.05,Medium
+V0603,Alpha IT Systems,Mechanical Parts,Bearings,7250,61,61,77,3,82,70,4924740,70.8,Medium
+V0604,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,33050,49,79,65,2,54,71,785265,64.8,Medium
+V0605,Prime Stationery Traders,Furniture,Office Chairs,27200,59,89,99,0,91,89,958024,85.0,Low
+V0606,Alpha IT Systems,Mechanical Parts,Machine Components,59850,44,70,57,11,76,98,2450899,59.6,High
+V0607,ABC Raw Materials,Mechanical Parts,Gears,73200,81,76,51,7,47,60,97125,65.35,Medium
+V0608,OfficeMart Lanka,Mechanical Parts,Replacement Parts,8750,95,63,73,11,78,96,3663990,74.2,Medium
+V0609,TechGlobal Solutions,Safety Equipment,Protective Clothing,7150,100,55,67,3,71,79,2481530,74.85,Medium
+V0610,Elite Office Solutions,Office Supplies,Printer Paper,3400,41,80,69,1,75,97,4683893,68.55,Medium
+V0611,ABC Raw Materials,Electrical Items,Electrical Components,18150,47,82,89,12,53,44,4146203,64.65,Medium
+V0612,Digital Edge Suppliers,Raw Materials,Plastic Materials,11050,77,78,69,1,52,46,1291727,72.45,Medium
+V0613,ABC Raw Materials,IT Equipment,Desktop Computers,222950,55,56,74,14,42,43,2219515,53.95,High
+V0614,Prime Stationery Traders,Electrical Items,LED Lighting,11350,72,74,71,20,59,49,4114138,62.5,Medium
+V0615,FutureNet Technologies,Office Supplies,Stationery,2700,75,48,49,3,53,49,1015417,59.65,High
+V0616,FutureNet Technologies,Mechanical Parts,Industrial Components,15400,75,96,44,6,94,97,4840154,77.35,Medium
+V0617,Alpha IT Systems,Furniture,Storage Cabinets,89100,95,49,54,1,45,82,4331323,65.3,Medium
+V0618,FutureNet Technologies,IT Equipment,Network Equipment,167650,77,60,81,15,91,75,3785214,71.15,Medium
+V0619,Elite Office Solutions,Logistics Services,Local Delivery,8500,45,94,51,14,96,71,2767875,67.15,Medium
+V0620,Elite Office Solutions,Electrical Items,Electrical Cables,950,94,84,87,17,81,99,2846878,79.6,Medium
+V0621,Alpha IT Systems,Mechanical Parts,Bearings,34050,92,47,92,10,43,48,2735856,66.75,Medium
+V0622,Digital Edge Suppliers,Raw Materials,Metal Materials,60700,50,89,95,1,97,62,1970045,82.65,Low
+V0623,Digital Edge Suppliers,Office Supplies,Files and Folders,650,83,100,46,12,78,49,2442702,74.55,Medium
+V0624,Digital Edge Suppliers,Electrical Items,Switches and Sockets,6000,56,97,88,15,56,55,2080905,69.55,Medium
+V0625,TechGlobal Solutions,Safety Equipment,Safety Helmets,3800,73,45,77,20,41,90,494342,53.1,High
+V0626,ABC Raw Materials,IT Equipment,Printers,167350,72,92,92,14,70,82,3544354,76.4,Medium
+V0627,OfficeMart Lanka,Mechanical Parts,Machine Components,37400,49,47,89,18,40,48,3847099,50.8,High
+V0628,OfficeMart Lanka,Logistics Services,Warehouse Services,56150,43,64,73,2,73,70,2939293,64.95,Medium
+V0629,FutureNet Technologies,Electrical Items,Circuit Breakers,8750,83,53,52,18,82,57,1427757,61.8,Medium
+V0630,Elite Office Solutions,Logistics Services,Cargo Handling,113250,54,82,53,19,60,44,2466610,57.1,High
+V0631,Lanka Industrial Suppliers,Office Supplies,Ink Cartridges,7850,49,81,98,17,67,77,4143465,67.0,Medium
+V0632,FutureNet Technologies,Furniture,Meeting Tables,186400,95,44,63,1,66,95,3556232,70.05,Medium
+V0633,Alpha IT Systems,Safety Equipment,Protective Gloves,2200,42,64,83,16,76,47,3273822,60.3,Medium
+V0634,FutureNet Technologies,Office Supplies,Office Consumables,3350,91,93,50,6,83,68,847250,79.6,Medium
+V0635,Alpha IT Systems,Office Supplies,Printer Paper,4400,45,100,45,12,76,93,307061,64.45,Medium
+V0636,TechGlobal Solutions,Furniture,Office Furniture,50900,73,65,60,12,46,45,3740552,59.7,High
+V0637,Alpha IT Systems,Mechanical Parts,Gears,23500,80,63,42,6,50,69,3531485,61.15,Medium
+V0638,SmartTech Distributors,Electrical Items,Electrical Components,19250,85,47,69,6,63,76,4745228,66.4,Medium
+V0639,TechGlobal Solutions,Electrical Items,LED Lighting,6950,97,69,85,2,80,81,1832200,83.5,Low
+V0640,Lanka Industrial Suppliers,Mechanical Parts,Replacement Parts,44000,82,63,47,19,47,99,470774,55.55,High
+V0641,Prime Stationery Traders,Office Supplies,Stationery,3850,47,89,61,18,78,92,4408048,62.8,Medium
+V0642,Prime Stationery Traders,Safety Equipment,Safety Shoes,7550,83,52,57,8,97,82,1208476,70.55,Medium
+V0643,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,15350,50,63,84,1,68,81,4955837,68.15,Medium
+V0644,TechGlobal Solutions,Furniture,Office Desks,101450,40,75,89,6,84,62,2583660,70.35,Medium
+V0645,Prime Stationery Traders,Furniture,Office Chairs,53200,87,53,97,11,85,92,91565,75.9,Medium
+V0646,Elite Office Solutions,Safety Equipment,Protective Clothing,17450,68,40,86,8,91,79,4285997,68.4,Medium
+V0647,TechGlobal Solutions,Mechanical Parts,Industrial Components,118850,72,50,58,19,72,83,297949,57.0,High
+V0648,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,450,60,43,77,2,93,64,4683609,68.75,Medium
+V0649,Alpha IT Systems,Furniture,Storage Cabinets,28900,42,80,58,15,53,47,3601214,55.2,High
+V0650,TechGlobal Solutions,Mechanical Parts,Bearings,10500,79,68,67,0,91,55,1548020,78.35,Medium
+V0651,Lanka Industrial Suppliers,Mechanical Parts,Machine Components,173900,82,86,50,11,49,98,1076554,66.3,Medium
+V0652,Alpha IT Systems,Safety Equipment,Safety Helmets,5950,90,63,80,7,88,83,1255172,78.35,Medium
+V0653,ABC Raw Materials,Mechanical Parts,Gears,74850,96,42,55,14,46,73,4836756,57.7,High
+V0654,FutureNet Technologies,Raw Materials,Production Materials,84450,95,69,99,3,95,74,3569374,88.3,Low
+V0655,Digital Edge Suppliers,IT Equipment,Computer Accessories,17300,88,44,96,1,65,40,2554913,74.7,Medium
+V0656,FutureNet Technologies,Mechanical Parts,Replacement Parts,53050,82,74,64,2,84,82,298481,77.6,Medium
+V0657,OfficeMart Lanka,Logistics Services,Transport Services,19050,98,69,92,16,40,62,4430708,70.15,Medium
+V0658,OfficeMart Lanka,Furniture,Meeting Tables,186150,80,50,66,14,80,81,4296166,64.7,Medium
+V0659,Digital Edge Suppliers,Office Supplies,Files and Folders,1000,46,48,57,0,42,44,3272805,53.3,High
+V0660,ABC Raw Materials,Mechanical Parts,Industrial Components,72250,55,78,62,20,88,41,431434,63.25,Medium
+V0661,TechGlobal Solutions,Safety Equipment,Protective Gloves,1900,99,99,94,16,98,81,2973413,89.9,Low
+V0662,FutureNet Technologies,Office Supplies,Ink Cartridges,14450,86,64,83,10,76,92,2680805,74.3,Medium
+V0663,Prime Stationery Traders,IT Equipment,Laptop Computers,187000,82,48,68,8,100,84,644936,72.1,Medium
+V0664,Lanka Industrial Suppliers,Office Supplies,Office Consumables,2500,85,80,68,18,69,55,4258148,69.65,Medium
+V0665,Prime Stationery Traders,Safety Equipment,Safety Shoes,16950,42,48,97,18,51,68,3572435,53.1,High
+V0666,OfficeMart Lanka,Logistics Services,Freight Transportation,198700,66,48,58,2,44,74,2950748,57.9,High
+V0667,TechGlobal Solutions,Raw Materials,Packaging Materials,5550,77,91,90,14,94,79,2528144,81.8,Low
+V0668,Elite Office Solutions,Mechanical Parts,Bearings,43550,79,84,81,13,90,93,2590194,78.45,Medium
+V0669,ABC Raw Materials,Raw Materials,Industrial Raw Materials,18950,74,61,70,6,60,71,1686471,66.75,Medium
+V0670,Lanka Industrial Suppliers,Raw Materials,Plastic Materials,8100,90,49,99,12,48,56,4246215,68.15,Medium
+V0671,Prime Stationery Traders,Furniture,Office Furniture,111750,50,95,95,7,78,97,2201916,77.35,Medium
+V0672,TechGlobal Solutions,Electrical Items,Switches and Sockets,6550,86,81,54,14,69,70,908786,69.35,Medium
+V0673,Elite Office Solutions,Electrical Items,Circuit Breakers,4800,81,40,90,16,76,66,2970825,65.45,Medium
+V0674,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,22150,77,79,88,17,42,98,1038610,66.5,Medium
+V0675,Lanka Industrial Suppliers,Raw Materials,Metal Materials,30500,92,67,47,11,76,55,546331,68.85,Medium
+V0676,Elite Office Solutions,Furniture,Office Desks,85350,51,57,52,4,74,81,88025,60.2,Medium
+V0677,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,208300,77,69,54,6,45,91,3186950,63.3,Medium
+V0678,SmartTech Distributors,Mechanical Parts,Machine Components,104200,92,58,71,6,59,61,1796724,70.5,Medium
+V0679,TechGlobal Solutions,IT Equipment,Network Equipment,28350,85,84,79,5,58,91,2593052,77.15,Medium
+V0680,Prime Stationery Traders,Logistics Services,Local Delivery,31450,95,91,44,19,75,90,2465473,70.8,Medium
+V0681,SmartTech Distributors,Logistics Services,Warehouse Services,70750,77,97,42,12,71,95,1046027,70.1,Medium
+V0682,ABC Raw Materials,Furniture,Office Chairs,49400,55,92,100,10,91,63,3781000,79.95,Medium
+V0683,ABC Raw Materials,Raw Materials,Production Materials,73750,76,71,70,6,68,93,3059052,71.35,Medium
+V0684,Prime Stationery Traders,IT Equipment,Printers,182000,42,59,55,1,52,77,3432185,56.15,High
+V0685,FutureNet Technologies,IT Equipment,Computer Accessories,9300,51,54,99,6,47,75,4591534,62.45,Medium
+V0686,TechGlobal Solutions,Raw Materials,Packaging Materials,500,89,85,75,8,46,99,526561,73.7,Medium
+V0687,FutureNet Technologies,Logistics Services,Cargo Handling,51700,56,82,84,5,84,67,376041,75.6,Medium
+V0688,OfficeMart Lanka,Office Supplies,Printer Paper,4350,91,97,64,7,92,40,4327376,84.7,Low
+V0689,SmartTech Distributors,Raw Materials,Industrial Raw Materials,26600,60,75,48,13,100,48,2945517,66.85,Medium
+V0690,FutureNet Technologies,Raw Materials,Plastic Materials,4450,94,85,43,2,55,99,4697726,73.35,Medium
+V0691,Lanka Industrial Suppliers,Safety Equipment,Protective Clothing,16350,99,50,71,15,92,74,941912,72.35,Medium
+V0692,Alpha IT Systems,Safety Equipment,Safety Helmets,1950,96,82,43,4,95,64,1311876,80.1,Low
+V0693,Lanka Industrial Suppliers,Electrical Items,Electrical Components,24400,75,69,77,1,40,78,1447721,68.9,Medium
+V0694,Elite Office Solutions,IT Equipment,Laptop Computers,170400,63,62,44,15,92,98,4663338,60.95,Medium
+V0695,OfficeMart Lanka,Office Supplies,Stationery,550,96,79,93,3,49,88,2378688,80.65,Low
+V0696,Lanka Industrial Suppliers,Raw Materials,Metal Materials,84500,96,78,95,14,62,46,1777922,77.9,Medium
+V0697,TechGlobal Solutions,Safety Equipment,Protective Gloves,4400,57,46,78,19,57,84,1276830,53.25,High
+V0698,Alpha IT Systems,IT Equipment,Desktop Computers,128150,97,46,99,9,80,79,749174,77.05,Medium
+V0699,Lanka Industrial Suppliers,Logistics Services,Transport Services,51350,80,45,58,13,73,90,842611,60.95,Medium
+V0700,Alpha IT Systems,Furniture,Storage Cabinets,35800,90,89,81,0,46,58,2901657,80.15,Low
+V0701,TechGlobal Solutions,Furniture,Meeting Tables,94600,42,43,57,19,78,52,3874981,48.75,High
+V0702,ABC Raw Materials,Mechanical Parts,Gears,15300,69,60,63,8,94,43,2686707,69.65,Medium
+V0703,SmartTech Distributors,Raw Materials,Production Materials,73550,92,52,71,13,40,66,3819995,61.7,Medium
+V0704,TechGlobal Solutions,Furniture,Office Furniture,72250,55,60,60,8,53,89,560072,57.35,High
+V0705,Elite Office Solutions,IT Equipment,Network Equipment,92100,87,54,86,5,84,47,1087749,76.75,Medium
+V0706,OfficeMart Lanka,Safety Equipment,Safety Shoes,15650,84,93,63,5,88,89,380234,81.95,Low
+V0707,TechGlobal Solutions,Safety Equipment,Fire Extinguishers,33450,84,85,90,9,81,97,3405984,81.95,Low
+V0708,FutureNet Technologies,Safety Equipment,Protective Clothing,12600,67,89,75,19,90,59,97958,72.5,Medium
+V0709,FutureNet Technologies,Electrical Items,LED Lighting,13850,86,46,89,7,82,67,2904509,73.7,Medium
+V0710,Prime Stationery Traders,Furniture,Office Desks,79400,75,57,74,1,93,45,1006328,75.9,Medium
+V0711,SmartTech Distributors,Safety Equipment,Safety Helmets,4000,64,40,49,1,41,87,741577,53.5,High
+V0712,SmartTech Distributors,Safety Equipment,Protective Gloves,1950,79,61,41,5,91,71,140800,68.9,Medium
+V0713,ABC Raw Materials,Mechanical Parts,Replacement Parts,2950,75,87,66,15,47,61,1609565,65.6,Medium
+V0714,FutureNet Technologies,Office Supplies,Files and Folders,1150,80,66,51,9,91,53,315250,70.4,Medium
+V0715,Digital Edge Suppliers,Furniture,Office Chairs,46250,73,70,68,18,41,50,673420,58.55,High
+V0716,Elite Office Solutions,Mechanical Parts,Industrial Components,105100,72,61,80,9,48,42,2781549,64.35,Medium
+V0717,FutureNet Technologies,Logistics Services,Freight Transportation,196600,69,71,53,11,100,99,4718875,70.1,Medium
+V0718,TechGlobal Solutions,Furniture,Storage Cabinets,71950,86,42,48,20,76,54,2183086,56.8,High
+V0719,TechGlobal Solutions,IT Equipment,Printers,119150,71,53,94,6,73,52,3204349,71.4,Medium
+V0720,SmartTech Distributors,Furniture,Meeting Tables,149700,56,62,59,3,59,60,3082726,61.6,Medium
+V0721,Elite Office Solutions,Furniture,Office Furniture,138550,51,66,58,6,58,81,1131455,59.45,High
+V0722,OfficeMart Lanka,Mechanical Parts,Bearings,10500,85,75,51,13,80,43,3432016,69.7,Medium
+V0723,FutureNet Technologies,Electrical Items,Electrical Cables,3050,45,90,45,12,58,82,2935369,58.35,High
+V0724,Digital Edge Suppliers,Safety Equipment,Safety Shoes,10200,49,78,82,20,71,96,1989862,62.35,Medium
+V0725,Alpha IT Systems,IT Equipment,Computer Accessories,16750,42,86,94,15,46,86,4872044,62.5,Medium
+V0726,Elite Office Solutions,IT Equipment,Laptop Computers,151300,75,64,48,11,77,53,3860096,64.25,Medium
+V0727,Alpha IT Systems,Safety Equipment,Fire Extinguishers,18750,43,56,53,4,73,52,662661,57.95,High
+V0728,Alpha IT Systems,Office Supplies,Ink Cartridges,23000,43,64,70,17,56,84,249863,53.45,High
+V0729,Digital Edge Suppliers,Electrical Items,Switches and Sockets,4250,59,50,93,7,87,90,783132,69.75,Medium
+V0730,Elite Office Solutions,Office Supplies,Office Consumables,3400,97,69,59,20,88,53,2111028,70.9,Medium
+V0731,Lanka Industrial Suppliers,Office Supplies,Printer Paper,4100,60,48,90,18,94,70,4628216,64.8,Medium
+V0732,Digital Edge Suppliers,Raw Materials,Packaging Materials,4300,55,49,57,16,86,82,4195597,56.6,High
+V0733,Alpha IT Systems,Office Supplies,Stationery,2750,66,54,92,6,48,62,345283,65.0,Medium
+V0734,OfficeMart Lanka,Office Supplies,Files and Folders,1950,52,40,74,18,45,72,4605497,47.8,High
+V0735,Elite Office Solutions,Raw Materials,Industrial Raw Materials,96200,64,93,52,20,58,78,1678433,61.25,Medium
+V0736,Digital Edge Suppliers,Office Supplies,Ink Cartridges,28500,46,91,43,17,49,53,1036590,54.15,High
+V0737,Alpha IT Systems,Safety Equipment,Protective Clothing,2600,80,54,81,1,90,97,1128552,77.2,Medium
+V0738,SmartTech Distributors,Office Supplies,Office Consumables,2100,59,50,82,20,41,94,2227853,51.85,High
+V0739,Alpha IT Systems,Logistics Services,Local Delivery,18600,97,72,42,14,57,57,4166507,65.05,Medium
+V0740,FutureNet Technologies,Safety Equipment,Safety Helmets,8000,61,50,100,16,57,95,2194110,61.15,Medium
+V0741,Alpha IT Systems,Electrical Items,Circuit Breakers,1850,86,55,69,7,86,55,4345172,72.75,Medium
+V0742,Elite Office Solutions,Furniture,Office Desks,55650,64,60,97,0,71,94,4536335,74.6,Medium
+V0743,Prime Stationery Traders,IT Equipment,Desktop Computers,212650,53,81,43,12,60,82,1642474,58.1,High
+V0744,Prime Stationery Traders,Logistics Services,Warehouse Services,41250,71,90,85,17,92,87,1373311,77.15,Medium
+V0745,SmartTech Distributors,Mechanical Parts,Machine Components,162150,81,56,65,16,78,92,1797775,64.85,Medium
+V0746,OfficeMart Lanka,Office Supplies,Printer Paper,2450,48,84,54,20,65,83,1159912,56.8,High
+V0747,OfficeMart Lanka,Raw Materials,Plastic Materials,11750,77,70,60,8,63,48,2994219,67.35,Medium
+V0748,FutureNet Technologies,Safety Equipment,Protective Gloves,2250,72,78,50,1,82,71,2407561,73.4,Medium
+V0749,ABC Raw Materials,Logistics Services,Cargo Handling,5650,69,64,89,0,68,47,4654817,74.65,Medium
+V0750,Elite Office Solutions,Raw Materials,Metal Materials,49300,55,66,74,10,74,74,2543285,64.85,Medium
+V0751,Prime Stationery Traders,IT Equipment,Network Equipment,60500,41,57,47,15,75,46,3845978,51.4,High
+V0752,ABC Raw Materials,Office Supplies,Stationery,2050,48,86,62,4,72,90,4252325,68.3,Medium
+V0753,TechGlobal Solutions,IT Equipment,Printers,128800,79,44,46,6,52,90,1326055,57.35,High
+V0754,Lanka Industrial Suppliers,Office Supplies,Files and Folders,2000,42,85,59,16,100,81,4647768,65.55,Medium
+V0755,SmartTech Distributors,Furniture,Office Chairs,56350,57,77,41,19,59,75,3360553,54.0,High
+V0756,Digital Edge Suppliers,Mechanical Parts,Gears,10300,81,70,66,10,66,90,3518763,69.15,Medium
+V0757,Alpha IT Systems,Mechanical Parts,Replacement Parts,50950,59,67,50,14,47,70,3385145,53.9,High
+V0758,OfficeMart Lanka,Furniture,Storage Cabinets,65150,92,43,45,13,59,44,2653777,58.05,High
+V0759,Alpha IT Systems,Logistics Services,Transport Services,101400,90,90,47,20,42,86,2408178,62.8,Medium
+V0760,TechGlobal Solutions,Electrical Items,Electrical Components,8100,69,40,81,14,79,43,4892217,62.25,Medium
+V0761,Digital Edge Suppliers,Electrical Items,LED Lighting,4050,67,85,91,9,46,77,1307080,70.9,Medium
+V0762,Elite Office Solutions,Raw Materials,Production Materials,32350,47,45,66,1,92,69,2936345,64.1,Medium
+V0763,Digital Edge Suppliers,Mechanical Parts,Industrial Components,66250,49,49,89,2,66,42,4300208,64.5,Medium
+V0764,ABC Raw Materials,Mechanical Parts,Bearings,16900,70,47,46,5,59,64,3786892,57.75,High
+V0765,ABC Raw Materials,Furniture,Meeting Tables,78250,69,58,76,1,73,67,1270130,71.05,Medium
+V0766,Elite Office Solutions,Safety Equipment,Safety Shoes,5900,72,83,63,14,88,65,4231960,71.95,Medium
+V0767,Elite Office Solutions,Raw Materials,Packaging Materials,1900,53,58,68,8,92,99,545989,65.75,Medium
+V0768,Prime Stationery Traders,Raw Materials,Industrial Raw Materials,92500,49,41,60,18,68,42,2891752,49.1,High
+V0769,SmartTech Distributors,Electrical Items,Electrical Cables,3400,69,54,91,5,92,84,4045092,74.85,Medium
+V0770,OfficeMart Lanka,Furniture,Office Furniture,97650,94,67,57,7,84,71,4978140,74.95,Medium
+V0771,Alpha IT Systems,Office Supplies,Ink Cartridges,23600,96,85,96,14,63,63,4178410,80.05,Low
+V0772,Elite Office Solutions,IT Equipment,Computer Accessories,34250,41,43,85,7,99,58,100595,64.3,Medium
+V0773,Elite Office Solutions,IT Equipment,Laptop Computers,170050,51,82,86,0,48,71,4896803,70.05,Medium
+V0774,Elite Office Solutions,Safety Equipment,Fire Extinguishers,20500,66,55,43,19,66,66,1186685,52.55,High
+V0775,OfficeMart Lanka,Safety Equipment,Protective Clothing,8300,82,83,92,13,74,99,334061,77.95,Medium
+V0776,TechGlobal Solutions,Furniture,Office Desks,44450,90,90,66,18,68,49,3426663,72.8,Medium
+V0777,TechGlobal Solutions,Safety Equipment,Safety Helmets,2450,43,59,53,11,82,74,4755264,57.0,High
+V0778,SmartTech Distributors,Logistics Services,Freight Transportation,95650,90,53,43,15,84,100,123759,63.65,Medium
+V0779,Lanka Industrial Suppliers,Office Supplies,Office Consumables,1850,99,64,81,18,95,77,981858,76.95,Medium
+V0780,OfficeMart Lanka,Office Supplies,Printer Paper,3800,50,49,77,4,63,49,1519650,60.75,Medium
+V0781,Elite Office Solutions,Raw Materials,Plastic Materials,10050,52,48,75,16,52,74,4305976,52.4,High
+V0782,Alpha IT Systems,Logistics Services,Local Delivery,40450,70,96,77,2,89,78,1423880,83.7,Low
+V0783,TechGlobal Solutions,Safety Equipment,Protective Gloves,1000,66,42,55,7,65,53,1128666,57.5,High
+V0784,FutureNet Technologies,Raw Materials,Metal Materials,71700,67,46,81,0,95,53,2111997,73.45,Medium
+V0785,ABC Raw Materials,Furniture,Office Chairs,31500,91,91,68,17,90,98,1377299,78.6,Medium
+V0786,ABC Raw Materials,Mechanical Parts,Machine Components,54000,78,92,70,16,45,75,2802500,67.5,Medium
+V0787,Prime Stationery Traders,Electrical Items,Switches and Sockets,3750,78,73,59,17,40,69,4430244,59.05,High
+V0788,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,191100,54,90,62,2,80,69,4342155,73.4,Medium
+V0789,TechGlobal Solutions,Electrical Items,Circuit Breakers,13650,81,92,66,11,43,96,574815,69.55,Medium
+V0790,Digital Edge Suppliers,IT Equipment,Network Equipment,25200,69,72,55,14,70,82,1265342,63.25,Medium
+V0791,ABC Raw Materials,Safety Equipment,Safety Shoes,15200,41,68,52,20,45,87,65248,46.65,High
+V0792,Alpha IT Systems,Logistics Services,Warehouse Services,39000,94,98,40,8,90,94,3062934,80.0,Low
+V0793,Elite Office Solutions,Mechanical Parts,Gears,62500,46,46,65,10,88,56,4214422,58.6,High
+V0794,FutureNet Technologies,Logistics Services,Cargo Handling,5400,62,74,83,17,44,65,1412266,60.9,Medium
+V0795,Digital Edge Suppliers,Safety Equipment,Fire Extinguishers,12150,52,97,83,3,49,85,3565435,72.15,Medium
+V0796,SmartTech Distributors,Logistics Services,Transport Services,50850,82,46,66,2,89,79,1639319,72.0,Medium
+V0797,Alpha IT Systems,Mechanical Parts,Replacement Parts,105650,48,43,71,10,51,91,4528295,52.15,High
+V0798,SmartTech Distributors,Logistics Services,Freight Transportation,149450,58,85,96,7,80,69,3602006,77.45,Medium
+V0799,Elite Office Solutions,Logistics Services,Local Delivery,29050,66,66,85,8,60,69,4521268,68.0,Medium
+V0800,Elite Office Solutions,Raw Materials,Production Materials,46600,95,41,73,2,56,58,2414631,68.8,Medium
+V0801,SmartTech Distributors,IT Equipment,Printers,171100,41,89,67,18,62,82,4430240,59.3,High
+V0802,ABC Raw Materials,IT Equipment,Computer Accessories,11850,58,53,42,11,60,61,2513230,52.65,High
+V0803,Elite Office Solutions,Mechanical Parts,Industrial Components,31950,75,92,71,14,50,84,2501310,68.95,Medium
+V0804,Elite Office Solutions,Raw Materials,Packaging Materials,6000,57,95,90,15,89,64,2586151,76.3,Medium
+V0805,SmartTech Distributors,Furniture,Storage Cabinets,63250,56,55,75,15,90,92,1012568,63.25,Medium
+V0806,ABC Raw Materials,Furniture,Meeting Tables,57800,97,63,65,11,56,73,4785772,68.7,Medium
+V0807,FutureNet Technologies,Mechanical Parts,Bearings,43050,100,58,67,19,70,61,1021160,67.4,Medium
+V0808,ABC Raw Materials,Logistics Services,Warehouse Services,8050,84,87,58,16,57,87,2880270,67.75,Medium
+V0809,TechGlobal Solutions,Logistics Services,Cargo Handling,93000,53,54,62,13,76,74,4607507,57.85,High
+V0810,OfficeMart Lanka,IT Equipment,Laptop Computers,161750,55,83,71,1,52,90,1590572,68.6,Medium
+V0811,OfficeMart Lanka,Furniture,Office Furniture,124900,70,79,63,11,88,56,4469999,71.95,Medium
+V0812,Digital Edge Suppliers,Furniture,Office Desks,49800,78,44,76,19,100,89,2969037,66.2,Medium
+V0813,TechGlobal Solutions,Office Supplies,Stationery,4300,40,87,61,11,48,40,456804,58.05,High
+V0814,OfficeMart Lanka,Raw Materials,Industrial Raw Materials,92850,40,71,82,11,84,88,3775897,65.45,Medium
+V0815,Lanka Industrial Suppliers,Raw Materials,Plastic Materials,2150,80,48,52,12,89,79,2753774,64.2,Medium
+V0816,Lanka Industrial Suppliers,Furniture,Office Chairs,66500,99,72,65,1,89,88,1982519,83.05,Low
+V0817,Digital Edge Suppliers,Mechanical Parts,Machine Components,105450,45,80,60,8,67,41,581919,62.65,Medium
+V0818,Elite Office Solutions,Furniture,Storage Cabinets,69400,59,77,69,14,80,99,793550,66.8,Medium
+V0819,Prime Stationery Traders,Logistics Services,Transport Services,46750,80,47,40,17,78,62,2725781,56.85,High
+V0820,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,183700,89,66,86,17,92,58,2106412,75.85,Medium
+V0821,OfficeMart Lanka,IT Equipment,Network Equipment,147150,53,47,48,19,63,67,1161628,47.7,High
+V0822,Alpha IT Systems,Raw Materials,Metal Materials,50000,41,75,69,8,77,72,4017924,64.2,Medium
+V0823,TechGlobal Solutions,Office Supplies,Files and Folders,2100,85,48,76,9,69,67,2423606,67.75,Medium
+V0824,TechGlobal Solutions,Raw Materials,Production Materials,12850,52,89,99,13,87,52,4823424,75.95,Medium
+V0825,Elite Office Solutions,Raw Materials,Packaging Materials,4200,99,46,100,10,65,42,731456,74.25,Medium
+V0826,Alpha IT Systems,Electrical Items,Electrical Components,10550,74,50,58,0,91,41,53753,70.8,Medium
+V0827,Elite Office Solutions,Furniture,Meeting Tables,69150,64,84,50,7,79,44,2810135,69.3,Medium
+V0828,OfficeMart Lanka,Safety Equipment,Protective Clothing,3650,73,77,73,9,48,78,2705080,67.2,Medium
+V0829,TechGlobal Solutions,Raw Materials,Industrial Raw Materials,59700,76,46,81,15,51,85,1224618,59.4,High
+V0830,FutureNet Technologies,Raw Materials,Plastic Materials,10400,52,52,73,16,95,51,3278731,61.6,Medium
+V0831,FutureNet Technologies,Office Supplies,Ink Cartridges,30400,51,63,56,15,45,86,2120526,51.2,High
+V0832,SmartTech Distributors,Furniture,Office Furniture,110950,68,60,42,14,100,70,1748247,63.4,Medium
+V0833,ABC Raw Materials,Safety Equipment,Safety Helmets,4100,42,93,63,18,62,100,4136690,59.75,High
+V0834,SmartTech Distributors,Safety Equipment,Protective Gloves,450,67,92,47,17,97,77,2468495,70.05,Medium
+V0835,Elite Office Solutions,Office Supplies,Office Consumables,6750,44,58,70,15,97,94,1372762,61.4,Medium
+V0836,Digital Edge Suppliers,IT Equipment,Printers,63600,83,59,43,1,49,58,2177227,63.4,Medium
+V0837,Digital Edge Suppliers,Mechanical Parts,Gears,56650,96,70,85,6,72,58,937768,79.9,Medium
+V0838,FutureNet Technologies,Safety Equipment,Safety Shoes,17650,63,55,49,10,86,95,3282858,61.5,Medium
+V0839,Lanka Industrial Suppliers,Office Supplies,Printer Paper,4500,94,40,99,17,88,48,436643,72.4,Medium
+V0840,Elite Office Solutions,Furniture,Office Desks,48800,67,77,56,19,63,74,1427352,60.3,Medium
+V0841,OfficeMart Lanka,Furniture,Office Chairs,62300,98,46,92,13,61,99,3656014,70.1,Medium
+V0842,Elite Office Solutions,Electrical Items,LED Lighting,9050,58,95,69,0,67,46,1613393,75.45,Medium
+V0843,TechGlobal Solutions,Mechanical Parts,Replacement Parts,109050,51,51,57,13,68,97,664836,54.0,High
+V0844,TechGlobal Solutions,Mechanical Parts,Industrial Components,82450,96,81,96,2,49,72,352221,82.25,Low
+V0845,FutureNet Technologies,Mechanical Parts,Bearings,7900,100,93,41,5,45,56,580340,72.95,Medium
+V0846,OfficeMart Lanka,Electrical Items,Electrical Cables,1100,99,90,64,18,54,97,727564,71.85,Medium
+V0847,Prime Stationery Traders,Furniture,Storage Cabinets,60050,94,86,85,20,82,65,1392952,78.4,Medium
+V0848,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,24000,88,98,84,3,73,74,3668797,86.4,Low
+V0849,TechGlobal Solutions,Safety Equipment,Protective Clothing,12250,58,52,86,20,75,77,3244527,59.7,High
+V0850,Alpha IT Systems,Mechanical Parts,Machine Components,104650,41,90,65,8,91,60,3960614,69.95,Medium
+V0851,Prime Stationery Traders,IT Equipment,Computer Accessories,29200,86,43,44,10,80,50,1346727,62.05,Medium
+V0852,Prime Stationery Traders,Electrical Items,Switches and Sockets,2350,52,84,93,12,57,58,3750823,68.0,Medium
+V0853,FutureNet Technologies,Safety Equipment,Safety Helmets,5400,94,72,93,12,65,85,540466,77.1,Medium
+V0854,TechGlobal Solutions,Safety Equipment,Protective Gloves,2250,58,79,74,4,61,78,2023161,69.25,Medium
+V0855,TechGlobal Solutions,Furniture,Meeting Tables,97050,51,62,87,11,42,85,354178,58.55,High
+V0856,SmartTech Distributors,Safety Equipment,Safety Shoes,15800,57,98,72,15,78,94,717868,71.25,Medium
+V0857,SmartTech Distributors,Mechanical Parts,Gears,79350,58,98,63,14,41,95,238653,62.8,Medium
+V0858,SmartTech Distributors,Office Supplies,Stationery,2550,78,70,42,19,79,47,4036902,61.7,Medium
+V0859,SmartTech Distributors,Electrical Items,Circuit Breakers,12500,73,40,86,16,74,70,4455438,62.25,Medium
+V0860,TechGlobal Solutions,IT Equipment,Laptop Computers,153500,45,78,84,14,95,71,3744679,69.55,Medium
+V0861,ABC Raw Materials,Logistics Services,Freight Transportation,216900,41,45,86,6,90,41,1265332,63.7,Medium
+V0862,TechGlobal Solutions,IT Equipment,Desktop Computers,142900,59,40,72,19,71,45,4476687,53.85,High
+V0863,Lanka Industrial Suppliers,Furniture,Office Furniture,64750,55,68,63,4,62,75,83350,63.75,Medium
+V0864,FutureNet Technologies,Furniture,Office Desks,83500,92,50,56,2,68,95,3263938,69.3,Medium
+V0865,Elite Office Solutions,Office Supplies,Files and Folders,450,73,66,81,3,64,75,823842,72.25,Medium
+V0866,ABC Raw Materials,Logistics Services,Local Delivery,31250,53,94,62,9,44,74,2891842,63.45,Medium
+V0867,Prime Stationery Traders,IT Equipment,Network Equipment,93300,81,82,81,17,40,54,2017039,66.45,Medium
+V0868,Lanka Industrial Suppliers,IT Equipment,Printers,160350,77,94,58,7,49,81,4410494,70.65,Medium
+V0869,Prime Stationery Traders,Office Supplies,Ink Cartridges,26500,99,99,73,17,82,81,234141,82.0,Low
+V0870,OfficeMart Lanka,Furniture,Office Chairs,43100,57,56,40,20,79,82,2889545,52.05,High
+V0871,Lanka Industrial Suppliers,Logistics Services,Warehouse Services,39500,74,76,62,12,69,64,1490567,67.7,Medium
+V0872,SmartTech Distributors,Raw Materials,Metal Materials,9300,86,99,94,2,52,47,373070,84.45,Low
+V0873,Elite Office Solutions,Electrical Items,Electrical Components,22900,89,69,53,15,45,90,886724,61.6,Medium
+V0874,OfficeMart Lanka,Electrical Items,LED Lighting,9850,73,59,69,5,69,74,4625297,68.1,Medium
+V0875,Elite Office Solutions,Furniture,Storage Cabinets,94400,72,80,52,4,63,80,599916,69.0,Medium
+V0876,TechGlobal Solutions,Office Supplies,Office Consumables,6200,83,48,48,11,77,54,607805,62.25,Medium
+V0877,OfficeMart Lanka,Furniture,Meeting Tables,80550,56,99,40,14,75,47,1813038,64.75,Medium
+V0878,Prime Stationery Traders,Logistics Services,Cargo Handling,106700,98,47,40,13,42,76,2302516,56.15,High
+V0879,Elite Office Solutions,Safety Equipment,Fire Extinguishers,10200,77,53,57,19,47,85,2802617,53.8,High
+V0880,Prime Stationery Traders,Mechanical Parts,Replacement Parts,93000,47,83,92,7,91,57,3102786,75.6,Medium
+V0881,Digital Edge Suppliers,Mechanical Parts,Industrial Components,120350,63,55,75,7,85,84,4616485,68.0,Medium
+V0882,Digital Edge Suppliers,Raw Materials,Production Materials,7550,98,70,87,10,47,41,2508533,73.8,Medium
+V0883,TechGlobal Solutions,Raw Materials,Packaging Materials,1850,93,71,40,8,99,66,1648925,74.8,Medium
+V0884,OfficeMart Lanka,Office Supplies,Printer Paper,6150,68,93,63,8,65,100,3790305,71.85,Medium
+V0885,TechGlobal Solutions,Electrical Items,Electrical Cables,1350,95,82,77,15,99,80,645701,81.95,Low
+V0886,FutureNet Technologies,Mechanical Parts,Bearings,27550,69,76,84,13,62,42,3976091,68.95,Medium
+V0887,Elite Office Solutions,Furniture,Office Furniture,31700,81,48,73,17,84,74,973957,65.15,Medium
+V0888,Prime Stationery Traders,Office Supplies,Stationery,2600,69,68,46,2,71,93,1907105,66.65,Medium
+V0889,Lanka Industrial Suppliers,Mechanical Parts,Machine Components,158050,83,85,81,17,67,68,348086,73.1,Medium
+V0890,FutureNet Technologies,Raw Materials,Industrial Raw Materials,112300,54,84,77,1,71,93,1569898,73.6,Medium
+V0891,Elite Office Solutions,Raw Materials,Plastic Materials,10100,65,70,52,10,54,41,4144875,59.95,High
+V0892,Prime Stationery Traders,Mechanical Parts,Gears,79200,74,96,79,17,84,56,1455035,76.6,Medium
+V0893,Alpha IT Systems,Raw Materials,Metal Materials,38650,54,100,64,4,79,94,4576706,75.1,Medium
+V0894,Digital Edge Suppliers,IT Equipment,Computer Accessories,6150,40,77,97,19,80,82,510195,65.15,Medium
+V0895,Lanka Industrial Suppliers,Furniture,Office Desks,112600,87,100,40,3,100,94,3715203,83.25,Low
+V0896,Lanka Industrial Suppliers,Office Supplies,Files and Folders,1750,52,96,98,19,55,76,1703341,68.1,Medium
+V0897,Alpha IT Systems,Electrical Items,Switches and Sockets,6600,82,47,100,13,73,43,1790403,70.35,Medium
+V0898,Digital Edge Suppliers,Office Supplies,Ink Cartridges,22950,87,79,56,4,43,65,4715559,69.3,Medium
+V0899,Elite Office Solutions,Logistics Services,Transport Services,64000,90,68,78,11,58,41,3323417,71.2,Medium
+V0900,Elite Office Solutions,Electrical Items,Circuit Breakers,13100,89,46,84,16,88,94,941197,70.15,Medium
+V0901,Elite Office Solutions,Furniture,Office Chairs,42250,53,54,55,19,44,94,1822622,47.05,High
+V0902,ABC Raw Materials,Safety Equipment,Protective Clothing,11850,86,88,41,9,85,83,4683062,74.2,Medium
+V0903,SmartTech Distributors,IT Equipment,Laptop Computers,256850,43,95,71,10,77,48,1537113,69.1,Medium
+V0904,Alpha IT Systems,Furniture,Storage Cabinets,66850,87,53,80,19,55,65,4596302,62.5,Medium
+V0905,Prime Stationery Traders,Mechanical Parts,Replacement Parts,92350,51,82,87,20,51,74,3100968,60.85,Medium
+V0906,ABC Raw Materials,Raw Materials,Production Materials,24150,97,82,40,14,72,75,4347368,70.15,Medium
+V0907,OfficeMart Lanka,Furniture,Meeting Tables,145900,46,41,85,20,82,43,3086500,55.15,High
+V0908,TechGlobal Solutions,IT Equipment,Desktop Computers,183500,67,89,88,16,48,72,504307,68.2,Medium
+V0909,Elite Office Solutions,IT Equipment,Network Equipment,65100,46,86,100,10,45,50,4959223,67.0,Medium
+V0910,OfficeMart Lanka,Raw Materials,Packaging Materials,5350,87,45,56,12,66,97,4544307,61.4,Medium
+V0911,Lanka Industrial Suppliers,Safety Equipment,Safety Helmets,5950,81,83,44,1,40,78,4608542,67.3,Medium
+V0912,Lanka Industrial Suppliers,Safety Equipment,Protective Gloves,2150,55,86,84,13,92,73,137332,73.95,Medium
+V0913,Digital Edge Suppliers,Office Supplies,Office Consumables,1000,60,94,67,2,56,42,3707332,72.1,Medium
+V0914,Alpha IT Systems,IT Equipment,Printers,125350,72,65,50,15,83,95,1633656,63.35,Medium
+V0915,ABC Raw Materials,IT Equipment,Computer Accessories,26300,44,79,65,2,40,95,801694,60.75,Medium
+V0916,ABC Raw Materials,Raw Materials,Industrial Raw Materials,107050,59,54,71,14,55,58,4408608,56.45,High
+V0917,ABC Raw Materials,Raw Materials,Plastic Materials,3400,86,52,57,12,73,56,2387190,64.5,Medium
+V0918,ABC Raw Materials,Raw Materials,Metal Materials,64950,61,69,55,20,66,66,638718,56.7,High
+V0919,SmartTech Distributors,Electrical Items,Electrical Components,18850,70,92,48,8,43,60,373495,64.7,Medium
+V0920,SmartTech Distributors,Mechanical Parts,Industrial Components,28700,76,87,88,9,75,98,1684175,78.85,Medium
+V0921,Alpha IT Systems,Logistics Services,Freight Transportation,126050,61,72,83,18,79,41,4035488,66.65,Medium
+V0922,Digital Edge Suppliers,Mechanical Parts,Bearings,3600,97,80,80,20,52,77,1425263,70.65,Medium
+V0923,Lanka Industrial Suppliers,Furniture,Office Furniture,110700,88,91,96,4,95,42,3542651,90.95,Low
+V0924,SmartTech Distributors,Mechanical Parts,Machine Components,123050,64,99,41,6,45,97,4422443,64.95,Medium
+V0925,Digital Edge Suppliers,Logistics Services,Local Delivery,37700,51,61,44,5,86,46,4862683,61.5,Medium
+V0926,Alpha IT Systems,Logistics Services,Warehouse Services,61050,86,46,86,8,75,77,3678248,71.2,Medium
+V0927,OfficeMart Lanka,Raw Materials,Production Materials,45300,93,74,81,15,55,68,840099,71.45,Medium
+V0928,Elite Office Solutions,Mechanical Parts,Gears,40500,73,99,53,0,87,87,598372,81.0,Low
+V0929,OfficeMart Lanka,Electrical Items,LED Lighting,5600,81,63,59,4,64,52,4041954,68.6,Medium
+V0930,Lanka Industrial Suppliers,Office Supplies,Printer Paper,2750,87,78,88,1,64,40,4366650,81.15,Low
+V0931,ABC Raw Materials,Logistics Services,Cargo Handling,37000,91,47,56,15,43,59,4048470,56.8,High
+V0932,OfficeMart Lanka,Electrical Items,Electrical Cables,2150,56,44,79,16,80,77,3687044,58.8,High
+V0933,SmartTech Distributors,IT Equipment,Laptop Computers,212250,72,71,67,3,98,62,812557,77.25,Medium
+V0934,Lanka Industrial Suppliers,Furniture,Office Desks,63250,90,98,40,9,47,70,4795938,69.9,Medium
+V0935,Alpha IT Systems,Electrical Items,Switches and Sockets,550,92,54,93,8,79,59,574772,76.9,Medium
+V0936,Elite Office Solutions,Mechanical Parts,Replacement Parts,26650,86,78,74,7,93,83,2424614,80.9,Low
+V0937,Prime Stationery Traders,Safety Equipment,Safety Shoes,12950,49,54,51,10,67,46,2064520,54.35,High
+V0938,SmartTech Distributors,Electrical Items,Circuit Breakers,16700,90,63,69,11,100,54,3470930,76.55,Medium
+V0939,Lanka Industrial Suppliers,Mechanical Parts,Industrial Components,30250,78,43,96,2,55,54,4993161,69.45,Medium
+V0940,TechGlobal Solutions,Office Supplies,Stationery,1550,63,44,86,1,89,85,4920994,71.25,Medium
+V0941,ABC Raw Materials,Furniture,Office Chairs,18900,59,52,100,4,50,58,4527491,65.75,Medium
+V0942,Prime Stationery Traders,Raw Materials,Packaging Materials,5850,90,85,55,17,48,71,1166850,65.85,Medium
+V0943,Lanka Industrial Suppliers,Office Supplies,Files and Folders,800,93,55,49,17,56,57,3412454,59.5,High
+V0944,Lanka Industrial Suppliers,Office Supplies,Ink Cartridges,7500,75,86,81,4,60,74,4814980,76.45,Medium
+V0945,TechGlobal Solutions,Office Supplies,Office Consumables,6650,43,73,96,5,86,69,3467998,72.9,Medium
+V0946,TechGlobal Solutions,Furniture,Storage Cabinets,79150,98,55,87,0,56,82,1386869,76.85,Medium
+V0947,SmartTech Distributors,Safety Equipment,Fire Extinguishers,22900,88,54,69,3,60,75,1802544,69.8,Medium
+V0948,FutureNet Technologies,Raw Materials,Industrial Raw Materials,102000,61,70,92,14,56,59,3389058,65.35,Medium
+V0949,OfficeMart Lanka,Electrical Items,Electrical Components,16900,81,71,71,18,82,63,3573984,69.6,Medium
+V0950,Digital Edge Suppliers,Safety Equipment,Protective Clothing,6900,76,80,76,6,59,55,1843987,73.0,Medium
+V0951,ABC Raw Materials,Raw Materials,Plastic Materials,8150,52,45,76,6,88,46,3567662,64.05,Medium
+V0952,SmartTech Distributors,Mechanical Parts,Bearings,36250,66,100,65,17,92,58,3528883,74.4,Medium
+V0953,Lanka Industrial Suppliers,Raw Materials,Metal Materials,32650,91,94,78,16,86,88,4157200,81.05,Low
+V0954,OfficeMart Lanka,Mechanical Parts,Machine Components,61400,75,59,57,15,91,53,4304869,65.6,Medium
+V0955,Lanka Industrial Suppliers,Safety Equipment,Safety Helmets,4450,70,81,93,6,85,54,1900495,80.35,Low
+V0956,OfficeMart Lanka,Raw Materials,Production Materials,76050,74,77,96,7,72,49,4162642,77.85,Medium
+V0957,OfficeMart Lanka,Furniture,Meeting Tables,176650,78,71,59,20,57,45,1845372,60.45,Medium
+V0958,ABC Raw Materials,Raw Materials,Packaging Materials,400,42,53,88,3,64,85,4776613,62.65,Medium
+V0959,OfficeMart Lanka,Mechanical Parts,Gears,62850,42,41,53,6,76,51,4896365,53.55,High
+V0960,SmartTech Distributors,Mechanical Parts,Replacement Parts,78350,65,99,89,9,86,47,998638,81.5,Low
+V0961,Digital Edge Suppliers,Furniture,Office Furniture,31400,69,84,97,16,64,96,1457904,72.45,Medium
+V0962,Elite Office Solutions,Furniture,Office Desks,87150,41,67,70,7,74,42,1573530,62.3,Medium
+V0963,OfficeMart Lanka,Furniture,Office Chairs,37700,61,74,65,5,84,85,2807828,71.05,Medium
+V0964,OfficeMart Lanka,Logistics Services,Transport Services,104000,43,96,58,4,82,84,2223803,70.75,Medium
+V0965,Digital Edge Suppliers,Furniture,Storage Cabinets,32200,88,95,78,2,95,46,4732696,89.35,Low
+V0966,SmartTech Distributors,IT Equipment,Desktop Computers,216050,66,94,85,5,55,59,3762443,75.5,Medium
+V0967,OfficeMart Lanka,Safety Equipment,Protective Gloves,1850,63,42,47,11,78,68,3339922,55.75,High
+V0968,Alpha IT Systems,Electrical Items,LED Lighting,4650,76,48,91,13,64,53,3069510,65.5,Medium
+V0969,FutureNet Technologies,Raw Materials,Industrial Raw Materials,11300,100,72,95,9,66,49,4425940,80.7,Low
+V0970,Prime Stationery Traders,Furniture,Meeting Tables,80600,99,58,41,11,99,94,3906040,71.75,Medium
+V0971,Prime Stationery Traders,Office Supplies,Printer Paper,1850,52,73,72,16,67,81,2554775,61.05,Medium
+V0972,Elite Office Solutions,Furniture,Office Furniture,175600,94,74,46,1,74,89,920662,75.5,Medium
+V0973,Alpha IT Systems,IT Equipment,Network Equipment,73650,63,56,71,6,51,76,3573769,61.15,Medium
+V0974,Alpha IT Systems,Mechanical Parts,Industrial Components,108250,78,83,77,2,78,45,2658273,80.25,Low
+V0975,SmartTech Distributors,IT Equipment,Printers,91200,51,63,96,9,84,84,3804448,70.0,Medium
+V0976,OfficeMart Lanka,IT Equipment,Computer Accessories,22400,93,55,55,13,54,95,1859922,62.3,Medium
+V0977,Prime Stationery Traders,Safety Equipment,Safety Shoes,9300,64,62,98,19,76,82,4428686,66.8,Medium
+V0978,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,2800,63,86,52,1,97,59,4719649,76.55,Medium
+V0979,Lanka Industrial Suppliers,Raw Materials,Plastic Materials,10800,78,67,74,7,47,90,1078580,66.95,Medium
+V0980,Digital Edge Suppliers,Logistics Services,Freight Transportation,212950,45,55,65,10,89,49,4591153,60.8,Medium
+V0981,ABC Raw Materials,IT Equipment,Laptop Computers,197450,91,90,85,3,51,49,3041422,80.95,Low
+V0982,TechGlobal Solutions,IT Equipment,Desktop Computers,237350,79,77,62,11,54,42,329660,66.7,Medium
+V0983,OfficeMart Lanka,Furniture,Office Desks,110700,54,40,82,14,67,74,1181678,56.3,High
+V0984,ABC Raw Materials,Electrical Items,Switches and Sockets,3050,78,58,48,10,76,88,2952902,63.8,Medium
+V0985,Alpha IT Systems,Furniture,Office Chairs,18400,92,80,50,12,95,92,3588930,76.0,Medium
+V0986,OfficeMart Lanka,Logistics Services,Local Delivery,10200,76,67,72,20,52,95,3721162,60.55,Medium
+V0987,Alpha IT Systems,Furniture,Storage Cabinets,82400,91,59,79,11,42,96,4110922,66.2,Medium
+V0988,Elite Office Solutions,Raw Materials,Metal Materials,70500,100,99,74,20,75,46,540340,79.55,Medium
+V0989,ABC Raw Materials,Furniture,Meeting Tables,197200,60,45,42,5,65,62,4017191,55.15,High
+V0990,FutureNet Technologies,Logistics Services,Warehouse Services,53800,87,90,88,12,83,77,654113,82.45,Low
+V0991,Alpha IT Systems,Furniture,Office Furniture,107000,40,66,70,8,87,93,170802,63.9,Medium
+V0992,SmartTech Distributors,IT Equipment,Network Equipment,123700,91,74,76,14,57,63,2086202,70.85,Medium
+V0993,FutureNet Technologies,Logistics Services,Cargo Handling,117200,72,72,58,8,55,65,1950933,64.6,Medium
+V0994,Prime Stationery Traders,Furniture,Office Desks,42150,59,94,70,8,82,83,2307070,74.65,Medium
+V0995,FutureNet Technologies,Raw Materials,Production Materials,24950,61,50,85,7,63,54,1669643,63.85,Medium
+V0996,ABC Raw Materials,Logistics Services,Transport Services,49100,67,61,92,15,79,94,250570,68.7,Medium
+V0997,OfficeMart Lanka,Logistics Services,Freight Transportation,131450,89,87,64,15,69,41,2957385,73.1,Medium
+V0998,Lanka Industrial Suppliers,Electrical Items,Circuit Breakers,1800,90,43,78,7,96,62,1677210,74.55,Medium
+V0999,Digital Edge Suppliers,Electrical Items,Electrical Components,8350,93,82,66,15,45,83,996679,68.45,Medium
+V1000,SmartTech Distributors,Office Supplies,Stationery,700,77,79,75,5,41,79,1221192,69.7,Medium
+V1001,Alpha IT Systems,Furniture,Office Chairs,55550,84,66,94,17,70,89,3166043,71.8,Medium
+V1002,ABC Raw Materials,Logistics Services,Local Delivery,4700,99,70,96,2,65,57,3125438,83.45,Low
+V1003,Prime Stationery Traders,IT Equipment,Printers,178800,71,57,81,1,62,59,2224590,70.1,Medium
+V1004,ABC Raw Materials,Mechanical Parts,Bearings,25200,60,80,87,2,47,51,4200065,70.8,Medium
+V1005,Prime Stationery Traders,Logistics Services,Warehouse Services,74800,72,47,85,19,51,71,1983527,57.45,High
+V1006,TechGlobal Solutions,Raw Materials,Packaging Materials,1950,94,90,67,9,82,63,3270320,81.3,Low
+V1007,Alpha IT Systems,IT Equipment,Computer Accessories,7750,47,79,69,16,76,42,2951258,62.5,Medium
+V1008,OfficeMart Lanka,Logistics Services,Cargo Handling,67700,98,78,61,16,65,84,4751129,71.2,Medium
+V1009,SmartTech Distributors,Electrical Items,LED Lighting,7550,96,42,80,12,50,74,3044983,64.5,Medium
+V1010,Lanka Industrial Suppliers,Logistics Services,Transport Services,27050,99,77,94,2,90,70,1228392,89.8,Low
+V1011,Elite Office Solutions,Electrical Items,Electrical Cables,4050,90,50,51,5,66,79,2199814,65.9,Medium
+V1012,Digital Edge Suppliers,Safety Equipment,Fire Extinguishers,27400,93,49,85,18,68,53,3714288,67.1,Medium
+V1013,OfficeMart Lanka,Mechanical Parts,Machine Components,124200,94,96,91,3,47,52,2336746,83.6,Low
+V1014,SmartTech Distributors,Electrical Items,Switches and Sockets,5350,67,67,99,3,59,99,4778167,73.6,Medium
+V1015,SmartTech Distributors,Electrical Items,Circuit Breakers,11150,69,70,66,0,40,57,4668146,65.95,Medium
+V1016,Digital Edge Suppliers,IT Equipment,Laptop Computers,254300,50,67,99,11,74,100,638526,68.35,Medium
+V1017,SmartTech Distributors,Safety Equipment,Protective Clothing,8100,47,55,53,1,50,57,4621930,55.6,High
+V1018,FutureNet Technologies,Raw Materials,Industrial Raw Materials,89000,49,63,87,10,42,71,1803105,58.8,High
+V1019,Digital Edge Suppliers,Raw Materials,Plastic Materials,8200,88,64,72,15,40,70,4497589,62.9,Medium
+V1020,FutureNet Technologies,Mechanical Parts,Gears,60100,98,52,93,18,80,79,1262981,73.1,Medium
+V1021,Elite Office Solutions,Logistics Services,Freight Transportation,248750,93,74,51,9,92,61,1455041,75.85,Medium
+V1022,ABC Raw Materials,IT Equipment,Desktop Computers,128200,53,74,65,11,48,93,3700529,58.85,High
+V1023,ABC Raw Materials,Mechanical Parts,Replacement Parts,83700,62,58,97,1,60,55,3404387,70.9,Medium
+V1024,OfficeMart Lanka,Logistics Services,Local Delivery,15750,80,80,79,20,51,92,2933936,66.0,Medium
+V1025,Lanka Industrial Suppliers,Logistics Services,Warehouse Services,52750,68,69,80,13,88,88,4681901,71.35,Medium
+V1026,Alpha IT Systems,Safety Equipment,Safety Helmets,4700,41,40,42,9,72,56,2375757,48.55,High
+V1027,Digital Edge Suppliers,Mechanical Parts,Industrial Components,60100,66,62,40,0,67,91,4126997,63.4,Medium
+V1028,TechGlobal Solutions,IT Equipment,Network Equipment,23850,85,93,65,13,68,96,3678506,74.6,Medium
+V1029,TechGlobal Solutions,Mechanical Parts,Bearings,20100,52,43,77,2,86,93,2413803,65.35,Medium
+V1030,Elite Office Solutions,Furniture,Storage Cabinets,39000,82,66,47,12,99,86,156042,70.2,Medium
+V1031,ABC Raw Materials,Safety Equipment,Protective Gloves,3100,55,75,49,0,91,95,1657373,70.5,Medium
+V1032,TechGlobal Solutions,Office Supplies,Files and Folders,1250,56,84,78,7,45,43,1249858,66.1,Medium
+V1033,FutureNet Technologies,Furniture,Meeting Tables,117250,77,57,97,1,65,96,3196913,75.4,Medium
+V1034,Digital Edge Suppliers,Raw Materials,Metal Materials,34900,76,50,73,8,67,75,2711530,65.5,Medium
+V1035,ABC Raw Materials,Safety Equipment,Safety Shoes,6750,81,44,46,13,56,95,483087,55.15,High
+V1036,Alpha IT Systems,IT Equipment,Printers,63750,96,84,65,20,81,45,2375004,74.2,Medium
+V1037,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,23000,81,97,56,4,67,76,4732256,77.1,Medium
+V1038,TechGlobal Solutions,Office Supplies,Ink Cartridges,14650,84,56,97,2,49,73,4693027,73.2,Medium
+V1039,Alpha IT Systems,Mechanical Parts,Machine Components,67500,84,42,64,6,65,62,871204,64.3,Medium
+V1040,Elite Office Solutions,Furniture,Office Furniture,32550,99,88,69,13,57,55,125286,75.45,Medium
+V1041,TechGlobal Solutions,Electrical Items,Electrical Components,18600,53,83,77,0,76,95,1265134,74.6,Medium
+V1042,Alpha IT Systems,Furniture,Office Desks,107150,70,53,99,18,69,82,4757956,65.35,Medium
+V1043,FutureNet Technologies,Safety Equipment,Protective Clothing,15400,55,68,80,2,43,92,4805072,64.35,Medium
+V1044,Alpha IT Systems,Raw Materials,Production Materials,57550,55,46,69,10,90,69,514546,62.05,Medium
+V1045,ABC Raw Materials,Raw Materials,Packaging Materials,4300,96,61,51,5,96,56,2724205,76.15,Medium
+V1046,Elite Office Solutions,Furniture,Office Chairs,26200,70,100,54,12,62,56,2431916,69.7,Medium
+V1047,SmartTech Distributors,Raw Materials,Industrial Raw Materials,56850,95,88,82,9,91,78,4561139,85.85,Low
+V1048,TechGlobal Solutions,Office Supplies,Office Consumables,2950,75,84,73,2,87,51,3345388,80.75,Low
+V1049,Lanka Industrial Suppliers,Electrical Items,LED Lighting,2650,57,40,81,6,54,63,2988954,58.25,High
+V1050,Elite Office Solutions,Electrical Items,Electrical Cables,2000,88,42,51,10,64,75,4547580,60.5,Medium
+V1051,TechGlobal Solutions,IT Equipment,Computer Accessories,24150,95,53,56,19,60,82,1492973,60.7,Medium
+V1052,Alpha IT Systems,Mechanical Parts,Gears,35200,74,89,54,8,69,99,4841759,71.35,Medium
+V1053,ABC Raw Materials,Safety Equipment,Safety Helmets,3750,74,100,65,10,60,43,3619884,73.5,Medium
+V1054,Lanka Industrial Suppliers,Logistics Services,Cargo Handling,24850,100,85,71,12,69,74,4650087,78.25,Medium
+V1055,Lanka Industrial Suppliers,Logistics Services,Transport Services,76050,50,56,66,17,67,48,124457,54.6,High
+V1056,FutureNet Technologies,Logistics Services,Freight Transportation,235850,85,88,52,2,93,64,3632064,81.25,Low
+V1057,OfficeMart Lanka,Mechanical Parts,Replacement Parts,61450,77,75,47,11,74,53,3498295,66.7,Medium
+V1058,Alpha IT Systems,Electrical Items,Switches and Sockets,1650,90,43,57,15,70,91,3377709,61.15,Medium
+V1059,Prime Stationery Traders,Logistics Services,Local Delivery,7300,66,78,74,12,41,55,4814439,63.0,Medium
+V1060,Alpha IT Systems,Office Supplies,Printer Paper,4600,54,46,98,15,51,44,4681010,57.3,High
+V1061,Digital Edge Suppliers,Office Supplies,Stationery,2050,45,77,86,2,98,53,2530033,76.3,Medium
+V1062,OfficeMart Lanka,Raw Materials,Plastic Materials,4800,40,55,60,4,52,92,2035405,54.15,High
+V1063,Elite Office Solutions,Furniture,Storage Cabinets,69200,55,81,65,16,55,59,51990,60.0,Medium
+V1064,Elite Office Solutions,Logistics Services,Warehouse Services,40200,81,46,79,2,47,98,4413378,65.95,Medium
+V1065,Lanka Industrial Suppliers,Safety Equipment,Protective Gloves,1800,72,49,78,5,57,63,4243143,64.75,Medium
+V1066,FutureNet Technologies,Office Supplies,Files and Folders,2000,61,72,49,13,95,59,749739,65.55,Medium
+V1067,TechGlobal Solutions,Furniture,Meeting Tables,62100,74,76,44,4,68,84,4466043,67.9,Medium
+V1068,SmartTech Distributors,Raw Materials,Metal Materials,67350,40,63,75,4,57,81,4593419,60.15,Medium
+V1069,ABC Raw Materials,Safety Equipment,Safety Shoes,6550,63,62,75,1,100,41,4460731,75.75,Medium
+V1070,ABC Raw Materials,Logistics Services,Cargo Handling,43350,48,70,58,7,82,73,3723588,64.0,Medium
+V1071,OfficeMart Lanka,Raw Materials,Production Materials,38550,94,60,76,20,83,74,812692,70.3,Medium
+V1072,Elite Office Solutions,Logistics Services,Transport Services,134650,100,47,75,20,60,76,2047796,63.75,Medium
+V1073,Digital Edge Suppliers,Safety Equipment,Fire Extinguishers,26350,58,47,44,14,71,88,2254153,52.25,High
+V1074,OfficeMart Lanka,Office Supplies,Ink Cartridges,18050,86,49,41,10,68,42,4340969,60.55,Medium
+V1075,TechGlobal Solutions,Raw Materials,Packaging Materials,6350,73,68,90,10,79,50,2259024,74.05,Medium
+V1076,OfficeMart Lanka,Electrical Items,Circuit Breakers,6900,60,45,82,11,70,86,3163398,61.15,Medium
+V1077,FutureNet Technologies,Electrical Items,Electrical Components,11700,73,91,83,18,83,42,1416546,75.2,Medium
+V1078,Elite Office Solutions,Logistics Services,Freight Transportation,42350,58,89,55,18,43,56,74565,57.35,High
+V1079,OfficeMart Lanka,Logistics Services,Local Delivery,24700,59,48,50,6,52,51,911881,54.15,High
+V1080,Alpha IT Systems,Mechanical Parts,Industrial Components,146650,84,86,49,13,93,44,4472665,74.4,Medium
+V1081,ABC Raw Materials,Logistics Services,Warehouse Services,24650,58,52,60,15,62,97,873493,54.4,High
+V1082,Prime Stationery Traders,Mechanical Parts,Bearings,16550,82,91,87,17,63,79,2570771,74.75,Medium
+V1083,OfficeMart Lanka,Office Supplies,Office Consumables,4750,94,46,52,1,76,76,4693564,70.1,Medium
+V1084,TechGlobal Solutions,Raw Materials,Industrial Raw Materials,117050,70,64,70,5,76,54,564700,70.2,Medium
+V1085,SmartTech Distributors,IT Equipment,Laptop Computers,230450,42,63,59,6,66,85,185479,58.25,High
+V1086,Prime Stationery Traders,Raw Materials,Plastic Materials,6450,62,87,82,12,76,82,1734965,72.85,Medium
+V1087,ABC Raw Materials,Furniture,Office Furniture,78050,82,64,70,6,72,99,1796945,71.9,Medium
+V1088,Digital Edge Suppliers,Mechanical Parts,Machine Components,107100,57,53,47,2,71,53,757591,60.1,Medium
+V1089,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,148200,86,71,51,15,76,43,3874179,67.15,Medium
+V1090,Elite Office Solutions,Logistics Services,Cargo Handling,29150,69,70,98,3,92,58,1589731,81.25,Low
+V1091,TechGlobal Solutions,Electrical Items,LED Lighting,9950,63,59,57,17,68,68,2563680,57.0,High
+V1092,OfficeMart Lanka,Logistics Services,Transport Services,78300,41,75,96,2,87,72,3332590,74.6,Medium
+V1093,Lanka Industrial Suppliers,Safety Equipment,Protective Clothing,6100,73,64,78,9,41,48,2987965,63.55,Medium
+V1094,OfficeMart Lanka,IT Equipment,Network Equipment,102850,82,88,48,15,91,74,1738623,72.8,Medium
+V1095,Lanka Industrial Suppliers,Safety Equipment,Safety Helmets,6000,97,59,76,15,57,81,4904586,68.1,Medium
+V1096,Digital Edge Suppliers,Office Supplies,Printer Paper,3800,70,92,81,6,53,81,3764758,74.3,Medium
+V1097,ABC Raw Materials,Safety Equipment,Protective Gloves,2450,79,43,66,18,41,56,2605281,52.9,High
+V1098,Elite Office Solutions,Raw Materials,Metal Materials,58150,50,91,100,14,41,52,4714281,66.45,Medium
+V1099,ABC Raw Materials,Logistics Services,Freight Transportation,141200,91,49,97,1,42,67,1306329,72.3,Medium
+V1100,Prime Stationery Traders,Office Supplies,Stationery,2150,94,97,62,8,80,60,1922419,82.15,Low
+V1101,OfficeMart Lanka,Safety Equipment,Safety Shoes,14150,57,44,92,11,56,74,1846960,59.35,High
+V1102,Prime Stationery Traders,Office Supplies,Files and Folders,1600,52,87,48,1,63,83,4157723,66.45,Medium
+V1103,Alpha IT Systems,Office Supplies,Ink Cartridges,30000,100,50,58,19,72,91,1056706,64.0,Medium
+V1104,FutureNet Technologies,IT Equipment,Printers,145850,55,93,88,10,74,68,2708929,74.4,Medium
+V1105,FutureNet Technologies,Office Supplies,Office Consumables,2800,94,59,85,14,97,93,2415228,77.65,Medium
+V1106,SmartTech Distributors,Office Supplies,Printer Paper,4150,75,43,42,7,90,68,4309096,62.4,Medium
+V1107,OfficeMart Lanka,Furniture,Office Desks,111400,82,55,65,18,93,40,77815,66.85,Medium
+V1108,TechGlobal Solutions,Mechanical Parts,Gears,16050,96,72,42,17,91,40,2648824,70.1,Medium
+V1109,Digital Edge Suppliers,Raw Materials,Production Materials,59900,57,66,70,8,44,54,928607,59.55,High
+V1110,OfficeMart Lanka,Office Supplies,Stationery,4250,70,48,71,16,46,53,1800672,54.9,High
+V1111,ABC Raw Materials,Logistics Services,Local Delivery,42950,40,66,92,1,65,62,281892,67.4,Medium
+V1112,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,700,93,77,64,13,47,68,4310952,68.2,Medium
+V1113,OfficeMart Lanka,Logistics Services,Warehouse Services,35700,72,56,49,7,87,41,1368039,65.7,Medium
+V1114,Lanka Industrial Suppliers,Safety Equipment,Fire Extinguishers,27000,83,91,89,10,40,77,3740204,74.3,Medium
+V1115,TechGlobal Solutions,Logistics Services,Cargo Handling,104250,68,76,85,1,67,72,1483157,75.9,Medium
+V1116,OfficeMart Lanka,Office Supplies,Files and Folders,1000,77,49,90,14,78,46,4341532,68.1,Medium
+V1117,Lanka Industrial Suppliers,IT Equipment,Computer Accessories,3800,66,61,86,17,78,60,3760821,66.05,Medium
+V1118,Digital Edge Suppliers,Office Supplies,Ink Cartridges,21750,78,68,83,2,52,73,1281311,72.5,Medium
+V1119,Alpha IT Systems,Safety Equipment,Protective Clothing,7950,83,69,87,9,87,76,4235786,78.3,Medium
+V1120,Prime Stationery Traders,Safety Equipment,Safety Helmets,4000,69,93,88,11,91,67,1775471,80.8,Low
+V1121,Prime Stationery Traders,Mechanical Parts,Replacement Parts,74150,90,92,41,19,41,50,4535619,62.4,Medium
+V1122,SmartTech Distributors,Safety Equipment,Protective Gloves,1150,57,69,76,14,66,68,1750649,62.9,Medium
+V1123,Digital Edge Suppliers,Safety Equipment,Safety Shoes,16900,85,78,67,15,46,77,4180207,65.85,Medium
+V1124,Prime Stationery Traders,Office Supplies,Office Consumables,1650,87,96,68,1,70,54,2334738,82.85,Low
+V1125,ABC Raw Materials,Office Supplies,Printer Paper,2850,100,42,74,10,59,84,3720995,67.1,Medium
+V1126,Digital Edge Suppliers,IT Equipment,Laptop Computers,270300,60,82,71,2,69,40,2098189,72.5,Medium
+V1127,FutureNet Technologies,IT Equipment,Desktop Computers,236800,44,91,62,13,64,92,579944,62.45,Medium
+V1128,Prime Stationery Traders,Office Supplies,Stationery,1500,50,63,60,11,74,65,266056,59.55,High
+V1129,ABC Raw Materials,Mechanical Parts,Industrial Components,42950,50,67,57,0,81,99,2451801,66.85,Medium
+V1130,Lanka Industrial Suppliers,Raw Materials,Packaging Materials,2850,67,79,100,1,100,75,1279872,86.0,Low
+V1131,Digital Edge Suppliers,Mechanical Parts,Bearings,43900,44,98,48,13,59,76,1543892,60.4,Medium
+V1132,Alpha IT Systems,Office Supplies,Files and Folders,1150,40,53,42,10,46,62,2222292,45.85,High
+V1133,Elite Office Solutions,Electrical Items,Switches and Sockets,3100,45,95,69,5,90,91,3550839,74.3,Medium
+V1134,Prime Stationery Traders,Mechanical Parts,Machine Components,10950,87,63,67,19,66,85,1711303,64.6,Medium
+V1135,Elite Office Solutions,Raw Materials,Industrial Raw Materials,94900,71,90,70,10,78,65,3246278,74.85,Medium
+V1136,Elite Office Solutions,Logistics Services,Transport Services,43800,78,95,46,6,46,72,1576653,68.65,Medium
+V1137,TechGlobal Solutions,Safety Equipment,Fire Extinguishers,25400,58,100,54,5,51,75,261702,68.0,Medium
+V1138,OfficeMart Lanka,IT Equipment,Network Equipment,123600,99,86,82,17,71,73,935447,78.35,Medium
+V1139,Prime Stationery Traders,Furniture,Office Chairs,64000,96,79,78,9,82,88,4057601,81.25,Low
+V1140,TechGlobal Solutions,Office Supplies,Ink Cartridges,13850,91,51,57,7,55,100,654232,64.4,Medium
+V1141,Lanka Industrial Suppliers,Furniture,Storage Cabinets,57150,83,65,69,14,87,46,4784565,71.2,Medium
+V1142,FutureNet Technologies,Office Supplies,Office Consumables,5350,64,55,40,13,61,85,976040,53.45,High
+V1143,Elite Office Solutions,Electrical Items,Circuit Breakers,8850,64,83,94,18,43,51,2966817,65.15,Medium
+V1144,TechGlobal Solutions,Raw Materials,Plastic Materials,8800,48,90,56,11,76,59,3068291,65.4,Medium
+V1145,FutureNet Technologies,IT Equipment,Printers,146200,94,75,87,11,73,61,647612,78.75,Medium
+V1146,TechGlobal Solutions,IT Equipment,Computer Accessories,20950,97,51,64,12,46,75,3062537,63.0,Medium
+V1147,SmartTech Distributors,Mechanical Parts,Gears,16500,57,62,51,8,95,80,167510,64.95,Medium
+V1148,FutureNet Technologies,Mechanical Parts,Replacement Parts,22350,85,55,59,6,73,40,1444505,68.4,Medium
+V1149,OfficeMart Lanka,Furniture,Meeting Tables,98000,49,98,83,14,72,98,4414782,70.75,Medium
+V1150,Lanka Industrial Suppliers,Office Supplies,Printer Paper,5550,62,93,47,10,44,95,3778806,61.95,Medium
+V1151,Elite Office Solutions,Logistics Services,Freight Transportation,43600,41,51,96,2,77,87,68703,66.6,Medium
+V1152,ABC Raw Materials,Electrical Items,Electrical Components,9050,45,55,54,9,54,47,3559367,52.1,High
+V1153,Alpha IT Systems,Electrical Items,LED Lighting,3900,40,44,97,12,88,80,1701805,62.0,Medium
+V1154,Elite Office Solutions,Raw Materials,Metal Materials,27250,59,97,77,7,48,95,3463123,70.5,Medium
+V1155,Digital Edge Suppliers,IT Equipment,Laptop Computers,238350,69,64,95,6,92,77,1643153,77.65,Medium
+V1156,ABC Raw Materials,Raw Materials,Production Materials,60700,72,55,65,1,78,50,3319721,69.85,Medium
+V1157,OfficeMart Lanka,Electrical Items,Electrical Cables,2350,49,69,73,10,55,47,2751695,60.1,Medium
+V1158,Prime Stationery Traders,Mechanical Parts,Industrial Components,140700,80,40,95,20,46,80,820815,58.2,High
+V1159,Elite Office Solutions,IT Equipment,Desktop Computers,133700,59,56,62,2,43,100,2215435,58.75,High
+V1160,Digital Edge Suppliers,Safety Equipment,Protective Clothing,13000,77,71,88,15,51,68,2506239,67.3,Medium
+V1161,Elite Office Solutions,Safety Equipment,Safety Helmets,7050,100,50,90,13,65,65,2250718,72.0,Medium
+V1162,Elite Office Solutions,Furniture,Office Furniture,172250,54,81,45,16,85,93,596405,61.75,Medium
+V1163,OfficeMart Lanka,IT Equipment,Network Equipment,39650,93,87,65,17,94,86,4834786,78.3,Medium
+V1164,Prime Stationery Traders,Raw Materials,Packaging Materials,4900,68,43,52,1,59,41,2486816,59.45,High
+V1165,SmartTech Distributors,Raw Materials,Industrial Raw Materials,39700,56,44,90,13,73,72,133743,61.1,Medium
+V1166,OfficeMart Lanka,Safety Equipment,Protective Gloves,400,59,71,50,13,81,67,1110373,62.2,Medium
+V1167,Prime Stationery Traders,Furniture,Office Desks,33550,88,53,85,4,60,62,139000,72.25,Medium
+V1168,SmartTech Distributors,Safety Equipment,Safety Shoes,14800,53,100,47,1,63,90,1720765,69.75,Medium
+V1169,FutureNet Technologies,Mechanical Parts,Bearings,26200,98,58,69,1,41,92,2182882,70.5,Medium
+V1170,SmartTech Distributors,IT Equipment,Printers,60600,91,55,84,4,78,67,2500010,76.9,Medium
+V1171,Digital Edge Suppliers,Electrical Items,Switches and Sockets,3500,67,59,76,0,88,59,957839,74.3,Medium
+V1172,TechGlobal Solutions,Raw Materials,Plastic Materials,5350,40,88,44,3,73,82,486522,63.9,Medium
+V1173,OfficeMart Lanka,Safety Equipment,Fire Extinguishers,34000,98,78,64,9,76,55,3589245,77.5,Medium
+V1174,TechGlobal Solutions,Electrical Items,Circuit Breakers,17200,46,51,69,8,58,73,2206996,55.65,High
+V1175,Lanka Industrial Suppliers,Office Supplies,Stationery,3050,87,60,78,18,50,72,1966893,63.35,Medium
+V1176,SmartTech Distributors,Logistics Services,Local Delivery,34450,41,94,88,10,60,79,3112045,68.35,Medium
+V1177,Digital Edge Suppliers,Raw Materials,Metal Materials,44400,44,43,89,6,66,84,885691,59.75,High
+V1178,Prime Stationery Traders,IT Equipment,Computer Accessories,7350,62,87,75,20,71,98,1814968,66.45,Medium
+V1179,Elite Office Solutions,IT Equipment,Laptop Computers,161650,72,46,61,5,55,50,481750,60.2,Medium
+V1180,Lanka Industrial Suppliers,Electrical Items,Electrical Components,8200,46,45,95,19,98,63,931806,61.85,Medium
+V1181,Elite Office Solutions,Mechanical Parts,Machine Components,107400,54,66,65,4,91,93,1142671,69.2,Medium
+V1182,FutureNet Technologies,IT Equipment,Desktop Computers,186250,60,47,51,9,49,53,1186145,52.25,High
+V1183,Digital Edge Suppliers,Raw Materials,Production Materials,44500,88,56,74,7,65,88,2455591,70.3,Medium
+V1184,TechGlobal Solutions,Raw Materials,Packaging Materials,3700,40,59,47,7,88,55,2076951,58.25,High
+V1185,FutureNet Technologies,Office Supplies,Files and Folders,750,70,87,52,15,41,75,4983679,60.35,Medium
+V1186,Lanka Industrial Suppliers,Electrical Items,LED Lighting,5450,83,74,65,2,51,62,4541575,71.45,Medium
+V1187,FutureNet Technologies,Logistics Services,Warehouse Services,8500,89,87,84,0,58,57,4252153,82.4,Low
+V1188,Lanka Industrial Suppliers,Mechanical Parts,Gears,55000,74,99,72,14,71,69,139898,74.85,Medium
+V1189,FutureNet Technologies,Safety Equipment,Protective Clothing,3900,45,48,94,12,75,55,1403424,61.05,Medium
+V1190,Prime Stationery Traders,Furniture,Office Chairs,54400,79,74,69,12,54,77,4839816,66.85,Medium
+V1191,OfficeMart Lanka,Safety Equipment,Safety Helmets,5550,80,70,73,14,58,94,1670929,66.7,Medium
+V1192,Digital Edge Suppliers,Safety Equipment,Protective Gloves,4300,62,46,80,3,51,44,4984431,61.7,Medium
+V1193,Elite Office Solutions,Raw Materials,Industrial Raw Materials,42350,60,58,44,2,40,94,111004,55.3,High
+V1194,Digital Edge Suppliers,Mechanical Parts,Replacement Parts,30600,58,75,64,7,73,68,3940485,67.15,Medium
+V1195,Elite Office Solutions,IT Equipment,Network Equipment,33450,53,73,66,0,95,59,513344,73.7,Medium
+V1196,ABC Raw Materials,Logistics Services,Cargo Handling,97250,62,94,95,19,91,99,3075749,76.7,Medium
+V1197,ABC Raw Materials,Logistics Services,Transport Services,124600,41,56,50,18,42,50,4950974,43.65,High
+V1198,OfficeMart Lanka,Safety Equipment,Safety Shoes,11850,57,66,75,10,55,78,2204972,61.75,Medium
+V1199,TechGlobal Solutions,Logistics Services,Freight Transportation,127250,96,67,81,17,47,60,947380,67.85,Medium
+V1200,ABC Raw Materials,Mechanical Parts,Industrial Components,95550,64,54,90,16,97,78,2581835,68.9,Medium
+V1201,OfficeMart Lanka,Office Supplies,Ink Cartridges,21700,79,89,79,14,59,67,3188008,72.6,Medium
+V1202,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,2200,95,47,100,0,82,94,1113324,81.9,Low
+V1203,Elite Office Solutions,Office Supplies,Office Consumables,2550,93,79,70,12,89,45,4496535,78.8,Medium
+V1204,Digital Edge Suppliers,Safety Equipment,Fire Extinguishers,27200,45,80,65,5,70,56,2493593,65.75,Medium
+V1205,Prime Stationery Traders,Furniture,Storage Cabinets,79100,42,88,86,7,80,81,3585819,72.2,Medium
+V1206,TechGlobal Solutions,Electrical Items,Switches and Sockets,6700,82,67,72,6,88,79,2020668,76.25,Medium
+V1207,Alpha IT Systems,Office Supplies,Printer Paper,5150,67,94,50,1,68,49,2840669,73.35,Medium
+V1208,FutureNet Technologies,Logistics Services,Local Delivery,14750,92,100,52,9,90,90,3739223,81.9,Low
+V1209,Alpha IT Systems,IT Equipment,Printers,158850,53,49,92,1,98,73,1686270,73.0,Medium
+V1210,Elite Office Solutions,Electrical Items,Circuit Breakers,6100,42,66,89,0,53,70,3275622,65.4,Medium
+V1211,FutureNet Technologies,Furniture,Meeting Tables,181350,84,96,98,16,96,44,1819719,85.8,Low
+V1212,OfficeMart Lanka,Raw Materials,Plastic Materials,6150,59,70,83,12,67,94,560319,66.25,Medium
+V1213,OfficeMart Lanka,IT Equipment,Computer Accessories,28100,54,77,48,0,60,90,3710030,64.35,Medium
+V1214,Prime Stationery Traders,Electrical Items,Electrical Components,7450,49,83,82,19,74,43,2305048,64.7,Medium
+V1215,SmartTech Distributors,IT Equipment,Laptop Computers,197200,55,100,70,5,100,95,1546048,80.25,Low
+V1216,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,219000,42,41,58,10,68,73,4385087,50.95,High
+V1217,ABC Raw Materials,Logistics Services,Warehouse Services,38400,71,43,90,19,96,98,794870,66.2,Medium
+V1218,Alpha IT Systems,Raw Materials,Metal Materials,66850,51,57,98,17,89,62,135089,65.9,Medium
+V1219,Alpha IT Systems,Raw Materials,Production Materials,35800,95,92,97,19,96,89,4851995,85.85,Low
+V1220,Elite Office Solutions,Furniture,Office Furniture,71300,80,40,100,11,63,97,3453365,67.1,Medium
+V1221,TechGlobal Solutions,Logistics Services,Cargo Handling,64850,48,67,75,7,57,100,4996868,61.65,Medium
+V1222,Prime Stationery Traders,Logistics Services,Transport Services,142150,60,56,60,20,93,85,2085744,59.6,High
+V1223,ABC Raw Materials,Electrical Items,LED Lighting,4050,49,65,97,19,51,96,775871,58.6,High
+V1224,FutureNet Technologies,Electrical Items,Electrical Cables,2200,82,87,68,18,81,70,3512618,73.05,Medium
+V1225,SmartTech Distributors,Raw Materials,Packaging Materials,5050,100,65,91,1,61,68,4563700,81.15,Low
+V1226,Digital Edge Suppliers,Raw Materials,Industrial Raw Materials,44050,81,92,63,13,96,59,4027425,78.55,Medium
+V1227,Lanka Industrial Suppliers,IT Equipment,Network Equipment,154300,62,54,83,15,99,69,524498,67.9,Medium
+V1228,Elite Office Solutions,Electrical Items,Switches and Sockets,7200,89,52,93,20,77,64,1140150,69.25,Medium
+V1229,Prime Stationery Traders,Safety Equipment,Protective Clothing,15750,53,62,65,8,41,80,1074375,55.95,High
+V1230,Alpha IT Systems,Mechanical Parts,Bearings,35600,90,98,43,12,46,73,3384743,68.8,Medium
+V1231,Prime Stationery Traders,Electrical Items,Circuit Breakers,7550,90,77,99,16,80,64,1408474,79.55,Medium
+V1232,SmartTech Distributors,Raw Materials,Plastic Materials,9950,57,59,80,6,46,88,2445797,61.2,Medium
+V1233,Digital Edge Suppliers,Raw Materials,Metal Materials,82100,62,77,46,0,55,73,4099376,64.95,Medium
+V1234,ABC Raw Materials,Safety Equipment,Safety Helmets,4350,59,92,40,11,45,81,1130733,59.25,High
+V1235,Digital Edge Suppliers,Safety Equipment,Protective Gloves,1800,90,48,67,19,97,75,3717669,67.8,Medium
+V1236,Lanka Industrial Suppliers,Raw Materials,Production Materials,56100,60,62,47,17,85,76,4057469,58.4,High
+V1237,ABC Raw Materials,Office Supplies,Stationery,1800,70,95,43,2,96,67,4414396,78.05,Medium
+V1238,FutureNet Technologies,Safety Equipment,Safety Shoes,7100,55,70,88,20,78,48,1762400,64.45,Medium
+V1239,Prime Stationery Traders,Office Supplies,Files and Folders,1700,77,73,61,6,80,85,4669086,72.7,Medium
+V1240,Lanka Industrial Suppliers,Raw Materials,Packaging Materials,6450,41,45,77,9,92,47,1193264,60.8,Medium
+V1241,FutureNet Technologies,Raw Materials,Industrial Raw Materials,20750,93,54,92,3,99,58,628267,83.45,Low
+V1242,Elite Office Solutions,Mechanical Parts,Machine Components,142950,81,61,41,14,82,70,482368,63.1,Medium
+V1243,Elite Office Solutions,Furniture,Office Desks,67700,71,76,49,0,73,51,4700190,71.15,Medium
+V1244,Digital Edge Suppliers,Electrical Items,Electrical Components,15050,43,47,52,14,56,45,978703,47.1,High
+V1245,SmartTech Distributors,Raw Materials,Plastic Materials,10400,73,53,91,14,43,55,4690319,61.3,Medium
+V1246,TechGlobal Solutions,Electrical Items,LED Lighting,2650,69,43,81,3,60,67,4523639,64.7,Medium
+V1247,ABC Raw Materials,Safety Equipment,Fire Extinguishers,21700,60,64,92,20,67,68,3241622,62.8,Medium
+V1248,Elite Office Solutions,Electrical Items,Electrical Cables,1150,41,48,56,1,59,71,3816376,54.75,High
+V1249,Lanka Industrial Suppliers,Logistics Services,Freight Transportation,188400,92,91,55,4,63,51,3473478,77.35,Medium
+V1250,Prime Stationery Traders,Office Supplies,Ink Cartridges,30400,52,71,52,4,47,53,3160455,58.55,High
+V1251,TechGlobal Solutions,Electrical Items,Switches and Sockets,3100,74,84,84,1,54,42,550342,76.6,Medium
+V1252,FutureNet Technologies,Mechanical Parts,Gears,84900,94,93,64,3,56,94,2788844,79.25,Medium
+V1253,OfficeMart Lanka,Safety Equipment,Protective Clothing,4350,45,56,66,9,68,67,4705448,57.55,High
+V1254,ABC Raw Materials,Electrical Items,Circuit Breakers,17300,75,47,64,17,44,42,677225,53.6,High
+V1255,OfficeMart Lanka,Office Supplies,Office Consumables,2100,80,54,70,11,57,50,4061782,63.4,Medium
+V1256,OfficeMart Lanka,Mechanical Parts,Replacement Parts,101950,96,67,73,13,94,53,2085454,77.65,Medium
+V1257,Lanka Industrial Suppliers,Office Supplies,Printer Paper,3100,52,67,98,19,54,64,558933,60.65,Medium
+V1258,Lanka Industrial Suppliers,IT Equipment,Printers,120300,60,46,50,20,49,56,242870,46.3,High
+V1259,Elite Office Solutions,IT Equipment,Computer Accessories,5000,49,90,98,10,80,40,4556959,75.35,Medium
+V1260,SmartTech Distributors,Safety Equipment,Safety Helmets,6950,51,88,56,5,65,83,2926826,66.45,Medium
+V1261,Elite Office Solutions,Safety Equipment,Protective Gloves,1250,56,71,60,15,83,75,2270969,62.85,Medium
+V1262,Digital Edge Suppliers,IT Equipment,Laptop Computers,147150,60,54,82,20,60,87,3592059,56.9,High
+V1263,TechGlobal Solutions,Mechanical Parts,Industrial Components,6550,84,51,41,20,67,61,169808,55.35,High
+V1264,FutureNet Technologies,Furniture,Office Chairs,56450,79,66,80,9,84,57,2014151,74.55,Medium
+V1265,Digital Edge Suppliers,Electrical Items,Electrical Components,13450,90,76,51,3,74,97,3138666,75.0,Medium
+V1266,Elite Office Solutions,Furniture,Storage Cabinets,60050,94,72,77,9,56,60,1409022,73.6,Medium
+V1267,TechGlobal Solutions,Office Supplies,Stationery,3000,90,79,46,14,68,89,4798144,68.05,Medium
+V1268,FutureNet Technologies,Office Supplies,Files and Folders,1750,89,81,41,9,65,76,2672387,69.2,Medium
+V1269,SmartTech Distributors,IT Equipment,Desktop Computers,116350,99,84,79,14,85,88,3443375,81.55,Low
+V1270,Elite Office Solutions,Safety Equipment,Safety Shoes,5050,67,92,48,9,92,77,335378,73.25,Medium
+V1271,Prime Stationery Traders,Raw Materials,Metal Materials,32200,41,55,83,20,97,70,1966667,60.0,Medium
+V1272,Elite Office Solutions,Safety Equipment,Fire Extinguishers,18750,89,55,71,0,94,90,274440,79.0,Medium
+V1273,TechGlobal Solutions,Mechanical Parts,Bearings,25150,62,67,55,5,67,53,982036,64.15,Medium
+V1274,Alpha IT Systems,Furniture,Meeting Tables,115800,67,64,86,4,71,48,4136794,72.15,Medium
+V1275,ABC Raw Materials,Electrical Items,LED Lighting,6100,91,51,67,10,92,47,1191497,72.3,Medium
+V1276,TechGlobal Solutions,IT Equipment,Network Equipment,37300,52,89,64,20,84,99,2766184,64.85,Medium
+V1277,FutureNet Technologies,Raw Materials,Production Materials,38900,87,87,50,6,72,96,967918,74.9,Medium
+V1278,Elite Office Solutions,Safety Equipment,Protective Clothing,5850,94,91,96,4,93,46,1963546,92.05,Low
+V1279,FutureNet Technologies,Office Supplies,Ink Cartridges,29550,84,41,65,9,77,89,735109,65.15,Medium
+V1280,TechGlobal Solutions,Furniture,Office Furniture,167150,59,75,63,16,100,78,177256,68.1,Medium
+V1281,SmartTech Distributors,Safety Equipment,Safety Helmets,2900,81,79,52,6,86,82,972377,74.6,Medium
+V1282,OfficeMart Lanka,IT Equipment,Printers,106250,92,48,98,2,65,48,1233321,76.6,Medium
+V1283,Elite Office Solutions,Logistics Services,Local Delivery,34200,73,43,62,3,48,86,4168380,59.5,High
+V1284,ABC Raw Materials,Safety Equipment,Protective Gloves,1850,53,58,66,2,84,70,4886184,66.75,Medium
+V1285,Alpha IT Systems,Office Supplies,Office Consumables,1800,69,54,87,14,71,79,782698,65.35,Medium
+V1286,TechGlobal Solutions,Office Supplies,Printer Paper,5500,55,91,77,1,89,81,2933220,79.2,Medium
+V1287,ABC Raw Materials,Furniture,Office Desks,86300,62,95,66,5,83,90,3641874,76.55,Medium
+V1288,Digital Edge Suppliers,Raw Materials,Packaging Materials,1350,99,88,64,9,91,97,1209463,83.25,Low
+V1289,FutureNet Technologies,Mechanical Parts,Machine Components,88900,55,62,95,19,81,63,4370673,64.95,Medium
+V1290,OfficeMart Lanka,IT Equipment,Computer Accessories,11750,58,85,77,6,54,60,1964649,68.95,Medium
+V1291,Alpha IT Systems,Furniture,Office Chairs,33500,89,74,85,9,92,89,1546251,81.65,Low
+V1292,SmartTech Distributors,Furniture,Storage Cabinets,76850,92,89,54,0,70,93,3736070,80.05,Low
+V1293,OfficeMart Lanka,Electrical Items,Electrical Cables,2050,75,85,41,17,72,40,1988538,64.1,Medium
+V1294,Lanka Industrial Suppliers,Logistics Services,Warehouse Services,74700,71,67,75,20,75,51,3155990,64.5,Medium
+V1295,Alpha IT Systems,Furniture,Meeting Tables,202250,44,88,60,13,54,61,4602904,59.3,High
+V1296,ABC Raw Materials,Electrical Items,Switches and Sockets,1400,70,72,42,10,51,69,2879199,59.1,High
+V1297,ABC Raw Materials,Mechanical Parts,Gears,8250,54,54,82,1,67,52,1036094,66.3,Medium
+V1298,Elite Office Solutions,IT Equipment,Laptop Computers,175450,91,87,74,20,77,44,408472,74.7,Medium
+V1299,Alpha IT Systems,Safety Equipment,Safety Shoes,8600,66,44,84,18,56,80,2163113,56.5,High
+V1300,Digital Edge Suppliers,Mechanical Parts,Replacement Parts,90050,52,51,90,8,71,60,4214584,63.95,Medium
+V1301,TechGlobal Solutions,Mechanical Parts,Industrial Components,29850,61,44,72,8,67,76,3477649,60.05,Medium
+V1302,Alpha IT Systems,Mechanical Parts,Bearings,42650,98,51,75,12,98,81,4918051,75.85,Medium
+V1303,ABC Raw Materials,Electrical Items,Circuit Breakers,3300,55,69,51,12,46,57,4058504,54.4,High
+V1304,Prime Stationery Traders,Mechanical Parts,Machine Components,138600,96,46,49,10,90,59,468753,68.3,Medium
+V1305,ABC Raw Materials,IT Equipment,Desktop Computers,224200,57,91,51,5,44,63,717948,63.5,Medium
+V1306,Lanka Industrial Suppliers,Electrical Items,Electrical Components,13000,74,87,83,16,53,61,4201567,69.45,Medium
+V1307,SmartTech Distributors,Mechanical Parts,Gears,70300,44,58,49,13,92,46,4542928,57.2,High
+V1308,Alpha IT Systems,Logistics Services,Cargo Handling,83800,97,100,79,14,44,68,423108,76.85,Medium
+V1309,Alpha IT Systems,Office Supplies,Stationery,1400,73,85,64,4,44,49,3519779,69.1,Medium
+V1310,OfficeMart Lanka,Furniture,Office Furniture,89000,52,90,41,6,67,83,1653622,64.1,Medium
+V1311,FutureNet Technologies,Raw Materials,Industrial Raw Materials,38550,97,99,97,6,58,52,2644731,87.0,Low
+V1312,ABC Raw Materials,Raw Materials,Plastic Materials,10400,80,55,99,16,94,91,2482192,74.35,Medium
+V1313,SmartTech Distributors,Office Supplies,Files and Folders,1200,94,89,72,6,53,57,4103312,77.75,Medium
+V1314,Prime Stationery Traders,Office Supplies,Ink Cartridges,9300,62,98,56,12,92,60,1680503,73.6,Medium
+V1315,Lanka Industrial Suppliers,Logistics Services,Transport Services,54200,40,54,73,13,52,70,3062279,52.0,High
+V1316,OfficeMart Lanka,Furniture,Office Desks,46350,53,96,66,4,40,65,765797,66.45,Medium
+V1317,Prime Stationery Traders,Furniture,Office Chairs,21450,76,44,64,17,51,69,367173,54.5,High
+V1318,TechGlobal Solutions,Raw Materials,Metal Materials,32600,80,52,79,9,78,65,4441118,69.9,Medium
+V1319,OfficeMart Lanka,Mechanical Parts,Replacement Parts,114650,88,53,80,14,83,91,85052,70.85,Medium
+V1320,ABC Raw Materials,IT Equipment,Network Equipment,23350,58,83,86,19,76,89,1995929,68.15,Medium
+V1321,Lanka Industrial Suppliers,Logistics Services,Freight Transportation,181000,100,50,81,1,80,61,3378820,79.2,Medium
+V1322,Digital Edge Suppliers,Mechanical Parts,Industrial Components,87250,52,55,44,7,61,62,588796,54.25,High
+V1323,OfficeMart Lanka,Electrical Items,LED Lighting,16950,82,89,56,5,54,52,4312691,72.25,Medium
+V1324,Alpha IT Systems,Safety Equipment,Fire Extinguishers,17550,98,56,97,17,51,69,3219804,69.6,Medium
+V1325,Elite Office Solutions,Mechanical Parts,Bearings,37400,75,67,69,12,84,50,2905238,70.1,Medium
+V1326,Lanka Industrial Suppliers,Safety Equipment,Protective Clothing,6100,75,91,100,18,68,43,2314643,76.1,Medium
+V1327,Lanka Industrial Suppliers,Electrical Items,Electrical Cables,4150,41,84,54,3,58,93,4017812,62.15,Medium
+V1328,Digital Edge Suppliers,Office Supplies,Office Consumables,6950,82,44,41,12,93,93,845624,62.3,Medium
+V1329,Alpha IT Systems,Mechanical Parts,Machine Components,42950,60,92,91,15,90,52,4078957,76.7,Medium
+V1330,Digital Edge Suppliers,Office Supplies,Printer Paper,5350,81,86,45,7,96,64,805831,76.45,Medium
+V1331,Alpha IT Systems,Office Supplies,Stationery,1700,96,58,50,15,91,73,4717744,69.2,Medium
+V1332,SmartTech Distributors,Mechanical Parts,Gears,54000,44,61,55,2,93,72,4614433,64.85,Medium
+V1333,OfficeMart Lanka,Logistics Services,Local Delivery,19400,66,51,57,15,56,74,642849,54.35,High
+V1334,Digital Edge Suppliers,Mechanical Parts,Replacement Parts,56450,78,56,77,1,75,57,1576299,73.4,Medium
+V1335,Elite Office Solutions,Office Supplies,Files and Folders,2050,93,84,80,12,65,94,3316191,77.25,Medium
+V1336,Alpha IT Systems,Logistics Services,Warehouse Services,40300,69,43,99,11,44,87,2807007,61.1,Medium
+V1337,Elite Office Solutions,IT Equipment,Printers,170550,66,100,90,2,54,92,3250385,79.3,Medium
+V1338,FutureNet Technologies,IT Equipment,Computer Accessories,34450,97,85,72,15,55,78,2193126,73.4,Medium
+V1339,ABC Raw Materials,Raw Materials,Production Materials,25600,93,75,50,12,63,93,504896,68.6,Medium
+V1340,Prime Stationery Traders,Logistics Services,Cargo Handling,84100,98,60,58,13,79,84,1823682,70.4,Medium
+V1341,TechGlobal Solutions,Raw Materials,Packaging Materials,3900,67,54,78,10,73,93,4888201,65.45,Medium
+V1342,Lanka Industrial Suppliers,Mechanical Parts,Industrial Components,62950,42,43,72,15,100,60,3666044,58.15,High
+V1343,FutureNet Technologies,Electrical Items,Switches and Sockets,5400,88,57,76,16,74,57,3466325,68.25,Medium
+V1344,TechGlobal Solutions,Electrical Items,Circuit Breakers,8400,92,43,99,8,42,49,455965,67.95,Medium
+V1345,FutureNet Technologies,Logistics Services,Transport Services,134700,73,88,88,17,92,48,2796787,77.75,Medium
+V1346,FutureNet Technologies,Office Supplies,Ink Cartridges,12400,45,51,98,1,80,63,4090866,69.1,Medium
+V1347,Alpha IT Systems,Raw Materials,Industrial Raw Materials,51600,69,82,57,14,100,91,2130608,72.15,Medium
+V1348,Lanka Industrial Suppliers,IT Equipment,Laptop Computers,218900,67,61,86,8,88,57,2832466,72.8,Medium
+V1349,Digital Edge Suppliers,Safety Equipment,Safety Helmets,3300,95,63,89,12,49,67,1976106,71.1,Medium
+V1350,Elite Office Solutions,Electrical Items,Electrical Components,16950,88,87,43,15,41,60,73324,63.05,Medium
+V1351,Digital Edge Suppliers,Electrical Items,LED Lighting,8100,90,66,65,5,90,60,3091927,77.5,Medium
+V1352,Elite Office Solutions,Mechanical Parts,Bearings,18600,93,91,43,8,40,75,1497990,68.6,Medium
+V1353,OfficeMart Lanka,IT Equipment,Desktop Computers,165450,46,95,83,14,43,44,734888,63.45,Medium
+V1354,ABC Raw Materials,Mechanical Parts,Machine Components,172950,47,63,45,12,68,80,3667776,54.1,High
+V1355,OfficeMart Lanka,Logistics Services,Freight Transportation,146450,48,65,54,17,43,92,1543172,49.15,High
+V1356,Digital Edge Suppliers,Furniture,Storage Cabinets,59000,70,71,50,5,82,82,3415459,69.15,Medium
+V1357,Digital Edge Suppliers,Raw Materials,Plastic Materials,8700,50,56,45,13,93,63,2980920,57.6,High
+V1358,Lanka Industrial Suppliers,IT Equipment,Network Equipment,79400,47,69,80,18,56,72,4281707,57.2,High
+V1359,Alpha IT Systems,IT Equipment,Printers,91900,84,86,99,6,74,48,361259,84.1,Low
+V1360,Alpha IT Systems,Furniture,Meeting Tables,104650,73,85,82,11,67,47,621454,73.8,Medium
+V1361,Digital Edge Suppliers,Raw Materials,Metal Materials,23050,92,55,63,16,98,54,4910205,70.95,Medium
+V1362,Alpha IT Systems,Safety Equipment,Protective Gloves,2500,63,78,77,15,44,92,2357204,61.95,Medium
+V1363,FutureNet Technologies,Electrical Items,Electrical Cables,2650,84,76,74,13,48,40,4980382,67.9,Medium
+V1364,Elite Office Solutions,Raw Materials,Production Materials,5150,93,52,77,3,54,71,2765783,70.95,Medium
+V1365,SmartTech Distributors,Office Supplies,Office Consumables,3050,75,59,78,0,46,53,4196512,68.3,Medium
+V1366,Alpha IT Systems,Logistics Services,Local Delivery,12250,99,47,87,12,77,88,453014,73.3,Medium
+V1367,Digital Edge Suppliers,IT Equipment,Computer Accessories,10150,82,79,85,6,43,53,3288592,72.85,Medium
+V1368,TechGlobal Solutions,Raw Materials,Packaging Materials,3500,43,80,77,6,47,83,4834187,62.55,Medium
+V1369,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,37250,74,57,93,7,97,86,2368889,77.25,Medium
+V1370,Alpha IT Systems,Logistics Services,Warehouse Services,8650,86,58,46,8,49,83,4595282,61.0,Medium
+V1371,Alpha IT Systems,Furniture,Office Furniture,153600,84,97,67,3,90,86,3493418,85.15,Low
+V1372,OfficeMart Lanka,Electrical Items,Switches and Sockets,2850,66,56,65,6,98,97,4319696,70.1,Medium
+V1373,SmartTech Distributors,Safety Equipment,Safety Shoes,11500,52,58,66,7,99,87,1985101,67.0,Medium
+V1374,Prime Stationery Traders,Logistics Services,Cargo Handling,86550,98,45,100,7,89,65,1968061,80.05,Low
+V1375,Prime Stationery Traders,Office Supplies,Printer Paper,3700,44,92,42,10,58,93,2868041,59.0,High
+V1376,OfficeMart Lanka,Electrical Items,Circuit Breakers,16900,60,72,76,15,65,60,113247,63.7,Medium
+V1377,SmartTech Distributors,Office Supplies,Stationery,600,97,53,90,14,99,98,2545472,78.3,Medium
+V1378,Lanka Industrial Suppliers,Mechanical Parts,Gears,60350,78,50,44,19,83,94,2187453,57.9,High
+V1379,OfficeMart Lanka,Electrical Items,Electrical Components,11200,66,93,50,10,100,83,2887853,74.75,Medium
+V1380,Digital Edge Suppliers,Office Supplies,Files and Folders,1550,88,94,44,18,80,76,1024059,71.3,Medium
+V1381,OfficeMart Lanka,Office Supplies,Ink Cartridges,26400,81,54,45,2,100,53,1230384,71.75,Medium
+V1382,Prime Stationery Traders,Raw Materials,Plastic Materials,7200,81,44,55,17,65,73,4561370,56.75,High
+V1383,Lanka Industrial Suppliers,Raw Materials,Metal Materials,34950,48,70,100,1,70,48,4535839,73.0,Medium
+V1384,Digital Edge Suppliers,Office Supplies,Office Consumables,900,76,43,89,20,60,48,2721880,59.55,High
+V1385,ABC Raw Materials,Mechanical Parts,Replacement Parts,119550,71,49,98,9,53,68,2657599,65.7,Medium
+V1386,FutureNet Technologies,Logistics Services,Transport Services,109850,70,44,62,4,91,67,520628,67.1,Medium
+V1387,Elite Office Solutions,Safety Equipment,Fire Extinguishers,28200,62,88,60,13,83,78,2571451,69.6,Medium
+V1388,FutureNet Technologies,Furniture,Office Desks,59700,76,59,69,13,53,83,2934121,61.65,Medium
+V1389,ABC Raw Materials,Logistics Services,Freight Transportation,96100,60,78,51,5,86,80,1853587,69.4,Medium
+V1390,FutureNet Technologies,Safety Equipment,Protective Clothing,13850,66,81,69,18,64,96,4362036,64.35,Medium
+V1391,ABC Raw Materials,Mechanical Parts,Industrial Components,124000,67,96,53,1,62,75,380859,73.25,Medium
+V1392,Prime Stationery Traders,Mechanical Parts,Bearings,8850,95,85,41,17,60,96,2201783,66.7,Medium
+V1393,OfficeMart Lanka,IT Equipment,Laptop Computers,205950,62,86,40,10,89,65,4722119,67.8,Medium
+V1394,Elite Office Solutions,Office Supplies,Printer Paper,3550,92,77,79,20,86,41,2340588,75.25,Medium
+V1395,TechGlobal Solutions,Furniture,Office Chairs,57700,90,56,84,18,78,74,1525987,69.9,Medium
+V1396,Prime Stationery Traders,Electrical Items,LED Lighting,18000,84,65,85,4,65,80,2285275,75.25,Medium
+V1397,ABC Raw Materials,Safety Equipment,Safety Helmets,8300,58,66,45,8,70,95,3406950,60.0,Medium
+V1398,Alpha IT Systems,Mechanical Parts,Machine Components,136200,96,77,91,18,83,54,4437659,79.05,Medium
+V1399,TechGlobal Solutions,Office Supplies,Stationery,4050,82,90,46,17,91,69,3839048,71.9,Medium
+V1400,OfficeMart Lanka,Furniture,Storage Cabinets,66250,50,95,63,15,70,84,1774209,65.35,Medium
+V1401,TechGlobal Solutions,Furniture,Meeting Tables,214500,72,91,62,11,84,60,1370938,74.45,Medium
+V1402,OfficeMart Lanka,Safety Equipment,Protective Gloves,700,83,70,42,14,83,98,4465210,66.25,Medium
+V1403,FutureNet Technologies,Safety Equipment,Safety Shoes,7400,62,99,83,1,49,98,4230791,76.15,Medium
+V1404,ABC Raw Materials,Mechanical Parts,Gears,81900,97,98,50,11,74,86,675947,78.05,Medium
+V1405,ABC Raw Materials,Office Supplies,Files and Folders,1700,97,69,61,20,96,71,1448227,72.9,Medium
+V1406,Alpha IT Systems,Raw Materials,Production Materials,90100,69,81,83,1,98,40,667214,83.2,Low
+V1407,TechGlobal Solutions,Office Supplies,Ink Cartridges,27000,45,73,82,15,65,43,4994496,61.4,Medium
+V1408,TechGlobal Solutions,Raw Materials,Packaging Materials,4300,78,45,85,8,53,54,962183,64.35,Medium
+V1409,Digital Edge Suppliers,Safety Equipment,Fire Extinguishers,32500,54,99,45,7,46,100,736164,62.95,Medium
+V1410,Alpha IT Systems,Logistics Services,Local Delivery,5350,66,61,75,16,85,51,1837176,65.75,Medium
+V1411,Lanka Industrial Suppliers,Furniture,Office Furniture,92800,64,51,51,6,76,96,406808,61.15,Medium
+V1412,TechGlobal Solutions,Logistics Services,Warehouse Services,81350,42,45,46,13,45,69,1461347,43.45,High
+V1413,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,117900,50,74,47,16,73,53,1282292,57.0,High
+V1414,OfficeMart Lanka,Furniture,Office Desks,82100,72,59,78,0,52,54,4048587,68.75,Medium
+V1415,Alpha IT Systems,Mechanical Parts,Replacement Parts,56500,74,81,50,12,58,44,159861,64.35,Medium
+V1416,TechGlobal Solutions,Safety Equipment,Protective Clothing,13200,65,67,61,2,87,99,1298328,71.6,Medium
+V1417,SmartTech Distributors,Raw Materials,Plastic Materials,5050,69,46,43,0,89,49,454985,65.15,Medium
+V1418,Alpha IT Systems,Electrical Items,Electrical Cables,3150,78,85,54,20,89,97,4071366,69.35,Medium
+V1419,Prime Stationery Traders,Office Supplies,Office Consumables,5300,75,75,53,2,93,63,3293425,75.7,Medium
+V1420,OfficeMart Lanka,Safety Equipment,Safety Helmets,6900,59,98,75,17,65,47,3381606,68.75,Medium
+V1421,FutureNet Technologies,Furniture,Office Chairs,52100,55,51,41,3,89,45,3971657,61.0,Medium
+V1422,Digital Edge Suppliers,Mechanical Parts,Industrial Components,80700,99,53,57,0,70,41,3184814,73.4,Medium
+V1423,SmartTech Distributors,Electrical Items,Switches and Sockets,900,89,87,91,15,81,92,2606972,80.9,Low
+V1424,TechGlobal Solutions,Mechanical Parts,Bearings,32800,50,86,80,9,43,42,1545561,64.1,Medium
+V1425,Alpha IT Systems,Electrical Items,Circuit Breakers,13450,82,93,69,15,42,97,4454439,68.45,Medium
+V1426,SmartTech Distributors,Raw Materials,Metal Materials,40900,98,75,86,2,100,43,1854488,89.45,Low
+V1427,Elite Office Solutions,Furniture,Storage Cabinets,78250,91,91,48,16,85,44,2609478,74.1,Medium
+V1428,Alpha IT Systems,Furniture,Meeting Tables,105450,96,43,87,14,87,85,3786507,72.55,Medium
+V1429,FutureNet Technologies,Safety Equipment,Protective Gloves,3400,50,96,100,20,78,61,4844934,72.1,Medium
+V1430,TechGlobal Solutions,Logistics Services,Cargo Handling,82850,72,100,75,17,68,65,4651380,73.1,Medium
+V1431,SmartTech Distributors,Furniture,Office Furniture,126050,95,92,47,17,97,55,2508993,77.05,Medium
+V1432,TechGlobal Solutions,Furniture,Office Desks,36800,41,68,91,5,71,52,4976530,67.15,Medium
+V1433,OfficeMart Lanka,Furniture,Office Chairs,66050,80,94,97,5,43,99,1083860,79.0,Medium
+V1434,ABC Raw Materials,Furniture,Storage Cabinets,84050,60,59,80,18,41,56,1696960,54.95,High
+V1435,Alpha IT Systems,IT Equipment,Desktop Computers,157900,73,60,76,8,99,44,2887763,74.25,Medium
+V1436,FutureNet Technologies,IT Equipment,Network Equipment,163600,80,93,92,18,47,55,976709,72.05,Medium
+V1437,TechGlobal Solutions,IT Equipment,Printers,137800,99,68,74,3,43,98,1818279,73.65,Medium
+V1438,OfficeMart Lanka,IT Equipment,Computer Accessories,33550,100,42,42,4,75,89,3180277,66.9,Medium
+V1439,TechGlobal Solutions,Electrical Items,Electrical Components,14450,42,43,96,18,92,66,710583,59.85,High
+V1440,Digital Edge Suppliers,Electrical Items,LED Lighting,9550,78,68,97,0,73,97,217301,80.5,Low
+V1441,TechGlobal Solutions,Safety Equipment,Safety Shoes,5450,86,62,71,19,90,80,1266058,69.7,Medium
+V1442,FutureNet Technologies,Mechanical Parts,Machine Components,109500,98,71,51,20,78,87,4990661,68.05,Medium
+V1443,FutureNet Technologies,Office Supplies,Printer Paper,2150,40,96,56,17,48,72,4130474,56.3,High
+V1444,Elite Office Solutions,IT Equipment,Laptop Computers,219100,48,43,60,9,64,90,2694360,53.05,High
+V1445,Prime Stationery Traders,Electrical Items,Electrical Cables,250,40,88,95,1,40,89,2395868,68.5,Medium
+V1446,FutureNet Technologies,Office Supplies,Stationery,3150,82,61,48,14,43,85,1561060,56.95,High
+V1447,OfficeMart Lanka,Electrical Items,Switches and Sockets,2750,91,64,43,6,49,62,1437360,64.15,Medium
+V1448,Digital Edge Suppliers,Furniture,Meeting Tables,150000,81,79,93,16,85,59,945565,77.6,Medium
+V1449,Prime Stationery Traders,Safety Equipment,Fire Extinguishers,19950,74,58,81,8,90,74,3585621,73.2,Medium
+V1450,SmartTech Distributors,Office Supplies,Files and Folders,2400,87,72,88,4,96,95,1439872,84.55,Low
+V1451,OfficeMart Lanka,Electrical Items,Circuit Breakers,8850,63,40,59,13,73,85,3338336,55.65,High
+V1452,Elite Office Solutions,Electrical Items,Electrical Components,17050,42,85,45,13,88,87,769455,61.85,Medium
+V1453,SmartTech Distributors,Logistics Services,Transport Services,35600,60,51,42,17,49,63,4044423,47.45,High
+V1454,TechGlobal Solutions,Raw Materials,Production Materials,70500,57,96,47,4,54,53,3508588,66.45,Medium
+V1455,ABC Raw Materials,Office Supplies,Ink Cartridges,15600,57,72,76,3,51,43,4311128,66.15,Medium
+V1456,Digital Edge Suppliers,Safety Equipment,Protective Clothing,6750,71,75,55,0,49,43,3319241,67.3,Medium
+V1457,Lanka Industrial Suppliers,IT Equipment,Desktop Computers,163650,90,70,81,15,69,64,440633,72.5,Medium
+V1458,Digital Edge Suppliers,Logistics Services,Freight Transportation,228300,83,66,72,17,61,67,3859553,65.35,Medium
+V1459,Elite Office Solutions,Electrical Items,LED Lighting,13950,48,70,97,4,50,47,3228606,66.9,Medium
+V1460,Prime Stationery Traders,Electrical Items,Electrical Cables,2200,61,94,46,19,77,97,3676371,63.85,Medium
+V1461,SmartTech Distributors,Office Supplies,Office Consumables,2800,69,43,41,16,61,87,1489033,50.4,High
+V1462,Elite Office Solutions,Office Supplies,Printer Paper,5100,55,42,92,17,91,43,3423386,62.35,Medium
+V1463,TechGlobal Solutions,Mechanical Parts,Gears,71250,58,80,93,9,58,75,4218771,70.2,Medium
+V1464,Lanka Industrial Suppliers,Furniture,Office Furniture,129800,67,90,90,5,87,77,2466027,82.15,Low
+V1465,Lanka Industrial Suppliers,Electrical Items,Switches and Sockets,6450,94,54,52,0,99,54,2199970,77.2,Medium
+V1466,SmartTech Distributors,Raw Materials,Packaging Materials,1400,72,63,98,3,46,81,3396166,71.05,Medium
+V1467,Lanka Industrial Suppliers,Raw Materials,Industrial Raw Materials,30950,90,68,91,8,66,89,3206597,76.9,Medium
+V1468,Digital Edge Suppliers,Office Supplies,Stationery,1450,69,40,63,6,69,94,3516589,60.65,Medium
+V1469,FutureNet Technologies,Electrical Items,Circuit Breakers,12250,55,64,60,12,47,46,2657326,55.15,High
+V1470,Lanka Industrial Suppliers,Logistics Services,Local Delivery,13550,94,88,72,11,99,83,1433480,84.2,Low
+V1471,Alpha IT Systems,Logistics Services,Warehouse Services,13350,79,52,67,1,100,49,3322073,75.65,Medium
+V1472,FutureNet Technologies,Safety Equipment,Safety Helmets,2950,99,71,87,3,76,74,4364231,83.6,Low
+V1473,Digital Edge Suppliers,IT Equipment,Network Equipment,100000,67,99,61,10,56,74,3054206,69.9,Medium
+V1474,Elite Office Solutions,Electrical Items,Electrical Components,15350,46,64,68,11,74,40,1758234,60.4,Medium
+V1475,FutureNet Technologies,Furniture,Office Desks,40000,77,75,87,0,48,63,3440069,75.0,Medium
+V1476,Elite Office Solutions,Mechanical Parts,Replacement Parts,34750,82,91,64,12,42,61,4529455,68.45,Medium
+V1477,FutureNet Technologies,IT Equipment,Printers,176950,98,63,82,12,84,83,1704278,77.45,Medium
+V1478,FutureNet Technologies,Office Supplies,Files and Folders,1600,99,41,77,2,58,83,1011307,71.0,Medium
+V1479,Alpha IT Systems,Logistics Services,Cargo Handling,43850,61,85,54,15,59,72,1983947,61.6,Medium
+V1480,OfficeMart Lanka,Mechanical Parts,Industrial Components,5500,84,46,75,17,41,51,1447319,57.2,High
+V1481,TechGlobal Solutions,Office Supplies,Ink Cartridges,5300,63,97,73,15,40,72,1626830,65.1,Medium
+V1482,TechGlobal Solutions,Mechanical Parts,Bearings,29800,94,89,80,6,74,77,3612826,83.55,Low
+V1483,Elite Office Solutions,IT Equipment,Computer Accessories,8550,44,50,68,15,57,89,1961229,51.0,High
+V1484,SmartTech Distributors,IT Equipment,Laptop Computers,158700,81,61,85,4,47,87,1048213,69.9,Medium
+V1485,Lanka Industrial Suppliers,Furniture,Office Chairs,71350,95,72,62,15,84,66,3250669,73.45,Medium
+V1486,Lanka Industrial Suppliers,Safety Equipment,Protective Gloves,3300,92,72,65,17,63,54,2701094,68.1,Medium
+V1487,SmartTech Distributors,Office Supplies,Office Consumables,3800,66,95,45,19,100,95,1337479,69.75,Medium
+V1488,SmartTech Distributors,Mechanical Parts,Machine Components,74350,63,80,67,5,55,64,2177141,67.65,Medium
+V1489,Prime Stationery Traders,Raw Materials,Plastic Materials,3350,93,50,69,20,72,84,287005,63.95,Medium
+V1490,Prime Stationery Traders,Furniture,Storage Cabinets,34800,75,57,94,0,50,48,4356463,71.8,Medium
+V1491,Alpha IT Systems,Furniture,Meeting Tables,137600,91,75,83,8,94,96,1842545,82.9,Low
+V1492,SmartTech Distributors,Electrical Items,LED Lighting,4500,97,89,71,15,83,53,3246056,79.8,Medium
+V1493,Alpha IT Systems,Office Supplies,Printer Paper,4850,41,66,66,6,59,89,3167272,58.75,High
+V1494,Lanka Industrial Suppliers,Mechanical Parts,Gears,19300,91,89,96,0,52,57,2587428,84.6,Low
+V1495,OfficeMart Lanka,Mechanical Parts,Replacement Parts,8950,53,52,74,20,47,66,288201,50.45,High
+V1496,Prime Stationery Traders,Logistics Services,Transport Services,138200,60,58,100,3,52,84,1535661,68.4,Medium
+V1497,FutureNet Technologies,Office Supplies,Stationery,3950,82,85,58,19,66,68,4869615,67.05,Medium
+V1498,Prime Stationery Traders,Mechanical Parts,Industrial Components,44800,76,87,92,3,87,41,1098272,85.05,Low
+V1499,Lanka Industrial Suppliers,Raw Materials,Metal Materials,74200,76,54,90,4,88,67,2460033,76.1,Medium
+V1500,Prime Stationery Traders,Electrical Items,Electrical Cables,550,57,64,88,11,50,40,110847,62.35,Medium
